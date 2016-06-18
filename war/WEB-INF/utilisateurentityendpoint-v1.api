@@ -1,0 +1,198 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://projetaoc-1315.appspot.com/_ah/api",
+  "name" : "utilisateurentityendpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "discovery" : [ "PUBLIC" ],
+  "adapter" : {
+    "bns" : "https://projetaoc-1315.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "ownerDomain" : "m1miage.com",
+  "ownerName" : "m1miage.com",
+  "packagePath" : "projetaoc",
+  "methods" : {
+    "utilisateurentityendpoint.listUtilisateurEntity" : {
+      "path" : "utilisateurentity",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.listUtilisateurEntity",
+      "request" : {
+        "parameters" : {
+          "cursor" : {
+            "type" : "string",
+            "required" : false
+          },
+          "limit" : {
+            "type" : "int32",
+            "required" : false
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "utilisateurentityendpoint.updateUtilisateurEntity" : {
+      "path" : "utilisateurentity",
+      "httpMethod" : "PUT",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.updateUtilisateurEntity",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "utilisateurentityendpoint.insertUtilisateurEntity" : {
+      "path" : "utilisateurentity",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.insertUtilisateurEntity",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "utilisateurentityendpoint.getUtilisateurEntity" : {
+      "path" : "utilisateurentity/{id}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.getUtilisateurEntity",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "utilisateurentityendpoint.removeUtilisateurEntity" : {
+      "path" : "utilisateurentity/{id}",
+      "httpMethod" : "DELETE",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.removeUtilisateurEntity",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "empty"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "CollectionResponse_UtilisateurEntity" : {
+        "id" : "CollectionResponse_UtilisateurEntity",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "UtilisateurEntity"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      },
+      "UtilisateurEntity" : {
+        "id" : "UtilisateurEntity",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "string"
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "image" : {
+            "type" : "string"
+          },
+          "score" : {
+            "type" : "integer"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.listUtilisateurEntity" : {
+        "response" : {
+          "$ref" : "CollectionResponse_UtilisateurEntity"
+        }
+      },
+      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.updateUtilisateurEntity" : {
+        "request" : {
+          "$ref" : "UtilisateurEntity"
+        },
+        "response" : {
+          "$ref" : "UtilisateurEntity"
+        }
+      },
+      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.insertUtilisateurEntity" : {
+        "request" : {
+          "$ref" : "UtilisateurEntity"
+        },
+        "response" : {
+          "$ref" : "UtilisateurEntity"
+        }
+      },
+      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.getUtilisateurEntity" : {
+        "response" : {
+          "$ref" : "UtilisateurEntity"
+        }
+      },
+      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.removeUtilisateurEntity" : {
+      }
+    }
+  }
+}

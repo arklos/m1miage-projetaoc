@@ -1,0 +1,24 @@
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>R&eacute;sultats de la partie</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="img/icons/icon_cancel.svg" aria-label="Fermer"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content">
+      <h2>Score final : {{ resultatFinal }}</h2>
+        <h2>Voici le d&eacute;tail de tes r&eacute;ponses :</h2>
+        <ul>
+        	<li ng-repeat="resp in listeDetailReponse">{{ resp.libelleAoc }} : Tu as r&eacute;pondu {{ resp.libelleType }} situ&eacute; dans la r&eacute;gion {{ resp.libelleRegion }}. La bonne r&eacute;ponse est : {{ resp.correctLibelleType }}. Cet AOC se situe dans la r&eacute;gion {{ resp.correctRegion }}</li>
+        </ul>
+      </div>
+    </md-dialog-content>
+
+  </form>
+</md-dialog>

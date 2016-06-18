@@ -1,0 +1,4083 @@
+aoc-6;Cotes de Toul gris;6
+aoc-7;Cotes de Toul rouge;6
+aoc-8;Champagne;4
+aoc-9;Champagne grand cru;4
+aoc-10;Champagne premier cru;4
+aoc-11;Champagne rose;4
+aoc-12;Coteaux champenois blanc;4
+aoc-13;Coteaux champenois rose;4
+aoc-14;Coteaux champenois rouge;4
+aoc-15;Barsac;12
+aoc-16;Bearn blanc;12
+aoc-17;Bearn rose;12
+aoc-18;Bearn rouge;12
+aoc-19;Bergerac blanc;19
+aoc-20;Bergerac rose;19
+aoc-21;Bergerac rouge;19
+aoc-22;Blaye;12
+aoc-23;Bordeaux blanc;12
+aoc-24;Bordeaux blanc avec sucres;12
+aoc-25;Bordeaux clairet;12
+aoc-26;Bordeaux claret;12
+aoc-27;Bordeaux rose;12
+aoc-28;Bordeaux rouge ou claret;12
+aoc-29;Bordeaux Haut-Benauge;12
+aoc-30;Bordeaux Haut-Benauge avec sucres;12
+aoc-31;Cotes de Bourg, Bourg et Bourgeais blanc;12
+aoc-32;Cotes de Bourg, Bourg et Bourgeais rouge;12
+aoc-33;Buzet blanc;19
+aoc-34;Buzet rose;19
+aoc-35;Buzet rouge;19
+aoc-36;Cadillac;12
+aoc-37;Canon Fronsac;12
+aoc-38;Cerons;12
+aoc-39;Cotes de Blaye;12
+aoc-40;Cotes de Bordeaux-Saint-Macaire;12
+aoc-41;Cotes de Bordeaux-Saint-Macaire liquoreux;12
+aoc-42;Cotes de Bordeaux-Saint-Macaire moelleux;12
+aoc-43;Cotes de Duras blanc;19
+aoc-44;Cotes de Duras blanc sec;19
+aoc-45;Cotes de Duras rose;19
+aoc-46;Cotes de Duras rouge;19
+aoc-47;Fronton rose;15
+aoc-48;Fronton rouge;15
+aoc-49;Cotes du Marmandais blanc;19
+aoc-50;Cotes du Marmandais rose;19
+aoc-51;Cotes du Marmandais rouge;19
+aoc-52;Entre-deux-Mers;12
+aoc-53;Entre-deux-Mers Haut-Benauge;12
+aoc-54;Fronsac;12
+aoc-55;Gaillac blanc;15
+aoc-56;Gaillac blanc primeur;15
+aoc-57;Gaillac doux;15
+aoc-58;Gaillac methode ancestrale;15
+aoc-59;Gaillac methode ancestrale doux;15
+aoc-60;Gaillac mousseux;15
+aoc-61;Gaillac vendanges tardives;15
+aoc-62;Gaillac premieres cotes;15
+aoc-63;Graves blanc;12
+aoc-64;Graves rouge;12
+aoc-65;Graves superieures;12
+aoc-66;Graves de Vayres blanc;12
+aoc-67;Graves de Vayres blanc sec;12
+aoc-68;Graves de Vayres rouge;12
+aoc-69;Haut-Medoc;12
+aoc-70;Irouleguy blanc;12
+aoc-71;Irouleguy rose;12
+aoc-72;Irouleguy rouge;12
+aoc-73;Jurançon;12
+aoc-74;Jurançon sec;12
+aoc-75;Jurançon vendanges tardives;12
+aoc-76;Lalande-de-Pomerol;12
+aoc-77;Listrac-Medoc;12
+aoc-78;Loupiac;12
+aoc-79;Lussac-Saint-Emilion;12
+aoc-80;Madiran;12
+aoc-81;Pacherenc du Vic-Bilh;12
+aoc-82;Pacherenc du Vic-Bilh sec;12
+aoc-83;Marcillac rose;16
+aoc-84;Marcillac rouge;16
+aoc-85;Margaux;12
+aoc-86;Medoc;12
+aoc-87;Monbazillac;19
+aoc-88;Monbazillac Selection de grains nobles;19
+aoc-89;Montagne-Saint-Emilion;12
+aoc-90;Montravel blanc;19
+aoc-91;Montravel rouge;19
+aoc-92;Moulis ou Moulis-en-Medoc;12
+aoc-93;Pauillac;12
+aoc-94;Pecharmant;19
+aoc-95;Pessac-Leognan blanc;12
+aoc-96;Pessac-Leognan rouge;12
+aoc-97;Pomerol;12
+aoc-98;Premieres Cotes de Bordeaux;12
+aoc-99;Puisseguin-Saint-Emilion;12
+aoc-100;Rosette;19
+aoc-101;Saint-Emilion;12
+aoc-102;Saint-Estephe;12
+aoc-103;Saint-Georges-Saint-Emilion;12
+aoc-104;Saint-Julien;12
+aoc-105;Sainte-Croix-du-Mont;12
+aoc-106;Sainte-Foy-Bordeaux blanc;12
+aoc-107;Sainte-Foy-Bordeaux blanc liquoreux;12
+aoc-108;Sainte-Foy-Bordeaux blanc moelleux;12
+aoc-109;Sainte-Foy-Bordeaux rouge;12
+aoc-110;Sauternes;12
+aoc-111;Anjou blanc;18
+aoc-112;Anjou mousseux blanc;18
+aoc-113;Anjou mousseux rose;18
+aoc-114;Anjou rouge;18
+aoc-115;Cabernet d'Anjou nouveau ou primeur;18
+aoc-116;Cabernet d'Anjou;18
+aoc-117;Rose d'Anjou;18
+aoc-118;Rose d'Anjou nouveau ou primeur;18
+aoc-119;Anjou gamay;8
+aoc-120;Anjou gamay nouveau ou primeur;8
+aoc-121;Anjou-Coteaux de la Loire;8
+aoc-122;Anjou Villages;8
+aoc-123;Bonnezeaux;8
+aoc-124;Bourgueil rose;9
+aoc-125;Bourgueil rouge;9
+aoc-126;Chinon blanc;9
+aoc-127;Chinon rose;9
+aoc-128;Chinon rouge;9
+aoc-129;Coteaux de l'Aubance;8
+aoc-130;Coteaux de l'Aubance Selection de grains nobles;8
+aoc-131;Coteaux de Saumur;18
+aoc-132;Coteaux du Layon;8
+aoc-133;Coteaux du Layon Selection de grains nobles;8
+aoc-134;Coteaux du Layon Beaulieu-sur-Layon ou Beaulieu;8
+aoc-135;Coteaux du Layon Beaulieu-sur-Layon ou Beaulieu Selection de grains nobles;8
+aoc-136;Coteaux du Layon Faye-d'Anjou ou Faye;8
+aoc-137;Coteaux du Layon Faye-d'Anjou ou Faye Selection de grains nobles;8
+aoc-138;Coteaux du Layon Rablay-sur-Layon ou Rablay;8
+aoc-139;Coteaux du Layon Rablay-sur-Layon ou Rablay Selection de grains nobles;8
+aoc-140;Coteaux du Layon Rochefort-sur-Loire ou Rochefort;8
+aoc-141;Coteaux du Layon Rochefort-sur-Loire ou Rochefort Selection de grains nobles;8
+aoc-142;Coteaux du Layon Saint-Aubin-de-Luigne ou Saint-Aubin;8
+aoc-143;Coteaux du Layon Saint-Aubin-de-Luigne ou Saint-Aubin Selection de grains nobles;8
+aoc-144;Coteaux du Layon Saint-Lambert-du-Lattay ou Saint-Lambert;8
+aoc-145;Coteaux du Layon Saint-Lambert-du-Lattay ou Saint-Lambert Selection de grains nobles;8
+aoc-146;Coteaux du Loir blanc;8
+aoc-147;Coteaux du Loir rose;8
+aoc-148;Coteaux du Loir rouge;8
+aoc-149;Cremant de Loire blanc;18
+aoc-150;Cremant de Loire rose;18
+aoc-151;Jasnieres;8
+aoc-152;Menetou-Salon blanc;9
+aoc-153;Menetou-Salon rose;9
+aoc-154;Menetou-Salon rouge;9
+aoc-155;Montlouis-sur-Loire;9
+aoc-156;Montlouis-sur-Loire mousseux;9
+aoc-157;Montlouis-sur-Loire petillant;9
+aoc-158;Muscadet Cotes de Grandlieu;8
+aoc-159;Muscadet Cotes de Grandlieu sur lie;8
+aoc-160;Muscadet Sevre et Maine;8
+aoc-161;Muscadet Sevre et Maine sur lie;8
+aoc-162;Pouilly-Fume ou Blanc Fume de Pouilly;10
+aoc-163;Pouilly-sur-Loire;10
+aoc-164;Quarts de Chaume;8
+aoc-165;Quincy;9
+aoc-166;Reuilly blanc;9
+aoc-167;Reuilly rose;9
+aoc-168;Reuilly rouge;9
+aoc-169;Rose de Loire;18
+aoc-170;Saint-Nicolas-de-Bourgueil rose;9
+aoc-171;Saint-Nicolas-de-Bourgueil rouge;9
+aoc-172;Sancerre blanc;9
+aoc-173;Sancerre rose;9
+aoc-174;Sancerre rouge;9
+aoc-175;Saumur blanc;18
+aoc-176;Saumur rouge;18
+aoc-177;Saumur mousseux blanc;18
+aoc-178;Saumur mousseux rose;18
+aoc-179;Savennieres;8
+aoc-180;Savennieres demi-sec;8
+aoc-181;Savennieres moelleux ou doux;8
+aoc-182;Savennieres Roche aux Moines;8
+aoc-183;Savennieres Roche aux Moines moelleux ou doux;8
+aoc-184;Touraine Amboise blanc;9
+aoc-185;Touraine Amboise rose;9
+aoc-186;Touraine Amboise rouge;9
+aoc-187;Touraine Azay-le-Rideau blanc;9
+aoc-188;Touraine Azay-le-Rideau rose;9
+aoc-189;Vouvray;9
+aoc-190;Vouvray mousseux;9
+aoc-191;Vouvray petillant;9
+aoc-192;Saumur-Champigny;8
+aoc-193;Touraine Noble Joue;9
+aoc-194;Anjou Villages Brissac;8
+aoc-195;Coteaux du Giennois blanc;10
+aoc-196;Coteaux du Giennois rose;10
+aoc-197;Coteaux du Giennois rouge;10
+aoc-198;Aloxe-Corton;10
+aoc-199;Aloxe-Corton rouge;10
+aoc-200;Aloxe-Corton premier cru Clos des Marechaudes blanc;10
+aoc-201;Aloxe-Corton premier cru Clos des Marechaudes rouge;10
+aoc-202;Aloxe-Corton premier cru Clos du Chapitre blanc;10
+aoc-203;Aloxe-Corton premier cru Clos du Chapitre rouge;10
+aoc-204;Aloxe-Corton premier cru La Coutiere blanc;10
+aoc-205;Aloxe-Corton premier cru La Coutiere rouge;10
+aoc-206;Aloxe-Corton premier cru La Marechaude blanc;10
+aoc-207;Aloxe-Corton premier cru La Marechaude rouge;10
+aoc-208;Aloxe-Corton premier cru La Toppe au Vert blanc;10
+aoc-209;Aloxe-Corton premier cru La Toppe au Vert rouge;10
+aoc-210;Aloxe-Corton premier cru Les Chaillots blanc;10
+aoc-211;Aloxe-Corton premier cru Les Chaillots rouge;10
+aoc-212;Aloxe-Corton premier cru Les Fournieres blanc;10
+aoc-213;Aloxe-Corton premier cru Les Fournieres rouge;10
+aoc-214;Aloxe-Corton premier cru Les Guerets blanc;10
+aoc-215;Aloxe-Corton premier cru Les Guerets rouge;10
+aoc-216;Aloxe-Corton premier cru Les Marechaudes blanc;10
+aoc-217;Aloxe-Corton premier cru Les Marechaudes rouge;10
+aoc-218;Aloxe-Corton premier cru Les Moutottes blanc;10
+aoc-219;Aloxe-Corton premier cru Les Moutottes rouge;10
+aoc-220;Aloxe-Corton premier cru Les Paulands blanc;10
+aoc-221;Aloxe-Corton premier cru Les Paulands rouge;10
+aoc-222;Aloxe-Corton premier cru Les Petites Folieres blanc;10
+aoc-223;Aloxe-Corton premier cru Les Petites Folieres rouge;10
+aoc-224;Aloxe-Corton premier cru Les Valozieres blanc;10
+aoc-225;Aloxe-Corton premier cru Les Valozieres rouge;10
+aoc-226;Aloxe-Corton premier cru Les Vercots blanc;10
+aoc-227;Aloxe-Corton premier cru Les Vercots rouge;10
+aoc-228;Aloxe-Corton premier cru blanc;10
+aoc-229;Aloxe-Corton premier cru rouge;10
+aoc-230;Arbois blanc;22
+aoc-231;Arbois rose;22
+aoc-232;Arbois rouge;22
+aoc-233;Arbois vin de paille;22
+aoc-234;Arbois vin jaune;22
+aoc-235;Arbois Pupillin blanc;22
+aoc-236;Arbois Pupillin rose;22
+aoc-237;Arbois Pupillin rouge;22
+aoc-238;Arbois Pupillin vin de paille;22
+aoc-239;Arbois Pupillin vin jaune;22
+aoc-240;Auxey-Duresses blanc;10
+aoc-241;Auxey-Duresses rouge ou Auxey-Duresses Cote de Beaune;10
+aoc-242;Auxey-Duresses premier cru Bas des Duresses blanc;10
+aoc-243;Auxey-Duresses premier cru Bas des Duresses rouge;10
+aoc-244;Auxey-Duresses premier cru Climat du Val blanc;10
+aoc-245;Auxey-Duresses premier cru Climat du Val rouge;10
+aoc-246;Auxey-Duresses premier cru Clos du Val blanc;10
+aoc-247;Auxey-Duresses premier cru Clos du Val rouge;10
+aoc-248;Auxey-Duresses premier cru La Chapelle blanc;10
+aoc-249;Auxey-Duresses premier cru La Chapelle rouge;10
+aoc-250;Auxey-Duresses premier cru Les Breterins blanc;10
+aoc-251;Auxey-Duresses premier cru Les Breterins rouge;10
+aoc-252;Auxey-Duresses premier cru Les Duresses blanc;10
+aoc-253;Auxey-Duresses premier cru Les Duresses rouge;10
+aoc-254;Auxey-Duresses premier cru Les Ecussaux blanc;10
+aoc-255;Auxey-Duresses premier cru Les Ecussaux rouge;10
+aoc-256;Auxey-Duresses premier cru Les Grands Champs blanc;10
+aoc-257;Auxey-Duresses premier cru Les Grands Champs rouge;10
+aoc-258;Auxey-Duresses premier cru Reugne blanc;10
+aoc-259;Auxey-Duresses premier cru Reugne rouge;10
+aoc-260;Auxey-Duresses premier cru blanc;10
+aoc-261;Auxey-Duresses premier cru rouge;10
+aoc-262;Bâtard-Montrachet;10
+aoc-263;Beaujolais blanc;10
+aoc-264;Beaujolais rose;10
+aoc-265;Beaujolais rose  nouveau ou primeur;10
+aoc-266;Beaujolais rouge;10
+aoc-267;Beaujolais rouge nouveau ou primeur;10
+aoc-268;Beaujolais superieur;10
+aoc-269;Beaujolais Villages blanc;10
+aoc-270;Beaujolais Villages rose;10
+aoc-271;Beaujolais Villages rose nouveau ou primeur;10
+aoc-272;Beaujolais Villages rouge;10
+aoc-273;Beaujolais Villages rouge primeur ou nouveau;10
+aoc-274;Beaujolais Beaujeu blanc;11
+aoc-275;Beaujolais Beaujeu rose;11
+aoc-276;Beaujolais Beaujeu rose nouveau ou primeur;11
+aoc-277;Beaujolais Beaujeu rouge;11
+aoc-278;Beaujolais Beaujeu rouge nouveau ou primeur;11
+aoc-279;Beaujolais Blace blanc;11
+aoc-280;Beaujolais Blace rose;11
+aoc-281;Beaujolais Blace rose nouveau ou primeur;11
+aoc-282;Beaujolais Blace rouge;11
+aoc-283;Beaujolais Blace rouge nouveau ou primeur;11
+aoc-284;Beaujolais Cercie blanc;11
+aoc-285;Beaujolais Cercie rose;11
+aoc-286;Beaujolais Cercie rose nouveau ou primeur;11
+aoc-287;Beaujolais Cercie rouge;11
+aoc-288;Beaujolais Cercie rouge nouveau ou primeur;11
+aoc-289;Beaujolais Chânes blanc;10
+aoc-290;Beaujolais Chânes rose;10
+aoc-291;Beaujolais Chânes rose nouveau ou primeur;10
+aoc-292;Beaujolais Chânes rouge;10
+aoc-293;Beaujolais Chânes rouge nouveau ou primeur;10
+aoc-294;Beaujolais Charentay blanc;11
+aoc-295;Beaujolais Charentay rose;11
+aoc-296;Beaujolais Charentay rose nouveau ou primeur;11
+aoc-297;Beaujolais Charentay rouge;11
+aoc-298;Beaujolais Charentay rouge nouveau ou primeur;11
+aoc-299;Beaujolais Denice blanc;11
+aoc-300;Beaujolais Denice rose;11
+aoc-301;Beaujolais Denice rose nouveau ou primeur;11
+aoc-302;Beaujolais Denice rouge;11
+aoc-303;Beaujolais Denice rouge nouveau ou primeur;11
+aoc-304;Beaujolais Emeringes blanc;11
+aoc-305;Beaujolais Emeringes rose;11
+aoc-306;Beaujolais Emeringes rose nouveau ou primeur;11
+aoc-307;Beaujolais Emeringes rouge;11
+aoc-308;Beaujolais Emeringes rouge nouveau ou primeur;11
+aoc-309;Beaujolais Jullie blanc;11
+aoc-310;Beaujolais Jullie rose;11
+aoc-311;Beaujolais Jullie rose nouveau ou primeur;11
+aoc-312;Beaujolais Jullie rouge;11
+aoc-313;Beaujolais Jullie rouge nouveau ou primeur;11
+aoc-314;Beaujolais La Chapelle-de-Guinchay blanc;10
+aoc-315;Beaujolais La Chapelle-de-Guinchay rose;10
+aoc-316;Beaujolais La Chapelle-de-Guinchay rose nouveau ou primeur;10
+aoc-317;Beaujolais La Chapelle-de-Guinchay rouge;10
+aoc-318;Beaujolais La Chapelle-de-Guinchay rouge nouveau ou primeur;10
+aoc-319;Beaujolais Lancie blanc;11
+aoc-320;Beaujolais Lancie rose;11
+aoc-321;Beaujolais Lancie rose nouveau ou primeur;11
+aoc-322;Beaujolais Lancie rouge;11
+aoc-323;Beaujolais Lancie rouge nouveau ou primeur;11
+aoc-324;Beaujolais Lantignie blanc;11
+aoc-325;Beaujolais Lantignie rose;11
+aoc-326;Beaujolais Lantignie rose nouveau ou primeur;11
+aoc-327;Beaujolais Lantignie rouge;11
+aoc-328;Beaujolais Lantignie rouge nouveau ou primeur;11
+aoc-329;Beaujolais Le Perreon blanc;11
+aoc-330;Beaujolais Le Perreon rose;11
+aoc-331;Beaujolais Le Perreon rose nouveau ou primeur;11
+aoc-332;Beaujolais Le Perreon rouge;11
+aoc-333;Beaujolais Le Perreon rouge nouveau ou primeur;11
+aoc-334;Beaujolais Les Ardillats blanc;11
+aoc-335;Beaujolais Les Ardillats rose;11
+aoc-336;Beaujolais Les Ardillats rose nouveau ou primeur;11
+aoc-337;Beaujolais Les Ardillats rouge;11
+aoc-338;Beaujolais Les Ardillats rouge nouveau ou primeur;11
+aoc-339;Beaujolais Leynes blanc;10
+aoc-340;Beaujolais Leynes rose;10
+aoc-341;Beaujolais Leynes rose nouveau ou primeur;10
+aoc-342;Beaujolais Leynes rouge;10
+aoc-343;Beaujolais Leynes rouge nouveau ou primeur;10
+aoc-344;Beaujolais Marchampt blanc;11
+aoc-345;Beaujolais Marchampt rose;11
+aoc-346;Beaujolais Marchampt rose nouveau ou primeur;11
+aoc-347;Beaujolais Marchampt rouge;11
+aoc-348;Beaujolais Marchampt rouge nouveau ou primeur;11
+aoc-349;Beaujolais Montmelas-Saint-Sorlin blanc;11
+aoc-350;Beaujolais Montmelas-Saint-Sorlin rose;11
+aoc-351;Beaujolais Montmelas-Saint-Sorlin rose nouveau ou primeur;11
+aoc-352;Beaujolais Montmelas-Saint-Sorlin rouge;11
+aoc-353;Beaujolais Montmelas-Saint-Sorlin rouge nouveau ou primeur;11
+aoc-354;Beaujolais Odenas blanc;11
+aoc-355;Beaujolais Odenas rose;11
+aoc-356;Beaujolais Odenas rose nouveau ou primeur;11
+aoc-357;Beaujolais Odenas rouge;11
+aoc-358;Beaujolais Odenas rouge nouveau ou primeur;11
+aoc-359;Beaujolais Pruzilly blanc;10
+aoc-360;Beaujolais Pruzilly rose;10
+aoc-361;Beaujolais Pruzilly rose nouveau ou primeur;10
+aoc-362;Beaujolais Pruzilly rouge;10
+aoc-363;Beaujolais Pruzilly rouge nouveau ou primeur;10
+aoc-364;Beaujolais Quincie-en-Beaujolais blanc;11
+aoc-365;Beaujolais Quincie-en-Beaujolais rose;11
+aoc-366;Beaujolais Quincie-en-Beaujolais rose nouveau ou primeur;11
+aoc-367;Beaujolais Quincie-en-Beaujolais rouge;11
+aoc-368;Beaujolais Quincie-en-Beaujolais rouge nouveau ou primeur;11
+aoc-369;Beaujolais Rivolet blanc;11
+aoc-370;Beaujolais Rivolet rose;11
+aoc-371;Beaujolais Rivolet rose nouveau ou primeur;11
+aoc-372;Beaujolais Rivolet rouge;11
+aoc-373;Beaujolais Rivolet rouge nouveau ou primeur;11
+aoc-374;Beaujolais Romaneche-Thorins blanc;10
+aoc-375;Beaujolais Romaneche-Thorins rose;10
+aoc-376;Beaujolais Romaneche-Thorins rose nouveau ou primeur;10
+aoc-377;Beaujolais Romaneche-Thorins rouge;10
+aoc-378;Beaujolais Romaneche-Thorins rouge nouveau ou primeur;10
+aoc-379;Beaujolais Saint-Didier-sur-Beaujeu blanc;11
+aoc-380;Beaujolais Saint-Didier-sur-Beaujeu rose;11
+aoc-381;Beaujolais Saint-Didier-sur-Beaujeu rose nouveau ou primeur;11
+aoc-382;Beaujolais Saint-Didier-sur-Beaujeu rouge;11
+aoc-383;Beaujolais Saint-Didier-sur-Beaujeu rouge nouveau ou primeur;11
+aoc-384;Beaujolais Saint-Etienne-des-Oullieres blanc;11
+aoc-385;Beaujolais Saint-Etienne-des-Oullieres rose;11
+aoc-386;Beaujolais Saint-Etienne-des-Oullieres rose nouveau ou primeur;11
+aoc-387;Beaujolais Saint-Etienne-des-Oullieres rouge;11
+aoc-388;Beaujolais Saint-Etienne-des-Oullieres rouge nouveau ou primeur;11
+aoc-389;Beaujolais Saint-Etienne-la-Varenne blanc;11
+aoc-390;Beaujolais Saint-Etienne-la-Varenne rose;11
+aoc-391;Beaujolais Saint-Etienne-la-Varenne rose nouveau ou primeur;11
+aoc-392;Beaujolais Saint-Etienne-la-Varenne rouge;11
+aoc-393;Beaujolais Saint-Etienne-la-Varenne rouge nouveau ou primeur;11
+aoc-394;Beaujolais Saint-Julien blanc;11
+aoc-395;Beaujolais Saint-Julien rose;11
+aoc-396;Beaujolais Saint-Julien rose nouveau ou primeur;11
+aoc-397;Beaujolais Saint-Julien rouge;11
+aoc-398;Beaujolais Saint-Julien rouge nouveau ou primeur;11
+aoc-399;Beaujolais Saint-Lager blanc;11
+aoc-400;Beaujolais Saint-Lager rose;11
+aoc-401;Beaujolais Saint-Lager rose nouveau ou primeur;11
+aoc-402;Beaujolais Saint-Lager rouge;11
+aoc-403;Beaujolais Saint-Lager rouge nouveau ou primeur;11
+aoc-404;Beaujolais Saint-Symphorien-d\'Ancelles blanc;10
+aoc-405;Beaujolais Saint-Symphorien-d\'Ancelles rose;10
+aoc-406;Beaujolais Saint-Symphorien-d\'Ancelles rose nouveau ou primeur;10
+aoc-407;Beaujolais Saint-Symphorien-d\'Ancelles rouge;10
+aoc-408;Beaujolais Saint-Symphorien-d\'Ancelles rouge nouveau ou primeur;10
+aoc-409;Beaujolais Salles-Arbuissonnas-en-Beaujolais blanc;11
+aoc-410;Beaujolais Salles-Arbuissonnas-en-Beaujolais rose;11
+aoc-411;Beaujolais Salles-Arbuissonnas-en-Beaujolais rose nouveau ou primeur;11
+aoc-412;Beaujolais Salles-Arbuissonnas-en-Beaujolais rouge;11
+aoc-413;Beaujolais Salles-Arbuissonnas-en-Beaujolais rouge nouveau ou primeur;11
+aoc-414;Beaujolais Vaux-en-Beaujolais blanc;11
+aoc-415;Beaujolais Vaux-en-Beaujolais rose;11
+aoc-416;Beaujolais Vaux-en-Beaujolais rose nouveau ou primeur;11
+aoc-417;Beaujolais Vaux-en-Beaujolais rouge;11
+aoc-418;Beaujolais Vaux-en-Beaujolais rouge nouveau ou primeur;11
+aoc-419;Beaujolais Vauxrenard blanc;11
+aoc-420;Beaujolais Vauxrenard rose;11
+aoc-421;Beaujolais Vauxrenard rose nouveau ou primeur;11
+aoc-422;Beaujolais Vauxrenard rouge;11
+aoc-423;Beaujolais Vauxrenard rouge nouveau ou primeur;11
+aoc-424;Beaune;10
+aoc-425;Beaune rouge;10
+aoc-426;Beaune premier cru A l'Ecu blanc;10
+aoc-427;Beaune premier cru A l'Ecu rouge;10
+aoc-428;Beaune premier cru Aux Coucherias blanc;10
+aoc-429;Beaune premier cru Aux Coucherias rouge;10
+aoc-430;Beaune premier cru Aux Cras blanc;10
+aoc-431;Beaune premier cru Aux Cras rouge;10
+aoc-432;Beaune premier cru Belissand blanc;10
+aoc-433;Beaune premier cru Belissand rouge;10
+aoc-434;Beaune premier cru Blanches Fleurs blanc;10
+aoc-435;Beaune premier cru Blanches Fleurs rouge;10
+aoc-436;Beaune premier cru Champs Pimont blanc;10
+aoc-437;Beaune premier cru Champs Pimont rouge;10
+aoc-438;Beaune premier cru Clos Saint-Landry blanc;10
+aoc-439;Beaune premier cru Clos Saint-Landry rouge;10
+aoc-440;Beaune premier cru Clos de l'Ecu blanc;10
+aoc-441;Beaune premier cru Clos de l'Ecu rouge;10
+aoc-442;Beaune premier cru Clos de la Feguine blanc;10
+aoc-443;Beaune premier cru Clos de la Feguine rouge;10
+aoc-444;Beaune premier cru Clos de la Mousse blanc;10
+aoc-445;Beaune premier cru Clos de la Mousse rouge;10
+aoc-446;Beaune premier cru Clos des Avaux blanc;10
+aoc-447;Beaune premier cru Clos des Avaux rouge;10
+aoc-448;Beaune premier cru Clos des Ursules blanc;10
+aoc-449;Beaune premier cru Clos des Ursules rouge;10
+aoc-450;Beaune premier cru Clos du Roi blanc;10
+aoc-451;Beaune premier cru Clos du Roi rouge;10
+aoc-452;Beaune premier cru En Genet blanc;10
+aoc-453;Beaune premier cru En Genet rouge;10
+aoc-454;Beaune premier cru En l'Orme blanc;10
+aoc-455;Beaune premier cru En l'Orme rouge;10
+aoc-456;Beaune premier cru La Mignotte blanc;10
+aoc-457;Beaune premier cru La Mignotte rouge;10
+aoc-458;Beaune premier cru Le Bas des Teurons blanc;10
+aoc-459;Beaune premier cru Le Bas des Teurons rouge;10
+aoc-460;Beaune premier cru Le Clos des Mouches blanc;10
+aoc-461;Beaune premier cru Le Clos des Mouches rouge;10
+aoc-462;Beaune premier cru Les Aigrots blanc;10
+aoc-463;Beaune premier cru Les Aigrots rouge;10
+aoc-464;Beaune premier cru Les Avaux blanc;10
+aoc-465;Beaune premier cru Les Avaux rouge;10
+aoc-466;Beaune premier cru Les Boucherottes blanc;10
+aoc-467;Beaune premier cru Les Boucherottes rouge;10
+aoc-468;Beaune premier cru Les Bressandes blanc;10
+aoc-469;Beaune premier cru Les Bressandes rouge;10
+aoc-470;Beaune premier cru Les Cents Vignes blanc;10
+aoc-471;Beaune premier cru Les Cents Vignes rouge;10
+aoc-472;Beaune premier cru Les Chouacheux blanc;10
+aoc-473;Beaune premier cru Les Chouacheux rouge;10
+aoc-474;Beaune premier cru Les Epenotes blanc;10
+aoc-475;Beaune premier cru Les Epenotes rouge;10
+aoc-476;Beaune premier cru Les Feves blanc;10
+aoc-477;Beaune premier cru Les Feves rouge;10
+aoc-478;Beaune premier cru Les Greves blanc;10
+aoc-479;Beaune premier cru Les Greves rouge;10
+aoc-480;Beaune premier cru Les Marconnets blanc;10
+aoc-481;Beaune premier cru Les Marconnets rouge;10
+aoc-482;Beaune premier cru Les Montrevenots blanc;10
+aoc-483;Beaune premier cru Les Montrevenots rouge;10
+aoc-484;Beaune premier cru Les Perrieres blanc;10
+aoc-485;Beaune premier cru Les Perrieres rouge;10
+aoc-486;Beaune premier cru Les Reverses blanc;10
+aoc-487;Beaune premier cru Les Reverses rouge;10
+aoc-488;Beaune premier cru Les Sceaux blanc;10
+aoc-489;Beaune premier cru Les Sceaux rouge;10
+aoc-490;Beaune premier cru Les Seurey blanc;10
+aoc-491;Beaune premier cru Les Seurey rouge;10
+aoc-492;Beaune premier cru Les Sizies blanc;10
+aoc-493;Beaune premier cru Les Sizies rouge;10
+aoc-494;Beaune premier cru Les Teurons blanc;10
+aoc-495;Beaune premier cru Les Teurons rouge;10
+aoc-496;Beaune premier cru Les Toussaints blanc;10
+aoc-497;Beaune premier cru Les Toussaints rouge;10
+aoc-498;Beaune premier cru Les Tuvilains blanc;10
+aoc-499;Beaune premier cru Les Tuvilains rouge;10
+aoc-500;Beaune premier cru Les Vignes Franches blanc;10
+aoc-501;Beaune premier cru Les Vignes Franches rouge;10
+aoc-502;Beaune premier cru Montee Rouge blanc;10
+aoc-503;Beaune premier cru Montee Rouge rouge;10
+aoc-504;Beaune premier cru Pertuisots blanc;10
+aoc-505;Beaune premier cru Pertuisots rouge;10
+aoc-506;Beaune premier cru Sur les Greves blanc;10
+aoc-507;Beaune premier cru Sur les Greves rouge;10
+aoc-508;Beaune premier cru Sur les Greves - Clos Saint-Anne blanc;10
+aoc-509;Beaune premier cru Sur les Greves - Clos Saint-Anne rouge;10
+aoc-510;Beaune premier cru blanc;10
+aoc-511;Beaune premier cru rouge;10
+aoc-512;Bienvenues-Bâtard-Montrachet;10
+aoc-513;Blagny ou Blagny Cote de Beaune;10
+aoc-514;Blagny premier cru Hameau de Blagny;10
+aoc-515;Blagny premier cru La Garenne ou sur la Garenne;10
+aoc-516;Blagny premier cru La Jeunellotte;10
+aoc-517;Blagny premier cru La Piece sous le Bois;10
+aoc-518;Blagny premier cru Sous Blagny;10
+aoc-519;Blagny premier cru Sous le Dos d'Ane;10
+aoc-520;Blagny premier cru Sous le Puits;10
+aoc-521;Blagny premier cru;10
+aoc-522;Bonnes-Mares;10
+aoc-523;Bourgogne Hautes Cotes de Beaune blanc;10
+aoc-524;Bourgogne Hautes Cotes de Beaune clairet ou rose;10
+aoc-525;Bourgogne Hautes Cotes de Beaune rouge;10
+aoc-526;Bourgogne Hautes Cotes de Nuits blanc;10
+aoc-527;Bourgogne Hautes Cotes de Nuits clairet ou rose;10
+aoc-528;Bourgogne Hautes Cotes de Nuits rouge;10
+aoc-529;Bourgogne Cote Chalonnaise blanc;10
+aoc-530;Bourgogne Cote Chalonnaise clairet ou rose;10
+aoc-531;Bourgogne Cote Chalonnaise rouge;10
+aoc-532;Bourgogne Cotes d'Auxerre blanc;10
+aoc-533;Bourgogne Cotes d'Auxerre clairet ou rose;10
+aoc-534;Bourgogne Cotes d'Auxerre rouge;10
+aoc-535;Bourgogne Chitry blanc;10
+aoc-536;Bourgogne Chitry clairet ou rose;10
+aoc-537;Bourgogne Chitry rouge;10
+aoc-538;Bourgogne Coulanges-la-Vineuse blanc;10
+aoc-539;Bourgogne Coulanges-la-Vineuse clairet ou rose;10
+aoc-540;Bourgogne Coulanges-la-Vineuse rouge;10
+aoc-541;Bourgogne Epineuil clairet ou rose;10
+aoc-542;Bourgogne Epineuil rouge;10
+aoc-543;Bourgogne La Chapelle Notre-Dame blanc;10
+aoc-544;Bourgogne La Chapelle Notre-Dame clairet ou rose;10
+aoc-545;Bourgogne La Chapelle Notre-Dame rouge;10
+aoc-546;Bourgogne Le Chapitre blanc;10
+aoc-547;Bourgogne Le Chapitre clairet ou rose;10
+aoc-548;Bourgogne Le Chapitre rouge;10
+aoc-549;Bourgogne Montrecul ou Montre-Cul ou En Montre-Cul blanc;10
+aoc-550;Bourgogne Montrecul ou Montre-Cul ou En Montre-Cul clairet ou rose;10
+aoc-551;Bourgogne Montrecul ou Montre-Cul ou En Montre-Cul rouge;10
+aoc-552;Bourgogne Cote Saint-Jacques blanc;10
+aoc-553;Bourgogne Cote Saint-Jacques clairet ou rose;10
+aoc-554;Bourgogne Cote Saint-Jacques rouge;10
+aoc-555;Bourgogne Vezelay;10
+aoc-556;Bourgogne Cotes du Couchois;10
+aoc-557;Brouilly ou Brouilly cru du Beaujolais;11
+aoc-558;Chablis;10
+aoc-559;Chablis premier cru Beauroy;10
+aoc-560;Chablis premier cru Berdiot;10
+aoc-561;Chablis premier cru Beugnons;10
+aoc-562;Chablis premier cru Butteaux;10
+aoc-563;Chablis premier cru Chapelot;10
+aoc-564;Chablis premier cru Chatains;10
+aoc-565;Chablis premier cru Chaume de Talvat;10
+aoc-566;Chablis premier cru Cote de Brechain;10
+aoc-567;Chablis premier cru Cote de Cuisy;10
+aoc-568;Chablis premier cru Cote de Fontenay;10
+aoc-569;Chablis premier cru Cote de Jouan;10
+aoc-570;Chablis premier cru Cote de Lechet;10
+aoc-571;Chablis premier cru Cote de Savant;10
+aoc-572;Chablis premier cru Cote de Vaubarousse;10
+aoc-573;Chablis premier cru Cote des Pres-Girots;10
+aoc-574;Chablis premier cru Forets;10
+aoc-575;Chablis premier cru Fourchaume;10
+aoc-576;Chablis premier cru L'Homme Mort;10
+aoc-577;Chablis premier cru Les Beauregards;10
+aoc-578;Chablis premier cru Les Epinottes;10
+aoc-579;Chablis premier cru Les Fourneaux;10
+aoc-580;Chablis premier cru Les Lys;10
+aoc-581;Chablis premier cru Mont de Milieu;10
+aoc-582;Chablis premier cru Montmains;10
+aoc-583;Chablis premier cru Montee de Tonnerre;10
+aoc-584;Chablis premier cru Morein;10
+aoc-585;Chablis premier cru Melinots;10
+aoc-586;Chablis premier cru Pied d'Aloup;10
+aoc-587;Chablis premier cru Roncieres;10
+aoc-588;Chablis premier cru Secher;10
+aoc-589;Chablis premier cru Troesmes;10
+aoc-590;Chablis premier cru Vaillons;10
+aoc-591;Chablis premier cru Vau Ligneau;10
+aoc-592;Chablis premier cru Vau de Vey;10
+aoc-593;Chablis premier cru Vaucoupin;10
+aoc-594;Chablis premier cru Vaugiraut;10
+aoc-595;Chablis premier cru Vaulorent;10
+aoc-596;Chablis premier cru Vaupulent;10
+aoc-597;Chablis premier cru Vaux Ragons;10
+aoc-598;Chablis premier cru Vosgros;10
+aoc-599;Chablis premier cru;10
+aoc-600;Chablis Grand Cru;10
+aoc-601;Chablis Grand Cru Blanchot;10
+aoc-602;Chablis Grand Cru Bougros;10
+aoc-603;Chablis Grand Cru Grenouilles;10
+aoc-604;Chablis Grand Cru Les Clos;10
+aoc-605;Chablis Grand Cru Preuses;10
+aoc-606;Chablis Grand Cru Valmur;10
+aoc-607;Chablis Grand Cru Vaudesir;10
+aoc-608;Chambertin;10
+aoc-609;Chambertin-Clos de Beze;10
+aoc-610;Chambolle-Musigny;10
+aoc-611;Chambolle-Musigny premier cru Aux Beaux Bruns;10
+aoc-612;Chambolle-Musigny premier cru Aux Combottes;10
+aoc-613;Chambolle-Musigny premier cru Aux Echanges;10
+aoc-614;Chambolle-Musigny premier cru Derriere la Grange;10
+aoc-615;Chambolle-Musigny premier cru La Combe d'Orveau;10
+aoc-616;Chambolle-Musigny premier cru Les Amoureuses;10
+aoc-617;Chambolle-Musigny premier cru Les Baudes;10
+aoc-618;Chambolle-Musigny premier cru Les Borniques;10
+aoc-619;Chambolle-Musigny premier cru Les Carrieres;10
+aoc-620;Chambolle-Musigny premier cru Les Chabiots;10
+aoc-621;Chambolle-Musigny premier cru Les Charmes;10
+aoc-622;Chambolle-Musigny premier cru Les Chatelots;10
+aoc-623;Chambolle-Musigny premier cru Les Combottes;10
+aoc-624;Chambolle-Musigny premier cru Les Cras;10
+aoc-625;Chambolle-Musigny premier cru Les Feusselottes ou Les Feusselotes;10
+aoc-626;Chambolle-Musigny premier cru Les Fuees;10
+aoc-627;Chambolle-Musigny premier cru Les Groseilles;10
+aoc-628;Chambolle-Musigny premier cru Les Gruenchers;10
+aoc-629;Chambolle-Musigny premier cru Les Hauts Doix;10
+aoc-630;Chambolle-Musigny premier cru Les Lavrottes;10
+aoc-631;Chambolle-Musigny premier cru Les Noirots;10
+aoc-632;Chambolle-Musigny premier cru Les Plantes;10
+aoc-633;Chambolle-Musigny premier cru Les Sentiers;10
+aoc-634;Chambolle-Musigny premier cru Les Veroilles;10
+aoc-635;Chambolle-Musigny premier cru;10
+aoc-636;Chapelle-Chambertin;10
+aoc-637;Charmes-Chambertin;10
+aoc-638;Chassagne-Montrachet;10
+aoc-639;Chassagne-Montrachet rouge ou Chassagne-Montrachet Cote de Beaune;10
+aoc-640;Chassagne-Montrachet premier cru Abbaye de Morgeot blanc;10
+aoc-641;Chassagne-Montrachet premier cru Abbaye de Morgeot rouge;10
+aoc-642;Chassagne-Montrachet premier cru Blanchot dessus blanc;10
+aoc-643;Chassagne-Montrachet premier cru Blanchot dessus rouge;10
+aoc-644;Chassagne-Montrachet premier cru Bois de Chassagne blanc;10
+aoc-645;Chassagne-Montrachet premier cru Bois de Chassagne rouge;10
+aoc-646;Chassagne-Montrachet premier cru Cailleret blanc;10
+aoc-647;Chassagne-Montrachet premier cru Cailleret rouge;10
+aoc-648;Chassagne-Montrachet premier cru Champs Jendreau blanc;10
+aoc-649;Chassagne-Montrachet premier cru Champs Jendreau rouge;10
+aoc-650;Chassagne-Montrachet premier cru Chassagne blanc;10
+aoc-651;Chassagne-Montrachet premier cru Chassagne rouge;10
+aoc-652;Chassagne-Montrachet premier cru Chassagne du Clos Saint-Jean blanc;10
+aoc-653;Chassagne-Montrachet premier cru Chassagne du Clos Saint-Jean rouge;10
+aoc-654;Chassagne-Montrachet premier cru Clos Chareau blanc;10
+aoc-655;Chassagne-Montrachet premier cru Clos Chareau rouge;10
+aoc-656;Chassagne-Montrachet premier cru Clos Pitois blanc;10
+aoc-657;Chassagne-Montrachet premier cru Clos Pitois rouge;10
+aoc-658;Chassagne-Montrachet premier cru Clos Saint-Jean blanc;10
+aoc-659;Chassagne-Montrachet premier cru Clos Saint-Jean rouge;10
+aoc-660;Chassagne-Montrachet premier cru Dent de Chien blanc;10
+aoc-661;Chassagne-Montrachet premier cru Dent de Chien rouge;10
+aoc-662;Chassagne-Montrachet premier cru En Cailleret blanc;10
+aoc-663;Chassagne-Montrachet premier cru En Cailleret rouge;10
+aoc-664;Chassagne-Montrachet premier cru En Remilly blanc;10
+aoc-665;Chassagne-Montrachet premier cru En Remilly rouge;10
+aoc-666;Chassagne-Montrachet premier cru En Virondot blanc;10
+aoc-667;Chassagne-Montrachet premier cru En Virondot rouge;10
+aoc-668;Chassagne-Montrachet premier cru Ez Crets blanc;10
+aoc-669;Chassagne-Montrachet premier cru Ez Crets rouge;10
+aoc-670;Chassagne-Montrachet premier cru Ez Crottes blanc;10
+aoc-671;Chassagne-Montrachet premier cru Ez Crottes rouge;10
+aoc-672;Chassagne-Montrachet premier cru Francemont blanc;10
+aoc-673;Chassagne-Montrachet premier cru Francemont rouge;10
+aoc-674;Chassagne-Montrachet premier cru Guerchere blanc;10
+aoc-675;Chassagne-Montrachet premier cru Guerchere rouge;10
+aoc-676;Chassagne-Montrachet premier cru La Boudriotte blanc;10
+aoc-677;Chassagne-Montrachet premier cru La Boudriotte rouge;10
+aoc-678;Chassagne-Montrachet premier cru La Cardeuse blanc;10
+aoc-679;Chassagne-Montrachet premier cru La Cardeuse rouge;10
+aoc-680;Chassagne-Montrachet premier cru La Chapelle blanc;10
+aoc-681;Chassagne-Montrachet premier cru La Chapelle rouge;10
+aoc-682;Chassagne-Montrachet premier cru La Grande Borne blanc;10
+aoc-683;Chassagne-Montrachet premier cru La Grande Borne rouge;10
+aoc-684;Chassagne-Montrachet premier cru La Grande Montagne blanc;10
+aoc-685;Chassagne-Montrachet premier cru La Grande Montagne rouge;10
+aoc-686;Chassagne-Montrachet premier cru La Maltroie blanc;10
+aoc-687;Chassagne-Montrachet premier cru La Maltroie rouge;10
+aoc-688;Chassagne-Montrachet premier cru La Romanee blanc;10
+aoc-689;Chassagne-Montrachet premier cru La Romanee rouge;10
+aoc-690;Chassagne-Montrachet premier cru La Roquemaure blanc;10
+aoc-691;Chassagne-Montrachet premier cru La Roquemaure rouge;10
+aoc-692;Chassagne-Montrachet premier cru Les Baudines blanc;10
+aoc-693;Chassagne-Montrachet premier cru Les Baudines rouge;10
+aoc-694;Chassagne-Montrachet premier cru Les Boirettes blanc;10
+aoc-695;Chassagne-Montrachet premier cru Les Boirettes rouge;10
+aoc-696;Chassagne-Montrachet premier cru Les Bondues blanc;10
+aoc-697;Chassagne-Montrachet premier cru Les Bondues rouge;10
+aoc-698;Chassagne-Montrachet premier cru Les Brussonnes blanc;10
+aoc-699;Chassagne-Montrachet premier cru Les Brussonnes rouge;10
+aoc-700;Chassagne-Montrachet premier cru Les Champs gain blanc;10
+aoc-701;Chassagne-Montrachet premier cru Les Champs gain rouge;10
+aoc-702;Chassagne-Montrachet premier cru Les Chaumes blanc;10
+aoc-703;Chassagne-Montrachet premier cru Les Chaumes rouge;10
+aoc-704;Chassagne-Montrachet premier cru Les Chaumees blanc;10
+aoc-705;Chassagne-Montrachet premier cru Les Chaumees rouge;10
+aoc-706;Chassagne-Montrachet premier cru Les Chenevottes blanc;10
+aoc-707;Chassagne-Montrachet premier cru Les Chenevottes rouge;10
+aoc-708;Chassagne-Montrachet premier cru Les Combards blanc;10
+aoc-709;Chassagne-Montrachet premier cru Les Combards rouge;10
+aoc-710;Chassagne-Montrachet premier cru Les Commes blanc;10
+aoc-711;Chassagne-Montrachet premier cru Les Commes rouge;10
+aoc-712;Chassagne-Montrachet premier cru Les Embazees blanc;10
+aoc-713;Chassagne-Montrachet premier cru Les Embazees rouge;10
+aoc-714;Chassagne-Montrachet premier cru Les Fairendes blanc;10
+aoc-715;Chassagne-Montrachet premier cru Les Fairendes rouge;10
+aoc-716;Chassagne-Montrachet premier cru Les Grandes Ruchottes blanc;10
+aoc-717;Chassagne-Montrachet premier cru Les Grandes Ruchottes rouge;10
+aoc-718;Chassagne-Montrachet premier cru Les Grands Clos blanc;10
+aoc-719;Chassagne-Montrachet premier cru Les Grands Clos rouge;10
+aoc-720;Chassagne-Montrachet premier cru Les Macherelles blanc;10
+aoc-721;Chassagne-Montrachet premier cru Les Macherelles rouge;10
+aoc-722;Chassagne-Montrachet premier cru Les Murees blanc;10
+aoc-723;Chassagne-Montrachet premier cru Les Murees rouge;10
+aoc-724;Chassagne-Montrachet premier cru Les Pasquelles blanc;10
+aoc-725;Chassagne-Montrachet premier cru Les Pasquelles rouge;10
+aoc-726;Chassagne-Montrachet premier cru Les Petites Fairendes blanc;10
+aoc-727;Chassagne-Montrachet premier cru Les Petites Fairendes rouge;10
+aoc-728;Chassagne-Montrachet premier cru Les Petits Clos blanc;10
+aoc-729;Chassagne-Montrachet premier cru Les Petits Clos rouge;10
+aoc-730;Chassagne-Montrachet premier cru Les Places blanc;10
+aoc-731;Chassagne-Montrachet premier cru Les Places rouge;10
+aoc-732;Chassagne-Montrachet premier cru Les Rebichets blanc;10
+aoc-733;Chassagne-Montrachet premier cru Les Rebichets rouge;10
+aoc-734;Chassagne-Montrachet premier cru Les Vergers blanc;10
+aoc-735;Chassagne-Montrachet premier cru Les Vergers rouge;10
+aoc-736;Chassagne-Montrachet premier cru Morgeot blanc;10
+aoc-737;Chassagne-Montrachet premier cru Morgeot rouge;10
+aoc-738;Chassagne-Montrachet premier cru Petingeret blanc;10
+aoc-739;Chassagne-Montrachet premier cru Petingeret rouge;10
+aoc-740;Chassagne-Montrachet premier cru Tonton Marcel blanc;10
+aoc-741;Chassagne-Montrachet premier cru Tonton Marcel rouge;10
+aoc-742;Chassagne-Montrachet premier cru Tete du Clos blanc;10
+aoc-743;Chassagne-Montrachet premier cru Tete du Clos rouge;10
+aoc-744;Chassagne-Montrachet premier cru Vide Bourse blanc;10
+aoc-745;Chassagne-Montrachet premier cru Vide Bourse rouge;10
+aoc-746;Chassagne-Montrachet premier cru Vigne Blanche blanc;10
+aoc-747;Chassagne-Montrachet premier cru Vigne Blanche rouge;10
+aoc-748;Chassagne-Montrachet premier cru Vigne Derriere blanc;10
+aoc-749;Chassagne-Montrachet premier cru Vigne Derriere rouge;10
+aoc-750;Chassagne-Montrachet premier cru blanc;10
+aoc-751;Chassagne-Montrachet premier cru rouge;10
+aoc-752;Château-Chalon;22
+aoc-753;Chenas ou Chenas cru du Beaujolais;10
+aoc-754;Chevalier-Montrachet;10
+aoc-755;Chiroubles ou Chiroubles cru du Beaujolais;11
+aoc-756;Chorey-les-Beaune;10
+aoc-757;Chorey-les-Beaune rouge ou Chorey-les-Beaune Cote de Beaune;10
+aoc-758;Clos de la Roche;10
+aoc-759;Clos de Tart;10
+aoc-760;Clos de Vougeot ou Clos Vougeot;10
+aoc-761;Clos des Lambrays;10
+aoc-762;Clos Saint-Denis;10
+aoc-763;Corton blanc;10
+aoc-764;Corton rouge;10
+aoc-765;Corton-Charlemagne;10
+aoc-766;Cote de Beaune blanc;10
+aoc-767;Cote de Beaune rouge;10
+aoc-768;Cote de Beaune-Villages;10
+aoc-769;Cote de Brouilly ou Cote de Brouilly cru du Beaujolais;11
+aoc-770;Cote roannaise rose;20
+aoc-771;Cote roannaise rouge;20
+aoc-772;Cote de Nuits-Villages blanc ou Vins fins de la Cote de Nuits blanc;10
+aoc-773;Cote de Nuits-Villages rouge ou Vins fins de la Cote de Nuits rouge;10
+aoc-774;Coteaux du Lyonnais blanc;11
+aoc-775;Coteaux du Lyonnais blanc nouveau ou primeur;11
+aoc-776;Coteaux du Lyonnais rose;11
+aoc-777;Coteaux du Lyonnais rose nouveau ou primeur;11
+aoc-778;Coteaux du Lyonnais rouge;11
+aoc-779;Coteaux du Lyonnais rouge nouveau ou primeur;11
+aoc-780;Cotes du Jura blanc;22
+aoc-781;Cotes du Jura rose;22
+aoc-782;Cotes du Jura rouge;22
+aoc-783;Cotes du Jura vin de paille;22
+aoc-784;Cotes du Jura vin jaune;22
+aoc-785;Criots-Bâtard-Montrachet;10
+aoc-786;Fixin blanc;10
+aoc-787;Fixin rouge;10
+aoc-788;Fixin premier cru Arvelets blanc;10
+aoc-789;Fixin premier cru Arvelets rouge;10
+aoc-790;Fixin premier cru Clos Napoleon blanc;10
+aoc-791;Fixin premier cru Clos Napoleon rouge;10
+aoc-792;Fixin premier cru Clos de la Perriere blanc;10
+aoc-793;Fixin premier cru Clos de la Perriere rouge;10
+aoc-794;Fixin premier cru Clos du Chapitre blanc;10
+aoc-795;Fixin premier cru Clos du Chapitre rouge;10
+aoc-796;Fixin premier cru Hervelets blanc;10
+aoc-797;Fixin premier cru Hervelets rouge;10
+aoc-798;Fixin premier cru blanc;10
+aoc-799;Fixin premier cru rouge;10
+aoc-800;Fleurie ou Fleurie cru du Beaujolais;11
+aoc-801;Gevrey-Chambertin;10
+aoc-802;Gevrey-Chambertin premier cru Au Closeau;10
+aoc-803;Gevrey-Chambertin premier cru Aux Combottes;10
+aoc-804;Gevrey-Chambertin premier cru Bel Air;10
+aoc-805;Gevrey-Chambertin premier cru Champeaux;10
+aoc-806;Gevrey-Chambertin premier cru Champonnet;10
+aoc-807;Gevrey-Chambertin premier cru Cherbaudes;10
+aoc-808;Gevrey-Chambertin premier cru Clos Prieur;10
+aoc-809;Gevrey-Chambertin premier cru Clos Saint-Jacques;10
+aoc-810;Gevrey-Chambertin premier cru Clos des Varoilles;10
+aoc-811;Gevrey-Chambertin premier cru Clos du Chapitre;10
+aoc-812;Gevrey-Chambertin premier cru Combe au Moine;10
+aoc-813;Gevrey-Chambertin premier cru Craipillot;10
+aoc-814;Gevrey-Chambertin premier cru En Ergot;10
+aoc-815;Gevrey-Chambertin premier cru Estournelles-Saint-Jacques;10
+aoc-816;Gevrey-Chambertin premier cru Fonteny;10
+aoc-817;Gevrey-Chambertin premier cru Issarts;10
+aoc-818;Gevrey-Chambertin premier cru La Bossiere;10
+aoc-819;Gevrey-Chambertin premier cru La Perriere;10
+aoc-820;Gevrey-Chambertin premier cru La Romanee;10
+aoc-821;Gevrey-Chambertin premier cru Lavaut Saint-Jacques;10
+aoc-822;Gevrey-Chambertin premier cru Les Cazetiers;10
+aoc-823;Gevrey-Chambertin premier cru Les Corbeaux;10
+aoc-824;Gevrey-Chambertin premier cru Les Goulots;10
+aoc-825;Gevrey-Chambertin premier cru Petite Chapelle;10
+aoc-826;Gevrey-Chambertin premier cru Petits Cazetiers;10
+aoc-827;Gevrey-Chambertin premier cru Poissenot;10
+aoc-828;Gevrey-Chambertin premier cru;10
+aoc-829;Givry blanc;10
+aoc-830;Givry rouge;10
+aoc-831;Givry premier cru Clos du Cellier aux Moines blanc;10
+aoc-832;Givry premier cru Clos du Cellier aux Moines rouge;10
+aoc-833;Givry premier cru Clos Charle blanc;10
+aoc-834;Givry premier cru Clos Charle rouge;10
+aoc-835;Givry premier cru Clos Jus blanc;10
+aoc-836;Givry premier cru Clos Jus rouge;10
+aoc-837;Givry premier cru Clos Marceaux blanc;10
+aoc-838;Givry premier cru Clos Marceaux rouge;10
+aoc-839;Givry premier cru Clos Marole blanc;10
+aoc-840;Givry premier cru Clos Marole rouge;10
+aoc-841;Givry premier cru Clos-Saint-Paul blanc;10
+aoc-842;Givry premier cru Clos-Saint-Paul rouge;10
+aoc-843;Givry premier cru Clos-Saint-Pierre blanc;10
+aoc-844;Givry premier cru Clos-Saint-Pierre rouge;10
+aoc-845;Givry premier cru Clos Salomon blanc;10
+aoc-846;Givry premier cru Clos Salomon rouge;10
+aoc-847;Givry premier cru Clos de la Baraude blanc;10
+aoc-848;Givry premier cru Clos de la Baraude rouge;10
+aoc-849;Givry premier cru Clos du Cras long blanc;10
+aoc-850;Givry premier cru Clos du Cras long rouge;10
+aoc-851;Givry premier cru Clos du Vernoy blanc;10
+aoc-852;Givry premier cru Clos du Vernoy rouge;10
+aoc-853;Givry premier cru Les Bois Chevaux blanc;10
+aoc-854;Givry premier cru Les Bois Chevaux rouge;10
+aoc-855;Givry premier cru Les Grandes Vignes blanc;10
+aoc-856;Givry premier cru Les Grandes Vignes rouge;10
+aoc-857;Givry premier cru Les Grands Pretans blanc;10
+aoc-858;Givry premier cru Les Grands Pretans rouge;10
+aoc-859;Givry premier cru Petit Marole blanc;10
+aoc-860;Givry premier cru Petit Marole rouge;10
+aoc-861;Givry premier cru Servoisine blanc;10
+aoc-862;Givry premier cru Servoisine rouge;10
+aoc-863;Givry premier cru Le Petit Pretan blanc;10
+aoc-864;Givry premier cru Le Petit Pretan rouge;10
+aoc-865;Givry premier cru Le Paradis blanc;10
+aoc-866;Givry premier cru Le Paradis rouge;10
+aoc-867;Givry premier cru Le Vigron blanc;10
+aoc-868;Givry premier cru Le Vigron rouge;10
+aoc-869;Givry premier cru Les Bois Gautiers blanc;10
+aoc-870;Givry premier cru Les Bois Gautiers rouge;10
+aoc-871;Givry premier cru A Vigne Rouge blanc;10
+aoc-872;Givry premier cru A Vigne Rouge rouge;10
+aoc-873;Givry premier cru La Plante blanc;10
+aoc-874;Givry premier cru La Plante rouge;10
+aoc-875;Givry premier cru Crausot blanc;10
+aoc-876;Givry premier cru Crausot rouge;10
+aoc-877;Givry premier cru Cremillons blanc;10
+aoc-878;Givry premier cru Cremillons rouge;10
+aoc-879;Givry premier cru La Grande Berge blanc;10
+aoc-880;Givry premier cru La Grande Berge rouge;10
+aoc-881;Givry premier cru En Choue blanc;10
+aoc-882;Givry premier cru En Choue rouge;10
+aoc-883;Givry premier cru blanc;10
+aoc-884;Givry premier cru rouge;10
+aoc-885;Griotte-Chambertin;10
+aoc-886;Julienas ou Julienas cru du Beaujolais;10
+aoc-887;L'Etoile blanc;22
+aoc-888;L'Etoile vin de paille;22
+aoc-889;L'Etoile vin jaune;22
+aoc-890;La Grande Rue;10
+aoc-891;La Romanee;10
+aoc-892;La Tâche;10
+aoc-893;Ladoix blanc;10
+aoc-894;Ladoix rouge ou Ladoix Cote de Beaune;10
+aoc-895;Ladoix premier cru Basses Mourottes blanc;10
+aoc-896;Ladoix premier cru Basses Mourottes rouge;10
+aoc-897;Ladoix premier cru Bois Roussot rouge;10
+aoc-898;Ladoix premier cru Hautes Mourottes blanc;10
+aoc-899;Ladoix premier cru Hautes Mourottes rouge;10
+aoc-900;Ladoix premier cru La Corvee blanc;10
+aoc-901;Ladoix premier cru La Corvee rouge;10
+aoc-902;Ladoix premier cru La Micaude blanc;10
+aoc-903;Ladoix premier cru La Micaude rouge;10
+aoc-904;Ladoix premier cru Le Clou d'Orge blanc;10
+aoc-905;Ladoix premier cru Le Clou d'Orge rouge;10
+aoc-906;Ladoix premier cru Les Joyeuses rouge;10
+aoc-907;Ladoix premier cru blanc;10
+aoc-908;Ladoix premier cru rouge;10
+aoc-909;Latricieres-Chambertin;10
+aoc-910;Mâcon Aze blanc;10
+aoc-911;Mâcon Aze blanc primeur ou nouveau;10
+aoc-912;Mâcon Aze rose;10
+aoc-913;Mâcon Aze rouge;10
+aoc-914;Mâcon Burgy blanc;10
+aoc-915;Mâcon Burgy blanc primeur ou nouveau;10
+aoc-916;Mâcon Bussieres blanc;10
+aoc-917;Mâcon Bussieres blanc primeur ou nouveau;10
+aoc-918;Mâcon Bussieres rose;10
+aoc-919;Mâcon Bussieres rouge;10
+aoc-920;Mâcon Chardonnay blanc;10
+aoc-921;Mâcon Chardonnay blanc primeur ou nouveau;10
+aoc-922;Mâcon Chardonnay rose;10
+aoc-923;Mâcon Chardonnay rouge;10
+aoc-924;Mâcon Charnay-les-Mâcon blanc;10
+aoc-925;Mâcon Charnay-les-Mâcon blanc primeur ou nouveau;10
+aoc-926;Mâcon Charnay-les-Mâcon rose;10
+aoc-927;Mâcon Charnay-les-Mâcon rouge;10
+aoc-928;Mâcon Cruzille blanc;10
+aoc-929;Mâcon Cruzille blanc primeur ou nouveau;10
+aoc-930;Mâcon Cruzille rose;10
+aoc-931;Mâcon Cruzille rouge;10
+aoc-932;Mâcon Davaye blanc;10
+aoc-933;Mâcon Davaye blanc primeur ou nouveau;10
+aoc-934;Mâcon Davaye rose;10
+aoc-935;Mâcon Davaye rouge;10
+aoc-936;Mâcon Fuisse blanc;10
+aoc-937;Mâcon Fuisse blanc primeur ou nouveau;10
+aoc-938;Mâcon Ige blanc;10
+aoc-939;Mâcon Ige blanc primeur ou nouveau;10
+aoc-940;Mâcon Ige rose;10
+aoc-941;Mâcon Ige rouge;10
+aoc-942;Mâcon La Roche-Vineuse blanc;10
+aoc-943;Mâcon La Roche-Vineuse blanc primeur ou nouveau;10
+aoc-944;Mâcon La Roche-Vineuse rose;10
+aoc-945;Mâcon La Roche-Vineuse rouge;10
+aoc-946;Mâcon Loche blanc;10
+aoc-947;Mâcon Loche blanc primeur ou nouveau;10
+aoc-948;Mâcon Lugny blanc;10
+aoc-949;Mâcon Lugny blanc primeur ou nouveau;10
+aoc-950;Mâcon Lugny rose;10
+aoc-951;Mâcon Lugny rouge;10
+aoc-952;Mâcon Milly-Lamartine blanc;10
+aoc-953;Mâcon Milly-Lamartine blanc primeur ou nouveau;10
+aoc-954;Mâcon Milly-Lamartine rose;10
+aoc-955;Mâcon Milly-Lamartine rouge;10
+aoc-956;Mâcon Montbellet blanc;10
+aoc-957;Mâcon Montbellet blanc primeur ou nouveau;10
+aoc-958;Mâcon Peronne blanc;10
+aoc-959;Mâcon Peronne blanc primeur ou nouveau;10
+aoc-960;Mâcon Peronne rose;10
+aoc-961;Mâcon Peronne rouge;10
+aoc-962;Mâcon Pierreclos blanc;10
+aoc-963;Mâcon Pierreclos blanc primeur ou nouveau;10
+aoc-964;Mâcon Pierreclos rose;10
+aoc-965;Mâcon Pierreclos rouge;10
+aoc-966;Mâcon Prisse blanc;10
+aoc-967;Mâcon Prisse blanc primeur ou nouveau;10
+aoc-968;Mâcon Prisse rose;10
+aoc-969;Mâcon Prisse rouge;10
+aoc-970;Mâcon Solutre-Pouilly blanc;10
+aoc-971;Mâcon Solutre-Pouilly blanc primeur ou nouveau;10
+aoc-972;Mâcon Uchizy blanc;10
+aoc-973;Mâcon Uchizy blanc primeur ou nouveau;10
+aoc-974;Mâcon Vergisson blanc;10
+aoc-975;Mâcon Vergisson blanc primeur ou nouveau;10
+aoc-976;Mâcon Verze blanc;10
+aoc-977;Mâcon Verze blanc primeur ou nouveau;10
+aoc-978;Mâcon Verze rose;10
+aoc-979;Mâcon Verze rouge;10
+aoc-980;Mâcon Vinzelles blanc;10
+aoc-981;Mâcon Vinzelles blanc primeur ou nouveau;10
+aoc-982;Mâcon Burgy rose;10
+aoc-983;Mâcon Burgy rouge;10
+aoc-984;Mâcon Mancey blanc;10
+aoc-985;Mâcon Mancey blanc primeur ou nouveau;10
+aoc-986;Mâcon Mancey rose;10
+aoc-987;Mâcon Mancey rouge;10
+aoc-988;Mâcon Saint-Gengoux-le-National blanc;10
+aoc-989;Mâcon Saint-Gengoux-le-National blanc primeur ou nouveau;10
+aoc-990;Mâcon Saint-Gengoux-le-National rose;10
+aoc-991;Mâcon Saint-Gengoux-le-National rouge;10
+aoc-992;Mâcon Serrieres rose;10
+aoc-993;Mâcon Serrieres rouge;10
+aoc-994;Maranges;10
+aoc-995;Maranges rouge ou Maranges Cote de Beaune;10
+aoc-996;Maranges premier cru Clos de la Boutiere blanc;10
+aoc-997;Maranges premier cru Clos de la Boutiere rouge;10
+aoc-998;Maranges premier cru Clos de la Fussiere blanc;10
+aoc-999;Maranges premier cru Clos de la Fussiere rouge;10
+aoc-1000;Maranges premier cru La Fussiere blanc;10
+aoc-1001;Maranges premier cru La Fussiere rouge;10
+aoc-1002;Maranges premier cru Le Clos des Loyeres blanc;10
+aoc-1003;Maranges premier cru Le Clos des Loyeres rouge;10
+aoc-1004;Maranges premier cru Le Clos des Rois blanc;10
+aoc-1005;Maranges premier cru Le Clos des Rois rouge;10
+aoc-1006;Maranges premier cru Le Croix Moines blanc;10
+aoc-1007;Maranges premier cru Le Croix Moines rouge;10
+aoc-1008;Maranges premier cru Les Clos Roussots blanc;10
+aoc-1009;Maranges premier cru Les Clos Roussots rouge;10
+aoc-1010;Maranges premier cru blanc;10
+aoc-1011;Maranges premier cru rouge;10
+aoc-1012;Marsannay blanc;10
+aoc-1013;Marsannay rose;10
+aoc-1014;Marsannay rouge;10
+aoc-1015;Mazis-Chambertin;10
+aoc-1016;Mazoyeres-Chambertin;10
+aoc-1017;Mercurey blanc;10
+aoc-1018;Mercurey rouge;10
+aoc-1019;Mercurey premier cru Clos Marcilly blanc;10
+aoc-1020;Mercurey premier cru Clos Marcilly rouge;10
+aoc-1021;Mercurey premier cru Clos Tonnerre blanc;10
+aoc-1022;Mercurey premier cru Clos Tonnerre rouge;10
+aoc-1023;Mercurey premier cru Clos Voyens blanc;10
+aoc-1024;Mercurey premier cru Clos Voyens rouge;10
+aoc-1025;Mercurey premier cru Clos de Paradis blanc;10
+aoc-1026;Mercurey premier cru Clos de Paradis rouge;10
+aoc-1027;Mercurey premier cru Clos des Barraults blanc;10
+aoc-1028;Mercurey premier cru Clos des Barraults rouge;10
+aoc-1029;Mercurey premier cru Clos des grands Voyens blanc;10
+aoc-1030;Mercurey premier cru Clos des grands Voyens rouge;10
+aoc-1031;Mercurey premier cru Clos des Myglands blanc;10
+aoc-1032;Mercurey premier cru Clos des Myglands rouge;10
+aoc-1033;Mercurey premier cru Grand Clos Fortoul blanc;10
+aoc-1034;Mercurey premier cru Grand Clos Fortoul rouge;10
+aoc-1035;Mercurey premier cru Grifferes blanc;10
+aoc-1036;Mercurey premier cru Grifferes rouge;10
+aoc-1037;Mercurey premier cru La Bondue blanc;10
+aoc-1038;Mercurey premier cru La Bondue rouge;10
+aoc-1039;Mercurey premier cru La Cailloute blanc;10
+aoc-1040;Mercurey premier cru La Cailloute rouge;10
+aoc-1041;Mercurey premier cru La Chassiere blanc;10
+aoc-1042;Mercurey premier cru La Chassiere rouge;10
+aoc-1043;Mercurey premier cru La Levriere blanc;10
+aoc-1044;Mercurey premier cru La Levriere rouge;10
+aoc-1045;Mercurey premier cru La Mission blanc;10
+aoc-1046;Mercurey premier cru La Mission rouge;10
+aoc-1047;Mercurey premier cru Le Clos du Roy blanc;10
+aoc-1048;Mercurey premier cru Le Clos du Roy rouge;10
+aoc-1049;Mercurey premier cru Le Clos l'Eveque blanc;10
+aoc-1050;Mercurey premier cru Le Clos l'Eveque rouge;10
+aoc-1051;Mercurey premier cru Les Byots blanc;10
+aoc-1052;Mercurey premier cru Les Byots rouge;10
+aoc-1053;Mercurey premier cru Les Champs Martin blanc;10
+aoc-1054;Mercurey premier cru Les Champs Martin rouge;10
+aoc-1055;Mercurey premier cru Les Combins blanc;10
+aoc-1056;Mercurey premier cru Les Combins rouge;10
+aoc-1057;Mercurey premier cru Les Croichots blanc;10
+aoc-1058;Mercurey premier cru Les Croichots rouge;10
+aoc-1059;Mercurey premier cru Les Crets blanc;10
+aoc-1060;Mercurey premier cru Les Crets rouge;10
+aoc-1061;Mercurey premier cru Les Fourneaux blanc;10
+aoc-1062;Mercurey premier cru Les Fourneaux rouge;10
+aoc-1063;Mercurey premier cru Les Montaigus blanc;10
+aoc-1064;Mercurey premier cru Les Montaigus rouge;10
+aoc-1065;Mercurey premier cru Les Naugues blanc;10
+aoc-1066;Mercurey premier cru Les Naugues rouge;10
+aoc-1067;Mercurey premier cru Les Ruelles blanc;10
+aoc-1068;Mercurey premier cru Les Ruelles rouge;10
+aoc-1069;Mercurey premier cru Les Vasees blanc;10
+aoc-1070;Mercurey premier cru Les Vasees rouge;10
+aoc-1071;Mercurey premier cru Les Velley blanc;10
+aoc-1072;Mercurey premier cru Les Velley rouge;10
+aoc-1073;Mercurey premier cru Sazenay blanc;10
+aoc-1074;Mercurey premier cru Sazenay rouge;10
+aoc-1075;Mercurey premier cru Les Puillets blanc;10
+aoc-1076;Mercurey premier cru Les Puillets rouge;10
+aoc-1077;Mercurey premier cru Les Saumonts blanc;10
+aoc-1078;Mercurey premier cru Les Saumonts rouge;10
+aoc-1079;Mercurey premier cru blanc;10
+aoc-1080;Mercurey premier cru rouge;10
+aoc-1081;Meursault blanc;10
+aoc-1082;Meursault rouge ou Meursault Cote de Beaune;10
+aoc-1083;Meursault premier cru Charmes blanc;10
+aoc-1084;Meursault premier cru Charmes rouge;10
+aoc-1085;Meursault premier cru Clos des Perrieres blanc;10
+aoc-1086;Meursault premier cru Clos des Perrieres rouge;10
+aoc-1087;Meursault premier cru Genevrieres blanc;10
+aoc-1088;Meursault premier cru Genevrieres rouge;10
+aoc-1089;Meursault premier cru La Jeunellotte blanc;10
+aoc-1090;Meursault premier cru La Piece sous le Bois blanc;10
+aoc-1091;Meursault premier cru Le Porusot blanc;10
+aoc-1092;Meursault premier cru Le Porusot rouge;10
+aoc-1093;Meursault premier cru Les Boucheres blanc;10
+aoc-1094;Meursault premier cru Les Boucheres rouge;10
+aoc-1095;Meursault premier cru Les Caillerets blanc;10
+aoc-1096;Meursault premier cru Les Caillerets rouge;10
+aoc-1097;Meursault premier cru Les Cras blanc;10
+aoc-1098;Meursault premier cru Les Cras rouge;10
+aoc-1099;Meursault premier cru Les Gouttes d'Or blanc;10
+aoc-1100;Meursault premier cru Les Gouttes d'Or rouge;10
+aoc-1101;Meursault premier cru Les Plures blanc;10
+aoc-1102;Meursault premier cru Les Santenots Blancs blanc;10
+aoc-1103;Meursault premier cru Les Santenots du Milieu blanc;10
+aoc-1104;Meursault premier cru Perrieres blanc;10
+aoc-1105;Meursault premier cru Perrieres rouge;10
+aoc-1106;Meursault premier cru Porusot blanc;10
+aoc-1107;Meursault premier cru Porusot rouge;10
+aoc-1108;Meursault premier cru Sous Blagny blanc;10
+aoc-1109;Meursault premier cru Sous le Dos d'Ane blanc;10
+aoc-1110;Meursault premier cru blanc;10
+aoc-1111;Meursault premier cru rouge;10
+aoc-1112;Montagny;10
+aoc-1113;Montagny premier cru Champ Toizeau;10
+aoc-1114;Montagny premier cru Chazelle;10
+aoc-1115;Montagny premier cru Cornevent;10
+aoc-1116;Montagny premier cru Creux de Beaux Champs;10
+aoc-1117;Montagny premier cru L'Epaule;10
+aoc-1118;Montagny premier cru La Condemine du Vieux Château;10
+aoc-1119;Montagny premier cru La Grande Piece;10
+aoc-1120;Montagny premier cru La Moulliere;10
+aoc-1121;Montagny premier cru Le Clos Chaudron;10
+aoc-1122;Montagny premier cru Le Clouzot;10
+aoc-1123;Montagny premier cru Le Vieux Château;10
+aoc-1124;Montagny premier cru Les Bassets;10
+aoc-1125;Montagny premier cru Les Beaux Champs;10
+aoc-1126;Montagny premier cru Les Bonneveaux;10
+aoc-1127;Montagny premier cru Les Bordes;10
+aoc-1128;Montagny premier cru Les Bouchots;10
+aoc-1129;Montagny premier cru Les Burnins;10
+aoc-1130;Montagny premier cru Les Chaniots;10
+aoc-1131;Montagny premier cru Les Chaumelottes;10
+aoc-1132;Montagny premier cru Le Cloux;10
+aoc-1133;Montagny premier cru Les Combes;10
+aoc-1134;Montagny premier cru Les Coudrettes;10
+aoc-1135;Montagny premier cru Les Coeres;10
+aoc-1136;Montagny premier cru Les Craboulettes;10
+aoc-1137;Montagny premier cru Les Garcheres;10
+aoc-1138;Montagny premier cru Les Gouresses;10
+aoc-1139;Montagny premier cru Les Jardins;10
+aoc-1140;Montagny premier cru Les Las;10
+aoc-1141;Montagny premier cru Les Macles;10
+aoc-1142;Montagny premier cru Les Maroques;10
+aoc-1143;Montagny premier cru Les Paquiers;10
+aoc-1144;Montagny premier cru Les Perrieres;10
+aoc-1145;Montagny premier cru Les Pidances;10
+aoc-1146;Montagny premier cru Les Platieres;10
+aoc-1147;Montagny premier cru Les Resses;10
+aoc-1148;Montagny premier cru Les Treufferes;10
+aoc-1149;Montagny premier cru Les Vignes Derriere;10
+aoc-1150;Montagny premier cru Les Vignes longues;10
+aoc-1151;Montagny premier cru Les Vignes des Pres;10
+aoc-1152;Montagny premier cru Vignes sur le Cloux;10
+aoc-1153;Montagny premier cru Montcuchot;10
+aoc-1154;Montagny premier cru Mont Laurent;10
+aoc-1155;Montagny premier cru Montorge;10
+aoc-1156;Montagny premier cru Sainte-Morille;10
+aoc-1157;Montagny premier cru Saint-Ytages;10
+aoc-1158;Montagny premier cru Sous les Feilles;10
+aoc-1159;Montagny premier cru Vigne du soleil;10
+aoc-1160;Montagny premier cru Vignes Couland;10
+aoc-1161;Montagny premier cru Vignes Saint-Pierre;10
+aoc-1162;Montagny premier cru;10
+aoc-1163;Monthelie blanc;10
+aoc-1164;Monthelie rouge (ou Monthelie Cote de Beaune);10
+aoc-1165;Monthelie premier cru La Taupine blanc;10
+aoc-1166;Monthelie premier cru La Taupine rouge;10
+aoc-1167;Monthelie premier cru Le Cas Rougeot blanc;10
+aoc-1168;Monthelie premier cru Le Cas Rougeot rouge;10
+aoc-1169;Monthelie premier cru Le Château Gaillard blanc;10
+aoc-1170;Monthelie premier cru Le Château Gaillard rouge;10
+aoc-1171;Monthelie premier cru Le Clos Gauthey blanc;10
+aoc-1172;Monthelie premier cru Le Clos Gauthey rouge;10
+aoc-1173;Monthelie premier cru Le Meix Bataille blanc;10
+aoc-1174;Monthelie premier cru Le Meix Bataille rouge;10
+aoc-1175;Monthelie premier cru Le Village blanc;10
+aoc-1176;Monthelie premier cru Le Village rouge;10
+aoc-1177;Monthelie premier cru Les Champs Fulliots blanc;10
+aoc-1178;Monthelie premier cru Les Champs Fulliots rouge;10
+aoc-1179;Monthelie premier cru Les Duresses blanc;10
+aoc-1180;Monthelie premier cru Les Duresses rouge;10
+aoc-1181;Monthelie premier cru Les Riottes blanc;10
+aoc-1182;Monthelie premier cru Les Riottes rouge;10
+aoc-1183;Monthelie premier cru Les Vignes Rondes blanc;10
+aoc-1184;Monthelie premier cru Les Vignes Rondes rouge;10
+aoc-1185;Monthelie premier cru Sur la Velle blanc;10
+aoc-1186;Monthelie premier cru Sur la Velle rouge;10
+aoc-1187;Monthelie premier cru blanc;10
+aoc-1188;Monthelie premier cru rouge;10
+aoc-1189;Montrachet;10
+aoc-1190;Morey-Saint-Denis blanc;10
+aoc-1191;Morey-Saint-Denis rouge;10
+aoc-1192;Morey-Saint-Denis premier cru Aux Charmes blanc;10
+aoc-1193;Morey-Saint-Denis premier cru Aux Charmes rouge;10
+aoc-1194;Morey-Saint-Denis premier cru Aux Cheseaux blanc;10
+aoc-1195;Morey-Saint-Denis premier cru Aux Cheseaux rouge;10
+aoc-1196;Morey-Saint-Denis premier cru Clos Baulet blanc;10
+aoc-1197;Morey-Saint-Denis premier cru Clos Baulet rouge;10
+aoc-1198;Morey-Saint-Denis premier cru Clos Sorbe blanc;10
+aoc-1199;Morey-Saint-Denis premier cru Clos Sorbe rouge;10
+aoc-1200;Morey-Saint-Denis premier cru Clos des Ormes blanc;10
+aoc-1201;Morey-Saint-Denis premier cru Clos des Ormes rouge;10
+aoc-1202;Morey-Saint-Denis premier cru Cote Rotie blanc;10
+aoc-1203;Morey-Saint-Denis premier cru Cote Rotie rouge;10
+aoc-1204;Morey-Saint-Denis premier cru La Bussiere blanc;10
+aoc-1205;Morey-Saint-Denis premier cru La Bussiere rouge;10
+aoc-1206;Morey-Saint-Denis premier cru La Riotte blanc;10
+aoc-1207;Morey-Saint-Denis premier cru La Riotte rouge;10
+aoc-1208;Morey-Saint-Denis premier cru Le Village blanc;10
+aoc-1209;Morey-Saint-Denis premier cru Le Village rouge;10
+aoc-1210;Morey-Saint-Denis premier cru Les Blanchards blanc;10
+aoc-1211;Morey-Saint-Denis premier cru Les Blanchards rouge;10
+aoc-1212;Morey-Saint-Denis premier cru Les Chaffots blanc;10
+aoc-1213;Morey-Saint-Denis premier cru Les Chaffots rouge;10
+aoc-1214;Morey-Saint-Denis premier cru Les Charrieres blanc;10
+aoc-1215;Morey-Saint-Denis premier cru Les Charrieres rouge;10
+aoc-1216;Morey-Saint-Denis premier cru Les Chenevery blanc;10
+aoc-1217;Morey-Saint-Denis premier cru Les Chenevery rouge;10
+aoc-1218;Morey-Saint-Denis premier cru Les Faconnieres blanc;10
+aoc-1219;Morey-Saint-Denis premier cru Les Faconnieres rouge;10
+aoc-1220;Morey-Saint-Denis premier cru Les Genavrieres blanc;10
+aoc-1221;Morey-Saint-Denis premier cru Les Genavrieres rouge;10
+aoc-1222;Morey-Saint-Denis premier cru Les Gruenchers blanc;10
+aoc-1223;Morey-Saint-Denis premier cru Les Gruenchers rouge;10
+aoc-1224;Morey-Saint-Denis premier cru Les Millandes blanc;10
+aoc-1225;Morey-Saint-Denis premier cru Les Millandes rouge;10
+aoc-1226;Morey-Saint-Denis premier cru Les Ruchots blanc;10
+aoc-1227;Morey-Saint-Denis premier cru Les Ruchots rouge;10
+aoc-1228;Morey-Saint-Denis premier cru Les Sorbes blanc;10
+aoc-1229;Morey-Saint-Denis premier cru Les Sorbes rouge;10
+aoc-1230;Morey-Saint-Denis premier cru Monts Luisants blanc;10
+aoc-1231;Morey-Saint-Denis premier cru Monts Luisants rouge;10
+aoc-1232;Morey-Saint-Denis premier cru blanc;10
+aoc-1233;Morey-Saint-Denis premier cru rouge;10
+aoc-1234;Morgon ou Morgon cru du Beaujolais;11
+aoc-1235;Moulin-à-Vent ou Moulin-à-Vent cru du Beaujolais;10
+aoc-1236;Musigny blanc;10
+aoc-1237;Musigny rouge;10
+aoc-1238;Nuits-Saint-Georges blanc;10
+aoc-1239;Nuits-Saint-Georges rouge;10
+aoc-1240;Nuits-Saint-Georges premier cru Aux Argillas blanc;10
+aoc-1241;Nuits-Saint-Georges premier cru Aux Argillas rouge;10
+aoc-1242;Nuits-Saint-Georges premier cru Aux Boudots blanc;10
+aoc-1243;Nuits-Saint-Georges premier cru Aux Boudots rouge;10
+aoc-1244;Nuits-Saint-Georges premier cru Aux Bousselots blanc;10
+aoc-1245;Nuits-Saint-Georges premier cru Aux Bousselots rouge;10
+aoc-1246;Nuits-Saint-Georges premier cru Aux Chaignots blanc;10
+aoc-1247;Nuits-Saint-Georges premier cru Aux Chaignots rouge;10
+aoc-1248;Nuits-Saint-Georges premier cru Aux Champs Perdrix blanc;10
+aoc-1249;Nuits-Saint-Georges premier cru Aux Champs Perdrix rouge;10
+aoc-1250;Nuits-Saint-Georges premier cru Aux Cras blanc;10
+aoc-1251;Nuits-Saint-Georges premier cru Aux Cras rouge;10
+aoc-1252;Nuits-Saint-Georges premier cru Aux Murgers blanc;10
+aoc-1253;Nuits-Saint-Georges premier cru Aux Murgers rouge;10
+aoc-1254;Nuits-Saint-Georges premier cru Aux Perdrix blanc;10
+aoc-1255;Nuits-Saint-Georges premier cru Aux Perdrix rouge;10
+aoc-1256;Nuits-Saint-Georges premier cru Aux Thorey blanc;10
+aoc-1257;Nuits-Saint-Georges premier cru Aux Thorey rouge;10
+aoc-1258;Nuits-Saint-Georges premier cru Aux Vignerondes blanc;10
+aoc-1259;Nuits-Saint-Georges premier cru Aux Vignerondes rouge;10
+aoc-1260;Nuits-Saint-Georges premier cru Chaines Carteaux blanc;10
+aoc-1261;Nuits-Saint-Georges premier cru Chaines Carteaux rouge;10
+aoc-1262;Nuits-Saint-Georges premier cru Château Gris blanc;10
+aoc-1263;Nuits-Saint-Georges premier cru Château Gris rouge;10
+aoc-1264;Nuits-Saint-Georges premier cru Clos Arlot blanc;10
+aoc-1265;Nuits-Saint-Georges premier cru Clos Arlot rouge;10
+aoc-1266;Nuits-Saint-Georges premier cru Clos Saint-Marc blanc;10
+aoc-1267;Nuits-Saint-Georges premier cru Clos Saint-Marc rouge;10
+aoc-1268;Nuits-Saint-Georges premier cru Clos de la Marechale blanc;10
+aoc-1269;Nuits-Saint-Georges premier cru Clos de la Marechale rouge;10
+aoc-1270;Nuits-Saint-Georges premier cru Clos des Argillieres blanc;10
+aoc-1271;Nuits-Saint-Georges premier cru Clos des Argillieres rouge;10
+aoc-1272;Nuits-Saint-Georges premier cru Clos des Corvees blanc;10
+aoc-1273;Nuits-Saint-Georges premier cru Clos des Corvees rouge;10
+aoc-1274;Nuits-Saint-Georges premier cru Clos des Corvees Pagets blanc;10
+aoc-1275;Nuits-Saint-Georges premier cru Clos des Corvees Pagets rouge;10
+aoc-1276;Nuits-Saint-Georges premier cru Clos des Forets Saint-Georges blanc;10
+aoc-1277;Nuits-Saint-Georges premier cru Clos des Forets Saint-Georges rouge;10
+aoc-1278;Nuits-Saint-Georges premier cru Clos des Grandes Vignes blanc;10
+aoc-1279;Nuits-Saint-Georges premier cru Clos des Grandes Vignes rouge;10
+aoc-1280;Nuits-Saint-Georges premier cru Clos des Porrets-Saint-Georges blanc;10
+aoc-1281;Nuits-Saint-Georges premier cru Clos des Porrets-Saint-Georges rouge;10
+aoc-1282;Nuits-Saint-Georges premier cru En la Perriere Noblot blanc;10
+aoc-1283;Nuits-Saint-Georges premier cru En la Perriere Noblot rouge;10
+aoc-1284;Nuits-Saint-Georges premier cru La Richemone blanc;10
+aoc-1285;Nuits-Saint-Georges premier cru La Richemone rouge;10
+aoc-1286;Nuits-Saint-Georges premier cru Les Argillieres blanc;10
+aoc-1287;Nuits-Saint-Georges premier cru Les Argillieres rouge;10
+aoc-1288;Nuits-Saint-Georges premier cru Les Cailles blanc;10
+aoc-1289;Nuits-Saint-Georges premier cru Les Cailles rouge;10
+aoc-1290;Nuits-Saint-Georges premier cru Les Chabœufs blanc;10
+aoc-1291;Nuits-Saint-Georges premier cru Les Chabœufs rouge;10
+aoc-1292;Nuits-Saint-Georges premier cru Les Crots blanc;10
+aoc-1293;Nuits-Saint-Georges premier cru Les Crots rouge;10
+aoc-1294;Nuits-Saint-Georges premier cru Les Damodes blanc;10
+aoc-1295;Nuits-Saint-Georges premier cru Les Damodes rouge;10
+aoc-1296;Nuits-Saint-Georges premier cru Les Didiers blanc;10
+aoc-1297;Nuits-Saint-Georges premier cru Les Didiers rouge;10
+aoc-1298;Nuits-Saint-Georges premier cru Les Hauts Pruliers blanc;10
+aoc-1299;Nuits-Saint-Georges premier cru Les Hauts Pruliers rouge;10
+aoc-1300;Nuits-Saint-Georges premier cru Les Perrieres blanc;10
+aoc-1301;Nuits-Saint-Georges premier cru Les Perrieres rouge;10
+aoc-1302;Nuits-Saint-Georges premier cru Les Porrets-Saint-Georges blanc;10
+aoc-1303;Nuits-Saint-Georges premier cru Les Porrets-Saint-Georges rouge;10
+aoc-1304;Nuits-Saint-Georges premier cru Les Poulettes blanc;10
+aoc-1305;Nuits-Saint-Georges premier cru Les Poulettes rouge;10
+aoc-1306;Nuits-Saint-Georges premier cru Les Proces blanc;10
+aoc-1307;Nuits-Saint-Georges premier cru Les Proces rouge;10
+aoc-1308;Nuits-Saint-Georges premier cru Les Pruliers blanc;10
+aoc-1309;Nuits-Saint-Georges premier cru Les Pruliers rouge;10
+aoc-1310;Nuits-Saint-Georges premier cru Les Saints-Georges blanc;10
+aoc-1311;Nuits-Saint-Georges premier cru Les Saints-Georges rouge;10
+aoc-1312;Nuits-Saint-Georges premier cru Les Terres Blanches blanc;10
+aoc-1313;Nuits-Saint-Georges premier cru Les Terres Blanches rouge;10
+aoc-1314;Nuits-Saint-Georges premier cru Les Vallerots blanc;10
+aoc-1315;Nuits-Saint-Georges premier cru Les Vallerots rouge;10
+aoc-1316;Nuits-Saint-Georges premier cru Les Vaucrains blanc;10
+aoc-1317;Nuits-Saint-Georges premier cru Les Vaucrains rouge;10
+aoc-1318;Nuits-Saint-Georges premier cru Ronciere blanc;10
+aoc-1319;Nuits-Saint-Georges premier cru Ronciere rouge;10
+aoc-1320;Nuits-Saint-Georges premier cru Rue de Chaux blanc;10
+aoc-1321;Nuits-Saint-Georges premier cru Rue de Chaux rouge;10
+aoc-1322;Nuits-Saint-Georges premier cru blanc;10
+aoc-1323;Nuits-Saint-Georges premier cru rouge;10
+aoc-1324;Pernand-Vergelesses blanc;10
+aoc-1325;Pernand-Vergelesses rouge ou Pernand-Vergelesses Cote de Beaune;10
+aoc-1326;Pernand-Vergelesses premier cru Creux de la Net blanc;10
+aoc-1327;Pernand-Vergelesses premier cru Creux de la Net rouge;10
+aoc-1328;Pernand-Vergelesses premier cru En Caradeux blanc;10
+aoc-1329;Pernand-Vergelesses premier cru En Caradeux rouge;10
+aoc-1330;Pernand-Vergelesses premier cru Ile des Vergelesses blanc;10
+aoc-1331;Pernand-Vergelesses premier cru Ile des Vergelesses rouge;10
+aoc-1332;Pernand-Vergelesses premier cru Les Fichots blanc;10
+aoc-1333;Pernand-Vergelesses premier cru Les Fichots rouge;10
+aoc-1334;Pernand-Vergelesses premier cru Vergelesses blanc;10
+aoc-1335;Pernand-Vergelesses premier cru Vergelesses rouge;10
+aoc-1336;Pernand-Vergelesses premier cru blanc;10
+aoc-1337;Pernand-Vergelesses premier cru rouge;10
+aoc-1338;Pommard;10
+aoc-1339;Pommard premier cru Clos Blanc;10
+aoc-1340;Pommard premier cru Clos de Verger;10
+aoc-1341;Pommard premier cru Clos de la Commaraine;10
+aoc-1342;Pommard premier cru Clos des Epeneaux;10
+aoc-1343;Pommard premier cru Derriere Saint-Jean;10
+aoc-1344;Pommard premier cru En Largilliere;10
+aoc-1345;Pommard premier cru La Chaniere;10
+aoc-1346;Pommard premier cru La Platiere;10
+aoc-1347;Pommard premier cru La Refene;10
+aoc-1348;Pommard premier cru Le Clos Micot;10
+aoc-1349;Pommard premier cru Le Village;10
+aoc-1350;Pommard premier cru Les Arvelets;10
+aoc-1351;Pommard premier cru Les Bertins;10
+aoc-1352;Pommard premier cru Les Boucherottes;10
+aoc-1353;Pommard premier cru Les Chanlins-Bas;10
+aoc-1354;Pommard premier cru Les Chaponnieres;10
+aoc-1355;Pommard premier cru Les Charmots;10
+aoc-1356;Pommard premier cru Les Combes Dessus;10
+aoc-1357;Pommard premier cru Les Croix Noires;10
+aoc-1358;Pommard premier cru Les Fremiers;10
+aoc-1359;Pommard premier cru Les Grands Epenots;10
+aoc-1360;Pommard premier cru Les Jarolieres;10
+aoc-1361;Pommard premier cru Les Petits Epenots;10
+aoc-1362;Pommard premier cru Les Poutures;10
+aoc-1363;Pommard premier cru Les Pezerolles;10
+aoc-1364;Pommard premier cru Les Rugiens Bas;10
+aoc-1365;Pommard premier cru Les Rugiens Hauts;10
+aoc-1366;Pommard premier cru Les Saussilles;10
+aoc-1367;Pommard premier cru;10
+aoc-1368;Pouilly-Fuisse;10
+aoc-1369;Pouilly-Fuisse complete par une denomination de climat;10
+aoc-1370;Pouilly-Loche;10
+aoc-1371;Pouilly-Loche complete par une denomination de climat;10
+aoc-1372;Pouilly-Vinzelles;10
+aoc-1373;Pouilly-Vinzelles complete par une denomination de climat;10
+aoc-1374;Puligny-Montrachet blanc;10
+aoc-1375;Puligny-Montrachet rouge ou Puligny-Montrachet Cote de Beaune;10
+aoc-1376;Puligny-Montrachet premier cru Champ Canet blanc;10
+aoc-1377;Puligny-Montrachet premier cru Champ Canet rouge;10
+aoc-1378;Puligny-Montrachet premier cru Champ Gain blanc;10
+aoc-1379;Puligny-Montrachet premier cru Champ Gain rouge;10
+aoc-1380;Puligny-Montrachet premier cru Clavaillon blanc;10
+aoc-1381;Puligny-Montrachet premier cru Clavaillon rouge;10
+aoc-1382;Puligny-Montrachet premier cru Clos de la Garenne blanc;10
+aoc-1383;Puligny-Montrachet premier cru Clos de la Garenne rouge;10
+aoc-1384;Puligny-Montrachet premier cru Clos de la Mouchere blanc;10
+aoc-1385;Puligny-Montrachet premier cru Clos de la Mouchere rouge;10
+aoc-1386;Puligny-Montrachet premier cru Hameau de Blagny blanc;10
+aoc-1387;Puligny-Montrachet premier cru La Garenne blanc;10
+aoc-1388;Puligny-Montrachet premier cru La Truffiere blanc;10
+aoc-1389;Puligny-Montrachet premier cru La Truffiere rouge;10
+aoc-1390;Puligny-Montrachet premier cru Le Cailleret blanc;10
+aoc-1391;Puligny-Montrachet premier cru Le Cailleret rouge;10
+aoc-1392;Puligny-Montrachet premier cru Les Chalumaux blanc;10
+aoc-1393;Puligny-Montrachet premier cru Les Chalumaux rouge;10
+aoc-1394;Puligny-Montrachet premier cru Les Combettes blanc;10
+aoc-1395;Puligny-Montrachet premier cru Les Combettes rouge;10
+aoc-1396;Puligny-Montrachet premier cru Les Demoiselles blanc;10
+aoc-1397;Puligny-Montrachet premier cru Les Demoiselles rouge;10
+aoc-1398;Puligny-Montrachet premier cru Les Folatieres blanc;10
+aoc-1399;Puligny-Montrachet premier cru Les Folatieres rouge;10
+aoc-1400;Puligny-Montrachet premier cru Les Perrieres blanc;10
+aoc-1401;Puligny-Montrachet premier cru Les Perrieres rouge;10
+aoc-1402;Puligny-Montrachet premier cru Les Pucelles blanc;10
+aoc-1403;Puligny-Montrachet premier cru Les Pucelles rouge;10
+aoc-1404;Puligny-Montrachet premier cru Les Referts blanc;10
+aoc-1405;Puligny-Montrachet premier cru Les Referts rouge;10
+aoc-1406;Puligny-Montrachet premier cru Sous le Puits blanc;10
+aoc-1407;Puligny-Montrachet premier cru blanc;10
+aoc-1408;Puligny-Montrachet premier cru rouge;10
+aoc-1409;Regnie ou Regnie cru du Beaujolais;11
+aoc-1410;Richebourg;10
+aoc-1411;Romanee-Conti;10
+aoc-1412;Romanee-Saint-Vivant;10
+aoc-1413;Ruchottes-Chambertin;10
+aoc-1414;Rully blanc;10
+aoc-1415;Rully rouge;10
+aoc-1416;Rully premier cru Agneux blanc;10
+aoc-1417;Rully premier cru Agneux rouge;10
+aoc-1418;Rully premier cru Champs Cloux blanc;10
+aoc-1419;Rully premier cru Champs Cloux rouge;10
+aoc-1420;Rully premier cru Chapitre blanc;10
+aoc-1421;Rully premier cru Chapitre rouge;10
+aoc-1422;Rully premier cru Clos St Jacques blanc;10
+aoc-1423;Rully premier cru Clos St Jacques rouge;10
+aoc-1424;Rully premier cru Clos du Chaigne blanc;10
+aoc-1425;Rully premier cru Clos du Chaigne rouge;10
+aoc-1426;Rully premier cru Cloux blanc;10
+aoc-1427;Rully premier cru Cloux rouge;10
+aoc-1428;Rully premier cru Gresigny blanc;10
+aoc-1429;Rully premier cru Gresigny rouge;10
+aoc-1430;Rully premier cru La Bressande blanc;10
+aoc-1431;Rully premier cru La Bressande rouge;10
+aoc-1432;Rully premier cru La Fosse blanc;10
+aoc-1433;Rully premier cru La Fosse rouge;10
+aoc-1434;Rully premier cru La Pucelle blanc;10
+aoc-1435;Rully premier cru La Pucelle rouge;10
+aoc-1436;Rully premier cru La Renarde blanc;10
+aoc-1437;Rully premier cru La Renarde rouge;10
+aoc-1438;Rully premier cru Les Pierres blanc;10
+aoc-1439;Rully premier cru Les Pierres rouge;10
+aoc-1440;Rully premier cru Margotes blanc;10
+aoc-1441;Rully premier cru Margotes rouge;10
+aoc-1442;Rully premier cru Marissou blanc;10
+aoc-1443;Rully premier cru Marissou rouge;10
+aoc-1444;Rully premier cru Le Meix Cadot blanc;10
+aoc-1445;Rully premier cru Le Meix Cadot rouge;10
+aoc-1446;Rully premier cru Le Meix Caillet blanc;10
+aoc-1447;Rully premier cru Le Meix Caillet rouge;10
+aoc-1448;Rully premier cru Molesme blanc;10
+aoc-1449;Rully premier cru Molesme rouge;10
+aoc-1450;Rully premier cru Montpalais blanc;10
+aoc-1451;Rully premier cru Montpalais rouge;10
+aoc-1452;Rully premier cru Pillot blanc;10
+aoc-1453;Rully premier cru Pillot rouge;10
+aoc-1454;Rully premier cru Preaux blanc;10
+aoc-1455;Rully premier cru Preaux rouge;10
+aoc-1456;Rully premier cru Rabource blanc;10
+aoc-1457;Rully premier cru Rabource rouge;10
+aoc-1458;Rully premier cru Raclot blanc;10
+aoc-1459;Rully premier cru Raclot rouge;10
+aoc-1460;Rully premier cru Vauvry blanc;10
+aoc-1461;Rully premier cru Vauvry rouge;10
+aoc-1462;Rully premier cru blanc;10
+aoc-1463;Rully premier cru rouge;10
+aoc-1464;Saint-Amour ou Saint-Amour cru du Beaujolais;10
+aoc-1465;Saint-Aubin blanc;10
+aoc-1466;Saint-Aubin rouge ou Saint-Aubin Cote de Beaune;10
+aoc-1467;Saint-Aubin premier cru Bas de Vermarain à l'Est blanc;10
+aoc-1468;Saint-Aubin premier cru Bas de Vermarain à l'Est rouge;10
+aoc-1469;Saint-Aubin premier cru Derriere Chez Edouard blanc;10
+aoc-1470;Saint-Aubin premier cru Derriere Chez Edouard rouge;10
+aoc-1471;Saint-Aubin premier cru Derriere la Tour blanc;10
+aoc-1472;Saint-Aubin premier cru Derriere la Tour rouge;10
+aoc-1473;Saint-Aubin premier cru Echaille blanc;10
+aoc-1474;Saint-Aubin premier cru Echaille rouge;10
+aoc-1475;Saint-Aubin premier cru En Creot blanc;10
+aoc-1476;Saint-Aubin premier cru En Creot rouge;10
+aoc-1477;Saint-Aubin premier cru En Montceau blanc;10
+aoc-1478;Saint-Aubin premier cru En Montceau rouge;10
+aoc-1479;Saint-Aubin premier cru En Remilly blanc;10
+aoc-1480;Saint-Aubin premier cru En Remilly rouge;10
+aoc-1481;Saint-Aubin premier cru En Vollon à l'Est blanc;10
+aoc-1482;Saint-Aubin premier cru En Vollon à l'Est rouge;10
+aoc-1483;Saint-Aubin premier cru En la Ranche blanc;10
+aoc-1484;Saint-Aubin premier cru En la Ranche rouge;10
+aoc-1485;Saint-Aubin premier cru Es Champs blanc;10
+aoc-1486;Saint-Aubin premier cru Es Champs rouge;10
+aoc-1487;Saint-Aubin premier cru La Chateniere blanc;10
+aoc-1488;Saint-Aubin premier cru La Chateniere rouge;10
+aoc-1489;Saint-Aubin premier cru Le Bas de Gamay à l'Est blanc;10
+aoc-1490;Saint-Aubin premier cru Le Bas de Gamay à l'Est rouge;10
+aoc-1491;Saint-Aubin premier cru Le Charmois blanc;10
+aoc-1492;Saint-Aubin premier cru Le Charmois rouge;10
+aoc-1493;Saint-Aubin premier cru Le Puits blanc;10
+aoc-1494;Saint-Aubin premier cru Le Puits rouge;10
+aoc-1495;Saint-Aubin premier cru Les Castets blanc;10
+aoc-1496;Saint-Aubin premier cru Les Castets rouge;10
+aoc-1497;Saint-Aubin premier cru Les Champlots blanc;10
+aoc-1498;Saint-Aubin premier cru Les Champlots rouge;10
+aoc-1499;Saint-Aubin premier cru Les Combes blanc;10
+aoc-1500;Saint-Aubin premier cru Les Combes rouge;10
+aoc-1501;Saint-Aubin premier cru Les Combes au Sud blanc;10
+aoc-1502;Saint-Aubin premier cru Les Combes au Sud rouge;10
+aoc-1503;Saint-Aubin premier cru Les Cortons blanc;10
+aoc-1504;Saint-Aubin premier cru Les Cortons rouge;10
+aoc-1505;Saint-Aubin premier cru Les Frionnes blanc;10
+aoc-1506;Saint-Aubin premier cru Les Frionnes rouge;10
+aoc-1507;Saint-Aubin premier cru Les Murgers des dents de chien blanc;10
+aoc-1508;Saint-Aubin premier cru Les Murgers des dents de chien rouge;10
+aoc-1509;Saint-Aubin premier cru Les Perrieres blanc;10
+aoc-1510;Saint-Aubin premier cru Les Perrieres rouge;10
+aoc-1511;Saint-Aubin premier cru Les Travers de Marinot blanc;10
+aoc-1512;Saint-Aubin premier cru Les Travers de Marinot rouge;10
+aoc-1513;Saint-Aubin premier cru Marinot blanc;10
+aoc-1514;Saint-Aubin premier cru Marinot rouge;10
+aoc-1515;Saint-Aubin premier cru Pitangeret blanc;10
+aoc-1516;Saint-Aubin premier cru Pitangeret rouge;10
+aoc-1517;Saint-Aubin premier cru Sous Roche Dumay blanc;10
+aoc-1518;Saint-Aubin premier cru Sous Roche Dumay rouge;10
+aoc-1519;Saint-Aubin premier cru Sur Gamay blanc;10
+aoc-1520;Saint-Aubin premier cru Sur Gamay rouge;10
+aoc-1521;Saint-Aubin premier cru Sur le sentier du Clou blanc;10
+aoc-1522;Saint-Aubin premier cru Sur le sentier du Clou rouge;10
+aoc-1523;Saint-Aubin premier cru Vignes Moingeon blanc;10
+aoc-1524;Saint-Aubin premier cru Vignes Moingeon rouge;10
+aoc-1525;Saint-Aubin premier cru Village blanc;10
+aoc-1526;Saint-Aubin premier cru Village rouge;10
+aoc-1527;Saint-Aubin premier cru blanc;10
+aoc-1528;Saint-Aubin premier cru rouge;10
+aoc-1529;Saint-Romain;10
+aoc-1530;Saint-Romain rouge ou Saint-Romain Cote de Beaune;10
+aoc-1531;Saint-Veran;10
+aoc-1532;Saint-Veran complete par une denomination de climat;10
+aoc-1533;Santenay blanc;10
+aoc-1534;Santenay rouge ou Santenay Cote de Beaune;10
+aoc-1535;Santenay premier cru Beauregard blanc;10
+aoc-1536;Santenay premier cru Beauregard rouge;10
+aoc-1537;Santenay premier cru Beaurepaire blanc;10
+aoc-1538;Santenay premier cru Beaurepaire rouge;10
+aoc-1539;Santenay premier cru Clos Faubard blanc;10
+aoc-1540;Santenay premier cru Clos Faubard rouge;10
+aoc-1541;Santenay premier cru Clos Rousseau blanc;10
+aoc-1542;Santenay premier cru Clos Rousseau rouge;10
+aoc-1543;Santenay premier cru Clos de Tavannes blanc;10
+aoc-1544;Santenay premier cru Clos de Tavannes rouge;10
+aoc-1545;Santenay premier cru Clos des Mouches blanc;10
+aoc-1546;Santenay premier cru Clos des Mouches rouge;10
+aoc-1547;Santenay premier cru Grand Clos Rousseau blanc;10
+aoc-1548;Santenay premier cru Grand Clos Rousseau rouge;10
+aoc-1549;Santenay premier cru La Comme blanc;10
+aoc-1550;Santenay premier cru La Comme rouge;10
+aoc-1551;Santenay premier cru La Maladiere blanc;10
+aoc-1552;Santenay premier cru La Maladiere rouge;10
+aoc-1553;Santenay premier cru Les Gravieres blanc;10
+aoc-1554;Santenay premier cru Les Gravieres rouge;10
+aoc-1555;Santenay premier cru Les Gravieres-Clos de Tavannes blanc;10
+aoc-1556;Santenay premier cru Les Gravieres-Clos de Tavannes rouge;10
+aoc-1557;Santenay premier cru Passetemps blanc;10
+aoc-1558;Santenay premier cru Passetemps rouge;10
+aoc-1559;Santenay premier cru blanc;10
+aoc-1560;Santenay premier cru rouge;10
+aoc-1561;Savigny-les-Beaune blanc;10
+aoc-1562;Savigny-les-Beaune rouge ou Savigny-les-Beaune Cote de Beaune;10
+aoc-1563;Savigny-les-Beaune premier cru Aux Clous blanc;10
+aoc-1564;Savigny-les-Beaune premier cru Aux Clous rouge;10
+aoc-1565;Savigny-les-Beaune premier cru Aux Fourneaux blanc;10
+aoc-1566;Savigny-les-Beaune premier cru Aux Fourneaux rouge;10
+aoc-1567;Savigny-les-Beaune premier cru Aux Gravains blanc;10
+aoc-1568;Savigny-les-Beaune premier cru Aux Gravains rouge;10
+aoc-1569;Savigny-les-Beaune premier cru Aux Guettes blanc;10
+aoc-1570;Savigny-les-Beaune premier cru Aux Guettes rouge;10
+aoc-1571;Savigny-les-Beaune premier cru Aux Serpentieres blanc;10
+aoc-1572;Savigny-les-Beaune premier cru Aux Serpentieres rouge;10
+aoc-1573;Savigny-les-Beaune premier cru Basses Vergelesses blanc;10
+aoc-1574;Savigny-les-Beaune premier cru Basses Vergelesses rouge;10
+aoc-1575;Savigny-les-Beaune premier cru Bataillere blanc;10
+aoc-1576;Savigny-les-Beaune premier cru Bataillere rouge;10
+aoc-1577;Savigny-les-Beaune premier cru Champ Chevrey blanc;10
+aoc-1578;Savigny-les-Beaune premier cru Champ Chevrey rouge;10
+aoc-1579;Savigny-les-Beaune premier cru La Dominode blanc;10
+aoc-1580;Savigny-les-Beaune premier cru La Dominode rouge;10
+aoc-1581;Savigny-les-Beaune premier cru Les Charnieres blanc;10
+aoc-1582;Savigny-les-Beaune premier cru Les Charnieres rouge;10
+aoc-1583;Savigny-les-Beaune premier cru Les Hauts Jarrons blanc;10
+aoc-1584;Savigny-les-Beaune premier cru Les Hauts Jarrons rouge;10
+aoc-1585;Savigny-les-Beaune premier cru Les Hauts Marconnets blanc;10
+aoc-1586;Savigny-les-Beaune premier cru Les Hauts Marconnets rouge;10
+aoc-1587;Savigny-les-Beaune premier cru Les Jarrons blanc;10
+aoc-1588;Savigny-les-Beaune premier cru Les Jarrons rouge;10
+aoc-1589;Savigny-les-Beaune premier cru Les Lavieres blanc;10
+aoc-1590;Savigny-les-Beaune premier cru Les Lavieres rouge;10
+aoc-1591;Savigny-les-Beaune premier cru Les Marconnets blanc;10
+aoc-1592;Savigny-les-Beaune premier cru Les Marconnets rouge;10
+aoc-1593;Savigny-les-Beaune premier cru Les Narbantons blanc;10
+aoc-1594;Savigny-les-Beaune premier cru Les Narbantons rouge;10
+aoc-1595;Savigny-les-Beaune premier cru Les Peuillets blanc;10
+aoc-1596;Savigny-les-Beaune premier cru Les Peuillets rouge;10
+aoc-1597;Savigny-les-Beaune premier cru Les Rouvrettes blanc;10
+aoc-1598;Savigny-les-Beaune premier cru Les Rouvrettes rouge;10
+aoc-1599;Savigny-les-Beaune premier cru Les Talmettes blanc;10
+aoc-1600;Savigny-les-Beaune premier cru Les Talmettes rouge;10
+aoc-1601;Savigny-les-Beaune premier cru Les Vergelesses blanc;10
+aoc-1602;Savigny-les-Beaune premier cru Les Vergelesses rouge;10
+aoc-1603;Savigny-les-Beaune premier cru Petits Godeaux blanc;10
+aoc-1604;Savigny-les-Beaune premier cru Petits Godeaux rouge;10
+aoc-1605;Savigny-les-Beaune premier cru Redrescul blanc;10
+aoc-1606;Savigny-les-Beaune premier cru Redrescul rouge;10
+aoc-1607;Savigny-les-Beaune premier cru blanc;10
+aoc-1608;Savigny-les-Beaune premier cru rouge;10
+aoc-1609;Roussette de Savoie Marestel;11
+aoc-1610;Roussette de Savoie Monterminod;11
+aoc-1611;Roussette de Savoie Monthoux;11
+aoc-1612;Vin de Savoie mousseux blanc;11
+aoc-1613;Vin de Savoie mousseux rose;11
+aoc-1614;Vin de Savoie ou Savoie blanc;11
+aoc-1615;Vin de Savoie ou Savoie rose;11
+aoc-1616;Vin de Savoie ou Savoie rouge;11
+aoc-1617;Vin de Savoie petillant blanc;11
+aoc-1618;Vin de Savoie petillant rose;11
+aoc-1619;Vin de Savoie Abymes ou Les Abymes;11
+aoc-1620;Vin de Savoie Apremont;11
+aoc-1621;Vin de Savoie Arbin;11
+aoc-1622;Vin de Savoie Chautagne blanc;11
+aoc-1623;Vin de Savoie Chautagne rouge;11
+aoc-1624;Vin de Savoie Chignin blanc;11
+aoc-1625;Vin de Savoie Chignin rouge;11
+aoc-1626;Vin de Savoie Chignin-Bergeron;11
+aoc-1627;Vin de Savoie Cruet;11
+aoc-1628;Vin de Savoie Jongieux blanc;11
+aoc-1629;Vin de Savoie Jongieux rouge;11
+aoc-1630;Vin de Savoie Montmelian;11
+aoc-1631;Vin de Savoie Saint-Jean-de-la-Porte;11
+aoc-1632;Vin de Savoie Saint-Jeoire-Prieure;11
+aoc-1633;Volnay;10
+aoc-1634;Volnay premier cru Carelle sous la Chapelle;10
+aoc-1635;Volnay premier cru Champans;10
+aoc-1636;Volnay premier cru Clos de l'Audignac;10
+aoc-1637;Volnay premier cru Clos de la Barre;10
+aoc-1638;Volnay premier cru Clos de la Bousse-d'Or;10
+aoc-1639;Volnay premier cru Clos de la Cave des Ducs;10
+aoc-1640;Volnay premier cru Clos de la Chapelle;10
+aoc-1641;Volnay premier cru Clos de la Rougeotte;10
+aoc-1642;Volnay premier cru Clos des Chenes;10
+aoc-1643;Volnay premier cru Clos des Ducs;10
+aoc-1644;Volnay premier cru Clos du Château des Ducs;10
+aoc-1645;Volnay premier cru Clos du Verseuil;10
+aoc-1646;Volnay premier cru En Chevret;10
+aoc-1647;Volnay premier cru Fremiets;10
+aoc-1648;Volnay premier cru Fremiets - Clos de la Rougeotte;10
+aoc-1649;Volnay premier cru La Gigotte;10
+aoc-1650;Volnay premier cru Lassolle;10
+aoc-1651;Volnay premier cru Le Ronceret;10
+aoc-1652;Volnay premier cru Le Village;10
+aoc-1653;Volnay premier cru Les Angles;10
+aoc-1654;Volnay premier cru Les Brouillards;10
+aoc-1655;Volnay premier cru Les Caillerets;10
+aoc-1656;Volnay premier cru Clos des 60 ouvrees;10
+aoc-1657;Volnay premier cru Les Lurets;10
+aoc-1658;Volnay premier cru Les Mitans;10
+aoc-1659;Volnay premier cru Pitures Dessus;10
+aoc-1660;Volnay premier cru Robardelle;10
+aoc-1661;Volnay premier cru Santenots;10
+aoc-1662;Volnay premier cru Taille Pieds;10
+aoc-1663;Volnay premier cru;10
+aoc-1664;Vosne-Romanee;10
+aoc-1665;Vosne-Romanee premier cru Au-dessus des Malconsorts;10
+aoc-1666;Vosne-Romanee premier cru Aux Brulees;10
+aoc-1667;Vosne-Romanee premier cru Aux Malconsorts;10
+aoc-1668;Vosne-Romanee premier cru Aux Raignots;10
+aoc-1669;Vosne-Romanee premier cru Cros Parantoux;10
+aoc-1670;Vosne-Romanee premier cru Clos des Reas;10
+aoc-1671;Vosne-Romanee premier cru En Orveaux;10
+aoc-1672;Vosne-Romanee premier cru La Croix Rameau;10
+aoc-1673;Vosne-Romanee premier cru Les Beaux Monts;10
+aoc-1674;Vosne-Romanee premier cru Les Chaumes;10
+aoc-1675;Vosne-Romanee premier cru Les Gaudichots;10
+aoc-1676;Vosne-Romanee premier cru Les Petis Monts;10
+aoc-1677;Vosne-Romanee premier cru Les Rouges;10
+aoc-1678;Vosne-Romanee premier cru Les Suchots;10
+aoc-1679;Vosne-Romanee premier cru;10
+aoc-1680;Vougeot blanc;10
+aoc-1681;Vougeot rouge;10
+aoc-1682;Vougeot premier cru Clos de la Perriere blanc;10
+aoc-1683;Vougeot premier cru Clos de la Perriere rouge;10
+aoc-1684;Vougeot premier cru Le Clos Blanc blanc;10
+aoc-1685;Vougeot premier cru Le Clos Blanc rouge;10
+aoc-1686;Vougeot premier cru Les Crâs blanc;10
+aoc-1687;Vougeot premier cru Les Crâs rouge;10
+aoc-1688;Vougeot premier cru Les Petits Vougeots blanc;10
+aoc-1689;Vougeot premier cru Les Petits Vougeots rouge;10
+aoc-1690;Vougeot premier cru blanc;10
+aoc-1691;Vougeot premier cru rouge;10
+aoc-1692;Cotes du Forez rose;20
+aoc-1693;Cotes du Forez rouge;20
+aoc-1694;Saint-Bris;10
+aoc-1695;Bouzeron;10
+aoc-1696;Vire-Clesse;10
+aoc-1697;Vire-Clesse complete par une denomination de climat;10
+aoc-1698;Irancy;10
+aoc-1699;Limoux blanc;16
+aoc-1700;Limoux blanquette de Limoux;16
+aoc-1701;Limoux methode ancestrale;16
+aoc-1702;Limoux rouge;16
+aoc-1703;Clairette de Bellegarde;15
+aoc-1704;Clairette du Languedoc;16
+aoc-1705;Clairette du Languedoc rancio;16
+aoc-1706;Clairette du Languedoc vin de liqueur;16
+aoc-1707;Clairette du Languedoc Adissan;16
+aoc-1708;Clairette du Languedoc Adissan rancio;16
+aoc-1709;Clairette du Languedoc Adissan vin de liqueur;16
+aoc-1710;Clairette du Languedoc Aspiran;16
+aoc-1711;Clairette du Languedoc Aspiran rancio;16
+aoc-1712;Clairette du Languedoc Aspiran vin de liqueur;16
+aoc-1713;Clairette du Languedoc Cabrieres;16
+aoc-1714;Clairette du Languedoc Cabrieres rancio;16
+aoc-1715;Clairette du Languedoc Cabrieres vin de liqueur;16
+aoc-1716;Clairette du Languedoc Ceyras;16
+aoc-1717;Clairette du Languedoc Ceyras rancio;16
+aoc-1718;Clairette du Languedoc Ceyras vin de liqueur;16
+aoc-1719;Clairette du Languedoc Fontes;16
+aoc-1720;Clairette du Languedoc Fontes rancio;16
+aoc-1721;Clairette du Languedoc Fontes vin de liqueur;16
+aoc-1722;Clairette du Languedoc Le Bosc;16
+aoc-1723;Clairette du Languedoc Le Bosc rancio;16
+aoc-1724;Clairette du Languedoc Le Bosc vin de liqueur;16
+aoc-1725;Clairette du Languedoc Lieuran-Cabrieres;16
+aoc-1726;Clairette du Languedoc Lieuran-Cabrieres rancio;16
+aoc-1727;Clairette du Languedoc Lieuran-Cabrieres vin de liqueur;16
+aoc-1728;Clairette du Languedoc Nizas;16
+aoc-1729;Clairette du Languedoc Nizas rancio;16
+aoc-1730;Clairette du Languedoc Nizas vin de liqueur;16
+aoc-1731;Clairette du Languedoc Paulhan;16
+aoc-1732;Clairette du Languedoc Paulhan rancio;16
+aoc-1733;Clairette du Languedoc Paulhan vin de liqueur;16
+aoc-1734;Clairette du Languedoc Peret;16
+aoc-1735;Clairette du Languedoc Peret rancio;16
+aoc-1736;Clairette du Languedoc Peret vin de liqueur;16
+aoc-1737;Clairette du Languedoc Saint-Andre-de-Sangonis;16
+aoc-1738;Clairette du Languedoc Saint-Andre-de-Sangonis rancio;16
+aoc-1739;Clairette du Languedoc Saint-Andre-de-Sangonis vin de liqueur;16
+aoc-1740;Collioure blanc;16
+aoc-1741;Collioure rose;16
+aoc-1742;Collioure rouge;16
+aoc-1743;Corbieres blanc;16
+aoc-1744;Corbieres rose;16
+aoc-1745;Corbieres rouge;16
+aoc-1746;Costieres de Nîmes blanc;15
+aoc-1747;Costieres de Nîmes rose;15
+aoc-1748;Costieres de Nîmes rouge;15
+aoc-1749;Languedoc Cabrieres rose;16
+aoc-1750;Languedoc Cabrieres rouge;16
+aoc-1751;Languedoc La Mejanelle rouge;16
+aoc-1752;Languedoc Montpeyroux rose;16
+aoc-1753;Languedoc Montpeyroux rouge;16
+aoc-1754;Languedoc Pic-Saint-Loup rose;16
+aoc-1755;Languedoc Pic-Saint-Loup rouge;16
+aoc-1756;Languedoc Quatourze rouge;16
+aoc-1757;Languedoc Saint-Christol rouge;16
+aoc-1758;Languedoc Saint-Drezery rouge;16
+aoc-1759;Languedoc Saint-Georges-d'Orques rose;16
+aoc-1760;Languedoc Saint-Georges-d'Orques rouge;16
+aoc-1761;Languedoc Saint-Saturnin rouge;16
+aoc-1762;Languedoc blanc;15
+aoc-1763;Cotes du Roussillon blanc;16
+aoc-1764;Cotes du Roussillon nouveau ou primeur blanc;16
+aoc-1765;Cotes du Roussillon nouveau ou primeur rose;16
+aoc-1766;Cotes du Roussillon nouveau ou primeur rouge;16
+aoc-1767;Cotes du Roussillon rose;16
+aoc-1768;Cotes du Roussillon rouge;16
+aoc-1769;Cotes du Roussillon Villages;16
+aoc-1770;Cotes du Roussillon Villages Caramany;16
+aoc-1771;Cotes du Roussillon Villages Latour-de-France;16
+aoc-1772;Cotes du Roussillon Villages Lesquerde;16
+aoc-1773;Cotes du Roussillon Villages Tautavel;16
+aoc-1774;Faugeres blanc;16
+aoc-1775;Faugeres rose;16
+aoc-1776;Faugeres rouge;16
+aoc-1777;Fitou;16
+aoc-1778;Minervois blanc;16
+aoc-1779;Minervois rose;16
+aoc-1780;Minervois rouge;16
+aoc-1781;Saint-Chinian blanc;16
+aoc-1782;Saint-Chinian rose;16
+aoc-1783;Saint-Chinian rouge;16
+aoc-1784;Cabardes rose;16
+aoc-1785;Cabardes rouge;16
+aoc-1786;Minervois-La Liviniere;16
+aoc-1787;Château-Grillet;20
+aoc-1788;Châteauneuf-du-Pape blanc;13
+aoc-1789;Châteauneuf-du-Pape rouge;13
+aoc-1790;Châtillon-en-Diois blanc;11
+aoc-1791;Châtillon-en-Diois rose;11
+aoc-1792;Châtillon-en-Diois rouge;11
+aoc-1793;Clairette de Die;11
+aoc-1794;Clairette de Die methode ancestrale;11
+aoc-1795;Condrieu;11
+aoc-1796;Cornas;20
+aoc-1797;Cote Rotie;11
+aoc-1798;Cotes du Rhone blanc;13
+aoc-1799;Cotes du Rhone primeur ou nouveau rose;13
+aoc-1800;Cotes du Rhone primeur ou nouveau rouge;13
+aoc-1801;Cotes du Rhone rose;13
+aoc-1802;Cotes du Rhone rouge;13
+aoc-1803;Cotes du Rhone Villages blanc;13
+aoc-1804;Cotes du Rhone Villages rose;13
+aoc-1805;Beaumes de Venise;13
+aoc-1806;Cotes du Rhone Villages Cairanne blanc;13
+aoc-1807;Cotes du Rhone Villages Cairanne rose;13
+aoc-1808;Cotes du Rhone Villages Cairanne rouge;13
+aoc-1809;Cotes du Rhone Villages Chusclan rose;15
+aoc-1810;Cotes du Rhone Villages Chusclan rouge;15
+aoc-1811;Cotes du Rhone Villages Laudun blanc;15
+aoc-1812;Cotes du Rhone Villages Laudun rose;15
+aoc-1813;Cotes du Rhone Villages Laudun rouge;15
+aoc-1814;Cotes du Rhone Villages Roaix blanc;13
+aoc-1815;Cotes du Rhone Villages Roaix rose;13
+aoc-1816;Cotes du Rhone Villages Roaix rouge;13
+aoc-1817;Cotes du Rhone Villages Rochegude blanc;11
+aoc-1818;Cotes du Rhone Villages Rochegude rose;11
+aoc-1819;Cotes du Rhone Villages Rochegude rouge;11
+aoc-1820;Cotes du Rhone Villages Rousset-les-Vignes blanc;11
+aoc-1821;Cotes du Rhone Villages Rousset-les-Vignes rose;11
+aoc-1822;Cotes du Rhone Villages Rousset-les-Vignes rouge;11
+aoc-1823;Cotes du Rhone Villages Sablet blanc;13
+aoc-1824;Cotes du Rhone Villages Sablet rose;13
+aoc-1825;Cotes du Rhone Villages Sablet rouge;13
+aoc-1826;Cotes du Rhone Villages Saint-Gervais blanc;15
+aoc-1827;Cotes du Rhone Villages Saint-Gervais rose;15
+aoc-1828;Cotes du Rhone Villages Saint-Gervais rouge;15
+aoc-1829;Cotes du Rhone Villages Saint-Maurice blanc;11
+aoc-1830;Cotes du Rhone Villages Saint-Maurice rose;11
+aoc-1831;Cotes du Rhone Villages Saint-Maurice rouge;11
+aoc-1832;Cotes du Rhone Villages Saint-Pantaleon-les-Vignes blanc;11
+aoc-1833;Cotes du Rhone Villages Saint-Pantaleon-les-Vignes rose;11
+aoc-1834;Cotes du Rhone Villages Saint-Pantaleon-les-Vignes rouge;11
+aoc-1835;Cotes du Rhone Villages Seguret blanc;13
+aoc-1836;Cotes du Rhone Villages Seguret rose;13
+aoc-1837;Cotes du Rhone Villages Seguret rouge;13
+aoc-1838;Cotes du Rhone Villages Valreas blanc;13
+aoc-1839;Cotes du Rhone Villages Valreas rose;13
+aoc-1840;Cotes du Rhone Villages Valreas rouge;13
+aoc-1841;Vinsobres;11
+aoc-1842;Cotes du Rhone Villages Visan blanc;13
+aoc-1843;Cotes du Rhone Villages Visan rose;13
+aoc-1844;Cotes du Rhone Villages Visan rouge;13
+aoc-1845;Ventoux blanc;13
+aoc-1846;Ventoux primeur ou nouveau blanc;13
+aoc-1847;Ventoux primeur ou nouveau rose;13
+aoc-1848;Ventoux primeur ou nouveau rouge;13
+aoc-1849;Ventoux rose;13
+aoc-1850;Ventoux rouge;13
+aoc-1851;Crozes-Hermitage ou Crozes-Ermitage blanc;11
+aoc-1852;Crozes-Hermitage ou Crozes-Ermitage rouge;11
+aoc-1853;Gigondas rose;13
+aoc-1854;Gigondas rouge;13
+aoc-1855;Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage blanc;11
+aoc-1856;Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage rouge;11
+aoc-1857;Hermitage ou Ermitage ou l'Hermitage ou l'Ermitage vin de paille;11
+aoc-1858;Lirac blanc;15
+aoc-1859;Lirac rose;15
+aoc-1860;Lirac rouge;15
+aoc-1861;Saint-Joseph blanc;20
+aoc-1862;Saint-Joseph rouge;20
+aoc-1863;Saint-Peray;20
+aoc-1864;Saint-Peray mousseux;20
+aoc-1865;Tavel;15
+aoc-1866;Vacqueyras blanc;13
+aoc-1867;Vacqueyras rose;13
+aoc-1868;Vacqueyras rouge;13
+aoc-1869;Cotes du Vivarais blanc;15
+aoc-1870;Cotes du Vivarais rose;15
+aoc-1871;Cotes du Vivarais rouge;15
+aoc-1872;Ajaccio blanc;14
+aoc-1873;Ajaccio rose;14
+aoc-1874;Ajaccio rouge;14
+aoc-1875;Bandol blanc;13
+aoc-1876;Bandol rose;13
+aoc-1877;Bandol rouge;13
+aoc-1878;Bellet ou Vin de Bellet blanc;13
+aoc-1879;Bellet ou Vin de Bellet rose;13
+aoc-1880;Bellet ou Vin de Bellet rouge;13
+aoc-1881;Cassis blanc;13
+aoc-1882;Cassis rose;13
+aoc-1883;Cassis rouge;13
+aoc-1884;Coteaux d'Aix-en-Provence blanc;13
+aoc-1885;Coteaux d'Aix-en-Provence rose;13
+aoc-1886;Coteaux d'Aix-en-Provence rouge;13
+aoc-1887;Coteaux varois en Provence blanc;13
+aoc-1888;Coteaux varois en Provence rose;13
+aoc-1889;Coteaux varois en Provence rouge;13
+aoc-1890;Cotes de Provence blanc;13
+aoc-1891;Cotes de Provence rose;13
+aoc-1892;Cotes de Provence rouge;13
+aoc-1893;Palette blanc;13
+aoc-1894;Palette rose;13
+aoc-1895;Palette rouge;13
+aoc-1896;Patrimonio blanc;14
+aoc-1897;Patrimonio rose;14
+aoc-1898;Patrimonio rouge;14
+aoc-1899;Vin de Corse ou Corse blanc;14
+aoc-1900;Vin de Corse ou Corse rose;14
+aoc-1901;Vin de Corse ou Corse rouge;14
+aoc-1902;Vin de Corse ou Corse Calvi blanc;14
+aoc-1903;Vin de Corse ou Corse Calvi rose;14
+aoc-1904;Vin de Corse ou Corse Calvi rouge;14
+aoc-1905;Vin de Corse ou Corse Coteaux du Cap Corse blanc;14
+aoc-1906;Vin de Corse ou Corse Coteaux du Cap Corse rose;14
+aoc-1907;Vin de Corse ou Corse Coteaux du Cap Corse rouge;14
+aoc-1908;Vin de Corse ou Corse Figari blanc;14
+aoc-1909;Vin de Corse ou Corse Figari rose;14
+aoc-1910;Vin de Corse ou Corse Figari rouge;14
+aoc-1911;Vin de Corse ou Corse Porto-Vecchio blanc;14
+aoc-1912;Vin de Corse ou Corse Porto-Vecchio rose;14
+aoc-1913;Vin de Corse ou Corse Porto-Vecchio rouge;14
+aoc-1914;Vin de Corse ou Corse Sartene blanc;14
+aoc-1915;Vin de Corse ou Corse Sartene rose;14
+aoc-1916;Vin de Corse ou Corse Sartene rouge;14
+aoc-1917;Les Baux de Provence blanc;13
+aoc-1918;Les Baux de Provence rose;13
+aoc-1919;Les Baux de Provence rouge;13
+aoc-1920;Banyuls ambre;16
+aoc-1921;Banyuls ambre hors âge rancio;16
+aoc-1922;Banyuls ambre hors d'âge;16
+aoc-1923;Banyuls ambre rancio;16
+aoc-1924;Banyuls blanc;16
+aoc-1925;Banyuls grand cru;16
+aoc-1926;Banyuls grand cru hors d'âge;16
+aoc-1927;Banyuls grand cru rancio;16
+aoc-1928;Banyuls grand cru rancio hors d'âge;16
+aoc-1929;Banyuls rimage;16
+aoc-1930;Banyuls rose;16
+aoc-1931;Banyuls traditionnel;16
+aoc-1932;Banyuls traditionnel hors âge;16
+aoc-1933;Banyuls traditionnel rancio;16
+aoc-1934;Banyuls traditionnel rancio hors d'âge;16
+aoc-1935;Muscat de Frontignan ou Frontignan ou Vin de Frontignan vin de liqueur;16
+aoc-1936;Muscat de Frontignan ou Frontignan ou Vin de Frontignan vin doux naturel;16
+aoc-1937;Grand Roussillon blanc;16
+aoc-1938;Grand Roussillon rancio;16
+aoc-1939;Grand Roussillon rose;16
+aoc-1940;Grand Roussillon rouge;16
+aoc-1941;Maury ambre;16
+aoc-1942;Maury ambre hors d'age;16
+aoc-1943;Maury ambre rancio;16
+aoc-1944;Maury ambre rancio hors d'âge;16
+aoc-1945;Maury blanc;16
+aoc-1946;Maury grenat;16
+aoc-1947;Maury rouge;16
+aoc-1948;Maury tuile;16
+aoc-1949;Maury tuile hors d'âge;16
+aoc-1950;Maury tuile rancio;16
+aoc-1951;Maury tuile rancio hors d'âge;16
+aoc-1952;Muscat de Beaumes-de-Venise blanc;13
+aoc-1953;Muscat de Beaumes-de-Venise rose;13
+aoc-1954;Muscat de Beaumes-de-Venise rouge;13
+aoc-1955;Muscat de Lunel;16
+aoc-1956;Muscat de Mireval;16
+aoc-1957;Muscat de Saint-Jean-de-Minervois;16
+aoc-1958;Muscat du Cap Corse;14
+aoc-1959;Rasteau ambre;13
+aoc-1960;Rasteau ambre hors d'âge;13
+aoc-1961;Rasteau ambre rancio;13
+aoc-1962;Rasteau ambre rancio hors d'äge;13
+aoc-1963;Rasteau blanc;13
+aoc-1964;Rasteau grenat;13
+aoc-1965;Rasteau rose;13
+aoc-1966;Rasteau rouge sec;13
+aoc-1967;Rasteau tuile;13
+aoc-1968;Rasteau tuile hors d'âge;13
+aoc-1969;Rasteau tuile rancio;13
+aoc-1970;Rasteau tuile rancio hors âge;13
+aoc-1971;Rivesaltes ambre;16
+aoc-1972;Rivesaltes ambre hors d'âge;16
+aoc-1973;Rivesaltes grenat;16
+aoc-1974;Rivesaltes rancio;16
+aoc-1975;Rivesaltes tuile;16
+aoc-1976;Rivesaltes tuile hors d'âge;16
+aoc-1977;Floc de Gascogne blanc;19
+aoc-1978;Floc de Gascogne rose;19
+aoc-1979;Cognac ou Eau-de-vie de Cognac ou Eau-de-vie des Charentes;19
+aoc-1980;ESPRIT DE COGNAC;19
+aoc-1981;Cognac Grande Champagne ou Grande Fine Champagne;18
+aoc-1982;Cognac Petite Champagne ou Petite Fine Champagne;18
+aoc-1983;Cognac Fine Champagne;18
+aoc-1984;Cognac Borderies;18
+aoc-1985;Cognac Fins Bois;18
+aoc-1986;Cognac Bois ordinaires ou Bois à terroirs;19
+aoc-1987;Cornouaille;5
+aoc-1988;Pays d'Auge;3
+aoc-1989;Calvados Domfrontais;8
+aoc-1990;Domfront;8
+aoc-1991;Orleans blanc;9
+aoc-1992;Orleans rose;9
+aoc-1993;Orleans rouge;9
+aoc-1994;Orleans-Clery;9
+aoc-1995;Roussette du Bugey Montagnieu;11
+aoc-1996;Malepere rose;16
+aoc-1997;Malepere rouge;16
+aoc-1998;EAUX-DE-VIE DE VIN ORIGINAIRE D'AQUITAINE;16
+aoc-1999;EAUX-DE-VIE DE MARC ORIGINAIRE D'AQUITAINE;16
+aoc-2000;Fine Bordeaux;16
+aoc-2001;EAUX-DE-VIE DE VIN ORIGINAIRE DES COTEAUX DE LA LOIRE;16
+aoc-2002;EAUX-DE-VIE DE MARC ORIGINAIRE DES COTEAUX DE LA LOIRE;16
+aoc-2003;EAUX-DE-VIE DE VIN ORIGINAIRE DU CENTRE-EST;16
+aoc-2004;EAUX-DE-VIE DE MARC DU CENTRE-EST;16
+aoc-2005;EAUX-DE-VIE DE VIN ORIGINAIRE DE FRANCHE-COMTE;16
+aoc-2006;EAUX-DE-VIE DE MARC ORIGINAIRE DE FRANCHE-COMTE;16
+aoc-2007;EAU-DE-VIE DE VIN DE SAVOIE;16
+aoc-2008;MARC DE LORRAINE;16
+aoc-2009;Mirabelle de Lorraine;17
+aoc-2010;EAUX-DE-VIE DE VIN ORIGINAIRE DE PROVENCE;17
+aoc-2011;Eau-de-vie de vin de la Marne ou Fine champenoise;17
+aoc-2012;Marc de Champagne ou Marc champenois ou Eau-de-vie de marc champenois;17
+aoc-2013;Eau-de-vie de cidre de Bretagne;8
+aoc-2014;Eau-de-vie de cidre du Maine;8
+aoc-2015;Eaux-de-vie de poire de Normandie;8
+aoc-2016;Eaux-de-vie de poire de Bretagne;8
+aoc-2017;EAUX-DE-VIE DE POIRE DU MAINE;8
+aoc-2018;Beaufort;11
+aoc-2019;Bleu d'Auvergne;15
+aoc-2020;Bleu des Causses;15
+aoc-2021;Brie de Meaux;10
+aoc-2022;Brie de Melun;10
+aoc-2023;Brocciu;14
+aoc-2024;Camembert de Normandie;3
+aoc-2025;Comte;10
+aoc-2026;Chaource;10
+aoc-2027;Chavignol;10
+aoc-2028;Fourme d'Ambert;20
+aoc-2029;Laguiole;20
+aoc-2030;Langres;17
+aoc-2031;Livarot;3
+aoc-2032;Maroilles ou Marolles;21
+aoc-2033;Mont d'Or ou Vacherin du Haut-Doubs;22
+aoc-2034;Munster;17
+aoc-2035;Neufchâtel;2
+aoc-2036;Ossau-Iraty;12
+aoc-2037;Picodon;13
+aoc-2038;Pouligny-Saint-Pierre;9
+aoc-2039;Reblochon ou Reblochon de Savoie;11
+aoc-2040;Rocamadour;15
+aoc-2041;Roquefort;15
+aoc-2042;Saint-Nectaire;20
+aoc-2043;Sainte-Maure de Touraine;18
+aoc-2044;Beurre Charentes-Poitou;8
+aoc-2045;BEURRE DES CHARENTES;8
+aoc-2046;BEURRE DES DEUX SEVRES;8
+aoc-2047;BEURRE D'ISIGNY;3
+aoc-2048;Creme d'Isigny;3
+aoc-2049;Bleu du Vercors-Sassenage;11
+aoc-2050;Pelardon;15
+aoc-2051;Fourme de Montbrison;20
+aoc-2052;Chevrotin;11
+aoc-2053;Tome des Bauges;11
+aoc-2054;Chasselas de Moissac;15
+aoc-2055;Dinde de Bresse;10
+aoc-2056;Huile d'olive de Nyons;13
+aoc-2057;Olives noires de Nyons;13
+aoc-2058;Noix de Grenoble;11
+aoc-2059;Miel de sapin des Vosges;17
+aoc-2060;Taureau de Camargue;16
+aoc-2061;Foin de Crau;13
+aoc-2062;Muscat du Ventoux;13
+aoc-2063;Huile d'olive de la vallee des Baux-de-Provence;13
+aoc-2064;Olives cassees de la vallee des Baux-de-Provence;13
+aoc-2065;Olives noires de la vallee des Baux-de-Provence;13
+aoc-2066;Miel de Corse - Mele di Corsica;14
+aoc-2067;Pomme de terre de l'Ile de Re;18
+aoc-2068;Coco de Paimpol;5
+aoc-2069;Huile d'olive d'Aix-en-Provence;13
+aoc-2070;Huile d'olive de Haute-Provence;13
+aoc-2071;Piment d'Espelette ou Piment d'Espelette - Ezpeletako Biperra;12
+aoc-2072;Olive de Nice;13
+aoc-2073;Pâte d'olive de Nice;13
+aoc-2074;Noix du Perigord;15
+aoc-2075;Languedoc Gres de Montpellier;16
+aoc-2076;Oignon doux des Cevennes;15
+aoc-2077;Volailles de Normandie;15
+aoc-2078;Cidre de Bretagne ou Cidre breton;15
+aoc-2079;Volailles de Bourgogne;15
+aoc-2080;Volailles de l’Ain;15
+aoc-2081;Volailles du Charolais;15
+aoc-2082;Volailles du Forez;15
+aoc-2083;Agneau du Bourbonnais;15
+aoc-2084;Bœuf Charolais du Bourbonnais;15
+aoc-2085;Volailles du Gers;15
+aoc-2086;Fraise du Perigord;15
+aoc-2087;Fin Gras du Mezenc;16
+aoc-2088;Bugey blanc;11
+aoc-2089;Bugey mousseux blanc;11
+aoc-2090;Bugey mousseux rose;11
+aoc-2091;Bugey petillant blanc;11
+aoc-2092;Bugey petillant rose;11
+aoc-2093;Bugey rose;11
+aoc-2094;Bugey rouge;11
+aoc-2095;Bugey rouge Gamay;11
+aoc-2096;Bugey rouge Mondeuse;11
+aoc-2097;Bugey rouge Pinot noir;11
+aoc-2098;Bugey Cerdon methode ancestrale;11
+aoc-2099;Bugey Manicle blanc;11
+aoc-2100;Bugey Manicle rouge;11
+aoc-2101;Bugey Montagnieu;11
+aoc-2102;Bugey Montagnieu mousseux;11
+aoc-2103;Bugey Montagnieu petillant;11
+aoc-2104;Roussette du Bugey Virieu-le-Grand;11
+aoc-2105;Agneau de Pauillac;11
+aoc-2106;Agneau du Poitou-Charentes;11
+aoc-2107;Cotes du Roussillon Les Aspres;16
+aoc-2108;Melon du Quercy;16
+aoc-2109;Anchois de Collioure;16
+aoc-2110;Brioche vendeenne;16
+aoc-2111;Maine-Anjou;3
+aoc-2112;Huile d'olive de Nïmes;16
+aoc-2113;Huile d'olive de Corse - Oliu di Corsica;14
+aoc-2114;Huile d'olive de Nice;13
+aoc-2115;Saint-Chinian Berlou;16
+aoc-2116;Saint-Chinian Roquebrun;16
+aoc-2117;Cotes de Provence Sainte-Victoire rose;13
+aoc-2118;Cotes de Provence Sainte-Victoire rouge;13
+aoc-2119;Farine de châtaigne corse - Farina castagnina corsa;14
+aoc-2120;Miel d'Alsace;14
+aoc-2121;Corbieres-Boutenac;16
+aoc-2122;Cotes du Rhone Villages Massif d'Uchaux;13
+aoc-2123;Cotes du Rhone Villages Plan de Dieu;13
+aoc-2124;Cotes du Rhone Villages Puymeras;13
+aoc-2125;Cotes du Rhone Villages Signargues;15
+aoc-2126;Gaillac rose;15
+aoc-2127;Gaillac rouge;15
+aoc-2128;Gaillac rouge primeur;15
+aoc-2129;Mâcon Bray blanc;10
+aoc-2130;Mâcon Bray blanc primeur ou nouveau;10
+aoc-2131;Mâcon Bray rose;10
+aoc-2132;Mâcon Bray rouge;10
+aoc-2133;Mâcon Villages;10
+aoc-2134;Mâcon Villages primeur ou nouveau;10
+aoc-2135;Mâcon Chaintre blanc;10
+aoc-2136;Mâcon Chaintre blanc primeur ou nouveau;10
+aoc-2137;Mâcon Chaintre rose;10
+aoc-2138;Mâcon Chaintre rouge;10
+aoc-2139;Cotes de Provence Frejus rose;13
+aoc-2140;Cotes de Provence Frejus rouge;13
+aoc-2141;Miel de Provence;13
+aoc-2142;Asperges des sables des Landes;13
+aoc-2143;Pâtes d'Alsace;13
+aoc-2144;Figue de Sollies;13
+aoc-2145;Châtaigne d'Ardeche;15
+aoc-2146;Bea du Roussillon;16
+aoc-2147;Moules de bouchot de la baie du Mont-Saint-Michel;5
+aoc-2148;Bourgogne Tonnerre;10
+aoc-2149;Mâconnais;10
+aoc-2150;Olive de Nîmes;16
+aoc-2151;Pâte de Campagne Breton;16
+aoc-2152;Porc du Sud-Ouest;16
+aoc-2153;Sel de Guerande ou Fleur de sel de Guerande;16
+aoc-2154;Moules de bouchot;16
+aoc-2155;Abricot;16
+aoc-2156;Agneau de 13 à 22 kg carcasse ;16
+aoc-2157;Agneau de 14 à 22 kg carcasse;16
+aoc-2158;Agneau de plus de 13 kg carcasse;16
+aoc-2159;Agneau de plus de 13 kg carcasse ;16
+aoc-2160;Agneau de plus de 14 kg carcasse;16
+aoc-2161;Agneau de plus de 14 kg carcasse;16
+aoc-2162;Agneau de plus de 14 kg carcasse;16
+aoc-2163;Agneau de plus de 15 kg de carcasse;16
+aoc-2164;Agneau de plus de 15 kilos carcasse;16
+aoc-2165;Agneau nourri essentiellement au lait maternel;16
+aoc-2166;Agneau nourri essentiellement au lait maternel;16
+aoc-2167;Agneau nourri exclusivement au lait maternel ;16
+aoc-2168;Agneau nourri exclusivement au lait maternel;16
+aoc-2169;Ail rose;16
+aoc-2170;Ananas;16
+aoc-2171;Baguette de pain de tradition française;16
+aoc-2172;Bar;16
+aoc-2173;Bar d'aquaculture marine ;16
+aoc-2174;Betteraves rouges;16
+aoc-2175;Betteraves rouges cuites sous vide;16
+aoc-2176;Betteraves rouges cuites sous vide;16
+aoc-2177;Betteraves rouges cuites sous vide;16
+aoc-2178;Blanc de poulet cuit;16
+aoc-2179;Brie au lait thermise, creme et proteines de lait pasteurisees;16
+aoc-2180;Brioche;16
+aoc-2181;Bulbes à fleurs de dahlias;16
+aoc-2182;Bœuf Charolais;16
+aoc-2183;Bœuf fermier;16
+aoc-2184;Bœuf fermier;16
+aoc-2185;Cabecou;16
+aoc-2186;Caille fermiere;16
+aoc-2187;Caille jaune fermiere;16
+aoc-2188;Canard de barbarie fermier eleve en plein air;16
+aoc-2189;Canard fermier;16
+aoc-2190;Canard mulard gave entier, foie gras cru et produits de decoupes crus frais et magrets surgeles;16
+aoc-2191;Canette et canard de Barbarie;16
+aoc-2192;Carottes et carottes des sables;16
+aoc-2193;Cassoulet appertise;16
+aoc-2194;Cassoulet au porc appertise;16
+aoc-2195;Chapon à pattes bleues fermier, eleve en plein air entier et decoupe frais ou surgele;16
+aoc-2196;Chapon blanc entier et en decoupes, frais ou surgele;16
+aoc-2197;Chapon blanc fermier;16
+aoc-2198;Chapon blanc fermier;16
+aoc-2199;Chapon blanc fermier;16
+aoc-2200;Chapon blanc fermier eleve en plein air;16
+aoc-2201;Chapon blanc fermier eleve en plein air;16
+aoc-2202;Chapon blanc fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2203;Chapon blanc fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2204;Chapon blanc fermier entier et decoupe, frais et surgele;16
+aoc-2205;Chapon blanc fermier entier et decoupes, frais et surgele;16
+aoc-2206;Chapon blanc fermier et decoupe;16
+aoc-2207;Chapon blanc fermier frais, surgele, entier et decoupe;16
+aoc-2208;Chapon blanc fermier, entier et decoupe, frais et surgele ;16
+aoc-2209;Chapon blanc fermier, entier et decoupe, frais et surgele;16
+aoc-2210;Chapon blanc fermier, entier et decoupe, frais et surgele ;16
+aoc-2211;Chapon cou nu jaune entier et en decoupes, frais ou surgele;16
+aoc-2212;Chapon de pintade;16
+aoc-2213;Chapon de pintade fermier;16
+aoc-2214;Chapon de pintade fermier;16
+aoc-2215;Chapon de pintade fermier eleve en plein air;16
+aoc-2216;Chapon de pintade fermier eleve en plein air;16
+aoc-2217;Chapon de pintade fermier entier et decoupe frais et surgele;16
+aoc-2218;Chapon de pintade fermier frais, surgele, entier et decoupe;16
+aoc-2219;Chapon de pintade fermier, entier et decoupe, frais et surgele;16
+aoc-2220;Chapon de pintade fermier, entier et decoupes, frais et surgele;16
+aoc-2221;Chapon de pintade jaune fermier eleve en plein air;16
+aoc-2222;Chapon fermier;16
+aoc-2223;Chapon fermier cou nu jaune entier;16
+aoc-2224;Chapon fermier eleve en plein air;16
+aoc-2225;Chapon fermier entier et decoupe frais;16
+aoc-2226;Chapon fermier entier et decoupe surgele;16
+aoc-2227;Chapon fermier entier et decoupes;16
+aoc-2228;Chapon fermier, eleve en plein air entier et decoupe frais ou surgele;16
+aoc-2229;Chapon jaune fermier;16
+aoc-2230;Chapon jaune fermier;16
+aoc-2231;Chapon jaune fermier eleve en plein air;16
+aoc-2232;Chapon jaune fermier eleve en plein air;16
+aoc-2233;Chapon jaune fermier eleve en plein air;16
+aoc-2234;Chapon jaune fermier eleve en plein air;16
+aoc-2235;Chapon jaune fermier entier et decoupe, frais et surgele;16
+aoc-2236;Chapon jaune fermier entier et decoupes, frais et surgele;16
+aoc-2237;Chapon jaune fermier frais, surgele, entier et decoupe;16
+aoc-2238;Chapon jaune fermier, entier et decoupe, frais et surgele;16
+aoc-2239;Chapon noir fermier;16
+aoc-2240;Chapon noir fermier entier et decoupes;16
+aoc-2241;Chapon noir fermier et decoupe;16
+aoc-2242;Chapon noir fermier, entier et decoupe, frais et surgele;16
+aoc-2243;Choucroute;16
+aoc-2244;Cidre de tradition;16
+aoc-2245;Cidre de variete Guillevic;16
+aoc-2246;Conserves de sardines pechees à la bolinche;16
+aoc-2247;Conserves de thon;16
+aoc-2248;Conserves de thon Germon;16
+aoc-2249;Coppa;16
+aoc-2250;Coquille Saint-Jacques entiere et fraîche;16
+aoc-2251;Creme fluide;16
+aoc-2252;Crevette d'elevage Penaeus monodon presentee entiere crue surgelee ou entiere crue surgelee ;16
+aoc-2253;Daurade d’aquaculture marine;16
+aoc-2254;Decoupes et morceaux de poulet fermier aromatises/condimentes/marines;16
+aoc-2255;Dinde;16
+aoc-2256;Dinde de decoupe fermiere elevee en plein air;16
+aoc-2257;Dinde de Noël fermiere elevee en plein air;16
+aoc-2258;Dinde entiere;16
+aoc-2259;Dinde fermiere;16
+aoc-2260;Dinde fermiere;16
+aoc-2261;Dinde fermiere à rotir;16
+aoc-2262;Dinde fermiere à rotir fraîche et surgelee;16
+aoc-2263;Dinde fermiere de Noël elevee en plein air;16
+aoc-2264;Dinde fermiere de Noël, entiere, fraîche et surgelee;16
+aoc-2265;Dinde fermiere de Noël, entiere, fraîche et surgelee;16
+aoc-2266;Dinde fermiere elevee en plein air;16
+aoc-2267;Dinde fermiere elevee en plein air à rotir;16
+aoc-2268;Dinde fermiere elevee en plein air à rotir;16
+aoc-2269;Dinde fermiere entiere, fraîche et surgelee;16
+aoc-2270;Dinde fermiere fraîche;16
+aoc-2271;Dinde fermiere, elevee en plein air fraîche ou surgelee;16
+aoc-2272;Dinde noire fermiere à chair blanche;16
+aoc-2273;Dinde noire fermiere à chair jaune;16
+aoc-2274;Dinde noire fermiere elevee en plein air;16
+aoc-2275;Dinde noire fermiere entiere;16
+aoc-2276;Emmental;16
+aoc-2277;Escargots prepares frais et surgele;16
+aoc-2278;Farine de froment;16
+aoc-2279;Farine panifiable pour pain courant;16
+aoc-2280;Farine pour pain de tradition française;16
+aoc-2281;Farine type 45 label rouge pour pâtisserie;16
+aoc-2282;Filets de hareng fume doux;16
+aoc-2283;Filets de maquereaux marines au Muscadet AOC et aux aromates;16
+aoc-2284;Flageolet vert;16
+aoc-2285;Foie gras cru et produits de decoupe d'oie gavee;16
+aoc-2286;Foie gras cru et produits de decoupe de canard mulard gave;16
+aoc-2287;Fraise;16
+aoc-2288;Fromage à raclette;16
+aoc-2289;Gazon de haute qualite;16
+aoc-2290;Haricot;16
+aoc-2291;Haricots blancs;16
+aoc-2292;Herbes de Provence;16
+aoc-2293;Huîtres fines de claires vertes;16
+aoc-2294;Huîtres pousse en claire;16
+aoc-2295;Jambon cru de pays;16
+aoc-2296;Jambon cuit superieur de porc fermier, entier et pre-tranche;16
+aoc-2297;Jambon cuit superieur entier et pre-tranche;16
+aoc-2298;Jambon persille;16
+aoc-2299;Jambon sec superieur;16
+aoc-2300;Jambon sec superieur;16
+aoc-2301;Jambon sec superieur;16
+aoc-2302;Jambon sec superieur;16
+aoc-2303;Jambon sec superieur de porc fermier;16
+aoc-2304;Jambons cuits superieurs, entiers ou tranches, preemballes;16
+aoc-2305;Kiwi Hayward;16
+aoc-2306;Lapin;16
+aoc-2307;Lentilles vertes;16
+aoc-2308;Lingot;16
+aoc-2309;Mâche;16
+aoc-2310;Maigre d’aquaculture marine;16
+aoc-2311;Marron;16
+aoc-2312;Melon;16
+aoc-2313;Miel de lavande et de lavandin;16
+aoc-2314;Miel de sapin;16
+aoc-2315;Miel toutes fleurs;16
+aoc-2316;Mimolette vieille et extra-vieille;16
+aoc-2317;Mini-chapon fermier;16
+aoc-2318;Mini-chapon fermier eleve en plein air;16
+aoc-2319;Mini-chapon fermier eleve en plein air;16
+aoc-2320;Mini-chapon fermier entier et decoupes, frais et surgele;16
+aoc-2321;Mousse au chocolat;16
+aoc-2322;Noix de coquilles Saint-Jacques surgelees (Pecten maximus);16
+aoc-2323;Noix de Saint-Jacques;16
+aoc-2324;Noix surgelees de pectinides Placopecten magellanicus;16
+aoc-2325;Oie entiere fraîche ou surgelee;16
+aoc-2326;Oie fermiere;16
+aoc-2327;Oie fermiere à rotir;16
+aoc-2328;Oie fermiere elevee en plein air;16
+aoc-2329;Pain de tradition française;16
+aoc-2330;Pancetta;16
+aoc-2331;Pâte de campagne;16
+aoc-2332;Pâte de campagne superieur;16
+aoc-2333;Pâte de campagne superieur;16
+aoc-2334;Pâte de porc fermier;16
+aoc-2335;Pâte de tete issu de porc fermier ;16
+aoc-2336;Pâtes en croûte superieurs;16
+aoc-2337;Pâtes farcies pur bœuf appertisees;16
+aoc-2338;Pâtes superieurs;16
+aoc-2339;Peches et nectarines;16
+aoc-2340;Pintade fermiere;16
+aoc-2341;Pintade fermiere;16
+aoc-2342;Pintade fermiere;16
+aoc-2343;Pintade fermiere elevee en plein air;16
+aoc-2344;Pintade fermiere elevee en plein air;16
+aoc-2345;Pintade fermiere elevee en plein air;16
+aoc-2346;Pintade fermiere elevee en plein air entiere et decoupes, fraîche ou surgelee;16
+aoc-2347;Pintade fermiere elevee en plein air entiere et decoupes, fraîche ou surgelee;16
+aoc-2348;Pintade fermiere entiere et decoupe fraîche;16
+aoc-2349;Pintade fermiere entiere et decoupe surgelee;16
+aoc-2350;Pintade fermiere entiere et decoupe, fraîche et surgelee;16
+aoc-2351;Pintade fermiere entiere et decoupes;16
+aoc-2352;Pintade fermiere entiere et decoupes, fraîche et surgelee;16
+aoc-2353;Pintade fermiere et decoupe, fraîche ou surgelee;16
+aoc-2354;Pintade fermiere fraîche, surgelee, entiere et decoupe;16
+aoc-2355;Pintade fermiere, elevee en plein air entiere et decoupe fraîche ou surgelee;16
+aoc-2356;Pintade fermiere, entiere et decoupe, fraîche et surgelee;16
+aoc-2357;Pintade jaune fermiere elevee en plein air;16
+aoc-2358;Pintadeau;16
+aoc-2359;Pizzas cuites au feu de bois surgelees;16
+aoc-2360;Plants de pomme de terre;16
+aoc-2361;Plants de rosier de jardin;16
+aoc-2362;Poireaux des sables;16
+aoc-2363;Poitrine seche ou ventreche;16
+aoc-2364;Pomme;16
+aoc-2365;Pomme de terre à chair ferme Belle de Fontenay;16
+aoc-2366;Pomme de terre Manon, speciale frites;16
+aoc-2367;Pommes de terre;16
+aoc-2368;Pommes de terre à chair ferme Pompadour;16
+aoc-2369;Porc;16
+aoc-2370;Porc fermier eleve en plein air;16
+aoc-2371;Porc fermier eleve en plein air;16
+aoc-2372;Porc frais ou surgele;16
+aoc-2373;Poularde blanche à pattes bleues fermiere, elevee en plein air entiere et decoupe fraîche ou surgelee;16
+aoc-2374;Poularde blanche fermiere;16
+aoc-2375;Poularde blanche fermiere elevee en plein air;16
+aoc-2376;Poularde blanche fermiere et decoupe;16
+aoc-2377;Poularde fermiere;16
+aoc-2378;Poularde fermiere entiere et decoupe fraîche;16
+aoc-2379;Poularde fermiere entiere et decoupe surgelee;16
+aoc-2380;Poularde fermiere entiere et decoupe, fraîche et surgelee;16
+aoc-2381;Poularde fermiere entiere et decoupes;16
+aoc-2382;Poularde fermiere entiere fraîche ou surgelee;16
+aoc-2383;Poularde fermiere, elevee en plein air entiere et decoupe fraîche ou surgelee;16
+aoc-2384;Poularde fermiere, entiere et decoupe, fraîche et surgelee;16
+aoc-2385;Poularde jaune fermiere;16
+aoc-2386;Poularde jaune fermiere;16
+aoc-2387;Poularde jaune fermiere elevee en plein air;16
+aoc-2388;Poularde jaune fermiere elevee en plein air;16
+aoc-2389;Poularde jaune fermiere entiere et decoupes, fraîche et surgelee;16
+aoc-2390;Poularde noire fermiere;16
+aoc-2391;Poularde noire fermiere entiere et decoupes, fraîche et surgelee;16
+aoc-2392;Poule fermiere elevee en liberte;16
+aoc-2393;Poulet blanc à pattes bleues fermier, eleve en plein air entier et decoupe frais ou surgele;16
+aoc-2394;Poulet blanc cou nu fermier eleve en liberte;16
+aoc-2395;Poulet blanc cou nu fermier entier et decoupes;16
+aoc-2396;Poulet blanc entier et en decoupes, frais ou surgele;16
+aoc-2397;Poulet blanc fermier;16
+aoc-2398;Poulet blanc fermier;16
+aoc-2399;Poulet blanc fermier;16
+aoc-2400;Poulet blanc fermier de 100 jours;16
+aoc-2401;Poulet blanc fermier de 100 jours eleve en liberte;16
+aoc-2402;Poulet blanc fermier eleve en liberte;16
+aoc-2403;Poulet blanc fermier eleve en liberte;16
+aoc-2404;Poulet blanc fermier eleve en liberte;16
+aoc-2405;Poulet blanc fermier eleve en plein air;16
+aoc-2406;Poulet blanc fermier eleve en plein air;16
+aoc-2407;Poulet blanc fermier eleve en plein air entier et decoupe;16
+aoc-2408;Poulet blanc fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2409;Poulet blanc fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2410;Poulet blanc fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2411;Poulet blanc fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2412;Poulet blanc fermier entier et decoupe frais;16
+aoc-2413;Poulet blanc fermier entier et decoupe surgele;16
+aoc-2414;Poulet blanc fermier entier et decoupe, frais et surgele;16
+aoc-2415;Poulet blanc fermier entier et decoupes;16
+aoc-2416;Poulet blanc fermier entier et decoupes, frais et surgele;16
+aoc-2417;Poulet blanc fermier frais, surgele, entier et decoupe;16
+aoc-2418;Poulet blanc fermier hetero et decoupe, frais ou surgele ;16
+aoc-2419;Poulet blanc fermier non cou-nu et decoupe, frais ou surgele;16
+aoc-2420;Poulet blanc fermier, eleve en plein air entier et decoupe frais ou surgele;16
+aoc-2421;Poulet blanc fermier, eleve en plein air entier et decoupe frais ou surgele;16
+aoc-2422;Poulet blanc fermier, entier et decoupe, frais et surgele;16
+aoc-2423;Poulet blanc fermier, entier et decoupe, frais et surgele;16
+aoc-2424;Poulet blanc fermier, entier et decoupe, frais et surgele;16
+aoc-2425;Poulet cou nu blanc entier et en decoupes, frais ou surgele;16
+aoc-2426;Poulet cou nu jaune entier et en decoupes, frais ou surgele;16
+aoc-2427;Poulet cou nu jaune entier et en decoupes, frais ou surgele;16
+aoc-2428;Poulet cou nu noir entier et en decoupes;16
+aoc-2429;Poulet cou nu pattes bleues fermier, entier et decoupe, frais et surgele;16
+aoc-2430;Poulet cou nu pattes bleues fermier, entier et decoupe, frais et surgele;16
+aoc-2431;Poulet fermier cou nu jaune entier et en decoupes;16
+aoc-2432;Poulet fermier eleve en plein air;16
+aoc-2433;Poulet fermier roti et decoupes cuites de poulet fermier;16
+aoc-2434;Poulet gris fermier;16
+aoc-2435;Poulet jaune fermier;16
+aoc-2436;Poulet jaune fermier;16
+aoc-2437;Poulet jaune fermier de 100 jours;16
+aoc-2438;Poulet jaune fermier de 100 jours eleve en liberte;16
+aoc-2439;Poulet jaune fermier eleve en liberte;16
+aoc-2440;Poulet jaune fermier eleve en liberte;16
+aoc-2441;Poulet jaune fermier eleve en liberte;16
+aoc-2442;Poulet jaune fermier eleve en liberte;16
+aoc-2443;Poulet jaune fermier eleve en plein air;16
+aoc-2444;Poulet jaune fermier eleve en plein air;16
+aoc-2445;Poulet jaune fermier eleve en plein air;16
+aoc-2446;Poulet jaune fermier eleve en plein air âge de 91 jours;16
+aoc-2447;Poulet jaune fermier eleve en plein air entier et decoupe;16
+aoc-2448;Poulet jaune fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2449;Poulet jaune fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2450;Poulet jaune fermier entier et decoupe frais et surgele;16
+aoc-2451;Poulet jaune fermier entier et decoupe frais et surgele;16
+aoc-2452;Poulet jaune fermier entier et decoupe, frais et surgele;16
+aoc-2453;Poulet jaune fermier entier et decoupes;16
+aoc-2454;Poulet jaune fermier entier et decoupes, frais et surgele;16
+aoc-2455;Poulet jaune fermier frais, surgele, entier et decoupe;16
+aoc-2456;Poulet jaune fermier, eleve en plein air entier et decoupe frais ou surgele;16
+aoc-2457;Poulet jaune fermier, entier et decoupe, frais et surgele;16
+aoc-2458;Poulet jaune fermier, entier et decoupe, frais et surgele;16
+aoc-2459;Poulet jaune, fermier entier et decoupe, frais;16
+aoc-2460;Poulet noir fermier;16
+aoc-2461;Poulet noir fermier;16
+aoc-2462;Poulet noir fermier;16
+aoc-2463;Poulet noir fermier cou nu et decoupe, frais ou surgele;16
+aoc-2464;Poulet noir fermier de 100 jours;16
+aoc-2465;Poulet noir fermier eleve en liberte;16
+aoc-2466;Poulet noir fermier eleve en liberte;16
+aoc-2467;Poulet noir fermier eleve en plein air;16
+aoc-2468;Poulet noir fermier eleve en plein air;16
+aoc-2469;Poulet noir fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2470;Poulet noir fermier eleve en plein air entier et decoupes, frais ou surgele;16
+aoc-2471;Poulet noir fermier entier et decoupe frais;16
+aoc-2472;Poulet noir fermier entier et decoupe surgele;16
+aoc-2473;Poulet noir fermier entier et decoupes;16
+aoc-2474;Poulet noir fermier entier et decoupes, frais et surgele;16
+aoc-2475;Poulet noir fermier et decoupe, frais ou surgele;16
+aoc-2476;Poulet noir fermier frais, surgele, entier et decoupe;16
+aoc-2477;Poulet noir fermier, eleve en plein air entier et decoupe frais ou surgele;16
+aoc-2478;Poulet noir fermier, entier et decoupe, frais et surgele;16
+aoc-2479;Poulet noir, fermier, entier et decoupe, frais et surgele;16
+aoc-2480;Poulet roux fermier;16
+aoc-2481;Produits cuits de dinde fermiere;16
+aoc-2482;Produits cuits de poulet fermier;16
+aoc-2483;Produits de saucisserie;16
+aoc-2484;Produits de saucisserie à l'ancienne;16
+aoc-2485;Produits de saucisserie issus de viandes de porc;16
+aoc-2486;Produits transformes de canards mulards gaves;16
+aoc-2487;Ravioles;16
+aoc-2488;Reine-Claude;16
+aoc-2489;Rillettes pur porc;16
+aoc-2490;Rillettes pur porc;16
+aoc-2491;Rillettes pur porc;16
+aoc-2492;Roti cuit superieur;16
+aoc-2493;Saint-Felicien;16
+aoc-2494;Salaisons seches à base de viande de coche;16
+aoc-2495;Salaisons seches à base de viande de coche;16
+aoc-2496;Salaisons seches à base de viande de porc;16
+aoc-2497;Salaisons seches à base de viande de porc;16
+aoc-2498;Sardines à l'huile d'olive vierge extra preparees à l'ancienne;16
+aoc-2499;Sardines et filets de sardines pechees à la bolinche;16
+aoc-2500;Saucisse chevillee et Jesus cheville;16
+aoc-2501;Saucisse fraîche de porc fermier;16
+aoc-2502;Saucisse fraîche et chair à saucisse;16
+aoc-2503;Saucisse fraîche et chair à saucisse;16
+aoc-2504;Saucisse fraîche et chair à saucisse;16
+aoc-2505;Saucisses et saucissons secs, recette à base principalement de coche;16
+aoc-2506;Saucisses et saucissons secs, recette à base principalement de porc charcutier;16
+aoc-2507;Saucisson cuit à l'ail;16
+aoc-2508;Saucisson sec superieur et saucisse seche superieure de porc fermier;16
+aoc-2509;Saucissons cuits superieurs;16
+aoc-2510;Saumon;16
+aoc-2511;Saumon Atlantique;16
+aoc-2512;Saumon Atlantique d'elevage frais;16
+aoc-2513;Saumon Atlantique d'elevage fume;16
+aoc-2514;Saumon farci, farce aux petits legumes;16
+aoc-2515;Saumon fume;16
+aoc-2516;Sel marin de l'Atlantique;16
+aoc-2517;Semences de cereales à paille;16
+aoc-2518;Soupe de poisson - Petite peche de moins de 24 heures;16
+aoc-2519;Soupe de poissons;16
+aoc-2520;Soupe rouge de la mer;16
+aoc-2521;Terrine de campagne de porc fermier;16
+aoc-2522;Truite arc en ciel elevee en eau douce;16
+aoc-2523;Truite de source;16
+aoc-2524;Truite fumee;16
+aoc-2525;Turbot et decoupes de turbot d'aquaculture marine;16
+aoc-2526;Veau eleve sous la mere;16
+aoc-2527;Veau fermier lourd eleve sous la mere et complemente aux cereales;16
+aoc-2528;Veau nourri au lait entier presente en viandes fraîches ;16
+aoc-2529;Veau nourri au lait entier veau de type C;16
+aoc-2530;Viande bovine;16
+aoc-2531;Viande bovine blonde d'Aquitaine;16
+aoc-2532;Viande bovine d'animaux jeunes de race limousine;16
+aoc-2533;Viande bovine de race charolaise;16
+aoc-2534;Viande bovine de race charolaise;16
+aoc-2535;Viande bovine de race gasconne;16
+aoc-2536;Viande bovine de race limousine;16
+aoc-2537;Viande bovine de race parthenaise;16
+aoc-2538;Viande bovine de race Salers;16
+aoc-2539;Viande bovine et abats de race blonde d'Aquitaine;16
+aoc-2540;Viande bovine fermiere de race Aubrac;16
+aoc-2541;Viande de porc et abats;16
+aoc-2542;Viande de veau nourri par tetee au pis;16
+aoc-2543;Viande de veau nourri par tetee au pis et complemente principalement aux cereales - veau de type B;16
+aoc-2544;Viande et abats de gros bovins de boucherie;16
+aoc-2545;Viande et abats de veau nourri au lait entier;16
+aoc-2546;Viande et abats de veau nourri au lait entier veau de type C;16
+aoc-2547;Viande fraîche de gros bovins de boucherie;16
+aoc-2548;Viande fraîche de porc;16
+aoc-2549;Viande fraîche de porc fermier et abats;16
+aoc-2550;Viande fraîche et abats de porc;16
+aoc-2551;Viande hachee fraîche et surgelee;16
+aoc-2552;Viandes de gros bovins de boucherie de race Blonde d'Aquitaine presentees en frais;16
+aoc-2553;Viandes et abats de porc, frais ou surgeles;16
+aoc-2554;Viandes fraîches ou surgelees et abats de porc;16
+aoc-2555;Viandes fraîches ou surgelees et abats de porc;16
+aoc-2556;Viandes fraîches ou surgelees et abats de porc fermier;16
+aoc-2557;Viandes fraîches ou surgelees et abats de porc fermier;16
+aoc-2558;Viandes fraîches ou surgelees et abats de porcs;16
+aoc-2559;Viandes hachees et preparation de viande de veau fermier lourd eleve sous la mere et complemente aux cereales;16
+aoc-2560;Œufs de poules elevees en plein air;16
+aoc-2561;Œufs de poules elevees en plein air;16
+aoc-2562;Œufs de poules elevees en plein air;16
+aoc-2563;Œufs de poules elevees en plein air;16
+aoc-2564;Œufs de poules elevees en plein air;16
+aoc-2565;Œufs de poules elevees en plein air;16
+aoc-2566;Œufs de poules elevees en plein air;16
+aoc-2567;Œufs de poules elevees en plein air;16
+aoc-2568;Œufs de poules elevees en plein air;16
+aoc-2569;Œufs de poules elevees en plein air;16
+aoc-2570;Œufs fermiers;16
+aoc-2571;Œufs fermiers de poules elevees en plein air;16
+aoc-2572;Œufs fermiers de poules elevees en plein air;16
+aoc-2573;Rigotte de Condrieu;11
+aoc-2574;Agneau de Sisteron;11
+aoc-2575;Clementine de Corse;11
+aoc-2576;Huile d'olive de Provence;15
+aoc-2577;Pres-sales de la baie de Somme;1
+aoc-2578;Languedoc Pezenas;16
+aoc-2579;Agneau du Perigord;16
+aoc-2580;Ail de la Drome;16
+aoc-2581;Agneau de Lozere;16
+aoc-2582;Porc d'Auvergne;16
+aoc-2583;Agneau de lait des Pyrenees;16
+aoc-2584;Bœuf de Vendee;16
+aoc-2585;Saussignac;19
+aoc-2586;Cotes de Montravel;19
+aoc-2587;Haut-Montravel;19
+aoc-2588;Genisse Fleur d'Aubrac;19
+aoc-2589;Bœuf de Bazas;19
+aoc-2590;Lingot du Nord;19
+aoc-2591;Ail blanc de Lomagne;19
+aoc-2592;Pommes des Alpes de Haute Durance;19
+aoc-2593;Pres-sales du Mont-Saint-Michel;8
+aoc-2594;Œufs de Loue;8
+aoc-2595;Kirsch de Fougerolles;17
+aoc-2596;Cotes de Provence la Londe rose;13
+aoc-2597;Cotes de Provence la Londe rouge;13
+aoc-2598;Lucques du Languedoc;13
+aoc-2599;Jambon sec de Corse ou Jambon sec de Corse - Prisuttu;14
+aoc-2600;Coppa de Corse ou Coppa de Corse - Coppa di Corsica;14
+aoc-2601;Cotes de Bordeaux;12
+aoc-2602;Moselle blanc;17
+aoc-2603;Moselle rose;17
+aoc-2604;Moselle rouge;17
+aoc-2605;Echalote d'Anjou;17
+aoc-2606;Lavilledieu Rose;17
+aoc-2607;Lavilledieu Rouge;17
+aoc-2608;Cotes de Millau blanc;16
+aoc-2609;Cotes de Millau rose;16
+aoc-2610;Cotes de Millau rouge;16
+aoc-2611;Picpoul de Pinet;16
+aoc-2612;Cartagene du Languedoc;16
+aoc-2613;Jambon de Lacaune;16
+aoc-2614;Saint-Mont blanc;15
+aoc-2615;Saint-Mont rose;15
+aoc-2616;Saint-Mont rouge;15
+aoc-2617;Abricots rouges du Roussillon;16
+aoc-2618;Marc du Jura;16
+aoc-2619;Asperges du Blayais;16
+aoc-2620;Noisette de Cervione - nuciola di Cervioni;16
+aoc-2621;Ail fume d'Arleux;16
+aoc-2622;Citron de Menton;16
+aoc-2623;Jambon de Vendee;16
+aoc-2624;Artichaut du Roussillon;16
+aoc-2625;Cabri de Corse;16
+aoc-2626;Saucisse de Montbeliard;16
+aoc-2627;Rillettes de Tours;16
+aoc-2628;Jambon noir de Bigorre;16
+aoc-2629;Bordeaux superieur blanc;12
+aoc-2630;Bordeaux superieur rouge;12
+aoc-2631;Cassis de Bourgogne;12
+aoc-2632;Pernand-Vergelesses premier cru Sous Fretille blanc;10
+aoc-2633;Pernand-Vergelesses premier cru Clos Berthet blanc;10
+aoc-2634;Pernand-Vergelesses premier cru Village de Pernand blanc;10
+aoc-2635;Ladoix premier cru Le Rognet et Corton blanc;10
+aoc-2636;Ladoix premier cru En Naget blanc;10
+aoc-2637;Ladoix premier cru Les Buis rouge;10
+aoc-2638;Ladoix premier cru Les Grechons et Foutrieres blanc;10
+aoc-2639;Meursault premier cru Les Ravelles blanc;10
+aoc-2640;Monthelie premier cru Clos des Toisieres blanc;10
+aoc-2641;Monthelie premier cru Clos des Toisieres rouge;10
+aoc-2642;Monthelie premier cru Le Clou des Chenes blanc;10
+aoc-2643;Monthelie premier cru Le Clou des Chenes rouge;10
+aoc-2644;Monthelie premier cru Les Barbieres blanc;10
+aoc-2645;Monthelie premier cru Les Barbieres rouge;10
+aoc-2646;Monthelie premier cru Les Clous blanc;10
+aoc-2647;Monthelie premier cru Les Clous rouge;10
+aoc-2648;Cairanne blanc;13
+aoc-2649;Cairanne rouge;13
+aoc-2650;Huîtres Marennes Oleron;13
+aoc-2651;Jambon de l'Ardeche;13
+aoc-2652;Pomelo de Corse;13
+aoc-2653;Duche d'Uzes blanc;15
+aoc-2654;Duche d'Uzes rose;15
+aoc-2655;Duche d'Uzes rouge;15
+aoc-2656;Fraises de Nîmes;15
+aoc-2657;La Clape blanc;16
+aoc-2658;La Clape rouge;16
+aoc-2659;Miel des Cevennes;16
+aoc-2660;Saucisson de Lacaune / Saucisse de Lacaune;16
+aoc-2661;Gâche vendeenne;16
+aoc-2662;Pierrevert blanc;13
+aoc-2663;Pierrevert rose;13
+aoc-2664;Pierrevert rouge;13
+aoc-2665;Languedoc Sommieres;15
+aoc-2666;Calisson d'Aix;15
+aoc-2667;Kiwi de l'Adour;15
+aoc-2668;Saucisse de Morteau ou Jesus de Morteau;15
+aoc-2669;Pintadeau de la Drome;15
+aoc-2670;Luberon blanc;13
+aoc-2671;Luberon rose;13
+aoc-2672;Luberon rouge;13
+aoc-2673;Saumur Puy-Notre-Dame;18
+aoc-2674;Coteaux de Die;11
+aoc-2675;Cremant de Limoux blanc;16
+aoc-2676;Cremant de Limoux rose;16
+aoc-2677;Cremant de Die;11
+aoc-2678;Raviole du Dauphine;11
+aoc-2679;Muscat de Rivesaltes;16
+aoc-2680;Muscat de Rivesaltes Muscat de Noël;16
+aoc-2681;Macvin du Jura blanc;22
+aoc-2682;Macvin du Jura rose;22
+aoc-2683;Macvin du Jura rouge;22
+aoc-2684;Cotes de Bergerac blanc;19
+aoc-2685;Cotes de Bergerac rouge;19
+aoc-2686;Bourgogne Passe-tout-grains rose;11
+aoc-2687;Bourgogne Passe-tout-grains rouge;11
+aoc-2688;Oignon de Roscoff;5
+aoc-2689;Bourgogne mousseux;11
+aoc-2690;Saint-Emilion grand cru;12
+aoc-2691;Saint-Emilion grand cru Grand cru classe;12
+aoc-2692;Saint-Emilion grand cru Premier grand cru classe;12
+aoc-2693;Saint-Pourçain blanc;20
+aoc-2694;Saint-Pourçain rose;20
+aoc-2695;Saint-Pourçain rouge;20
+aoc-2696;Roussette du Bugey;11
+aoc-2697;Roussette de Savoie;11
+aoc-2698;Cremant de Bordeaux blanc;12
+aoc-2699;Cremant de Bordeaux rose;12
+aoc-2700;Pays d'Auge Cambremer ou de Cambremer;3
+aoc-2701;Pommeau du Maine;8
+aoc-2702;Cotes de Bordeaux Cadillac;12
+aoc-2703;Cotes de Bordeaux Castillon;12
+aoc-2704;Cotes de Bordeaux Blaye blanc;12
+aoc-2705;Cotes de Bordeaux Blaye rouge;12
+aoc-2706;Cotes de Bordeaux Francs blanc sec;12
+aoc-2707;Cotes de Bordeaux Francs liquoreux;12
+aoc-2708;Moutarde de Bourgogne;12
+aoc-2709;Petit epeautre de haute Provence;12
+aoc-2710;Porc de Franche-Comte;12
+aoc-2711;Marc de Bourgogne;11
+aoc-2712;Fine de Bourgogne;11
+aoc-2713;Charolais;10
+aoc-2714;Farine de ble noir de Bretagne - Gwinizh du Breizh;10
+aoc-2715;Cabernet de Saumur;18
+aoc-2716;Cabernet de Saumur nouveau ou primeur;18
+aoc-2717;Pont-l'eveque;3
+aoc-2718;Blanche Armagnac;19
+aoc-2719;Armagnac;19
+aoc-2720;Armagnac-Tenareze;19
+aoc-2721;Bas Armagnac;19
+aoc-2722;Haut Armagnac;19
+aoc-2723;Bœuf de Charolles;11
+aoc-2724;Chapon de Bresse;10
+aoc-2725;Poularde de Bresse;10
+aoc-2726;Volaille de Bresse ou Poulet de Bresse;10
+aoc-2727;Saint-Marcellin;10
+aoc-2728;Rose des Riceys;6
+aoc-2729;Pays d'Oc blanc;6
+aoc-2730;Pays d'Oc gris;6
+aoc-2731;Pays d'Oc gris de gris;6
+aoc-2732;Pays d'Oc mousseux de qualite gris;6
+aoc-2733;Pays d'Oc mousseux de qualite gris de gris;6
+aoc-2734;Pays d'Oc mousseux de qualite rose;6
+aoc-2735;Pays d'Oc mousseux de qualite rouge;6
+aoc-2736;Pays d'Oc primeur ou nouveau blanc;6
+aoc-2737;Pays d'Oc primeur ou nouveau rose;6
+aoc-2738;Pays d'Oc primeur ou nouveau rouge;6
+aoc-2739;Pays d'Oc rose;6
+aoc-2740;Pays d'Oc rouge;6
+aoc-2741;Pays d'Oc sur lie blanc ;6
+aoc-2742;Pays d'Oc sur lie rose;6
+aoc-2743;Pays d'Oc Surmûri gris;6
+aoc-2744;Pays d'Oc Surmûri gris de gris;6
+aoc-2745;Pays d'Oc surmûris blanc;6
+aoc-2746;Pays d'Oc surmûris rose;6
+aoc-2747;Pays d'Oc surmûris rouge;6
+aoc-2748;Comte Tolosan blanc;6
+aoc-2749;Comte Tolosan mousseux de qualite blanc;6
+aoc-2750;Comte Tolosan mousseux de qualite rose;6
+aoc-2751;Comte Tolosan mousseux de qualite rouge;6
+aoc-2752;Comte Tolosan primeur ou nouveau blanc;6
+aoc-2753;Comte Tolosan primeur ou nouveau rose;6
+aoc-2754;Comte Tolosan primeur ou nouveau rouge;6
+aoc-2755;Comte Tolosan rose;6
+aoc-2756;Comte Tolosan rouge;6
+aoc-2757;Comte Tolosan surmûri blanc;6
+aoc-2758;Comtes Rhodaniens blanc;6
+aoc-2759;Comtes Rhodaniens rose;6
+aoc-2760;Comtes Rhodaniens rouge;6
+aoc-2761;Mediterranee blanc;6
+aoc-2762;Mediterranee mousseux de qualite rose;6
+aoc-2763;Mediterranee mousseux de qualite rose;6
+aoc-2764;Mediterranee mousseux de qualite rouge;6
+aoc-2765;Mediterranee primeur ou nouveau blanc;6
+aoc-2766;Mediterranee primeur ou nouveau rose;6
+aoc-2767;Mediterranee primeur ou nouveau rouge;6
+aoc-2768;Mediterranee rose;6
+aoc-2769;Mediterranee rouge;6
+aoc-2770;Atlantique blanc;6
+aoc-2771;Atlantique primeur ou nouveau blanc;6
+aoc-2772;Atlantique primeur ou nouveau rose;6
+aoc-2773;Atlantique primeur ou nouveau rouge;6
+aoc-2774;Atlantique rose;6
+aoc-2775;Atlantique rouge;6
+aoc-2776;Val de Loire blanc;6
+aoc-2777;Val de Loire gris;6
+aoc-2778;Val de Loire primeur ou nouveau blanc;6
+aoc-2779;Val de Loire primeur ou nouveau gris;6
+aoc-2780;Val de Loire primeur ou nouveau rose;6
+aoc-2781;Val de Loire primeur ou nouveau rouge;6
+aoc-2782;Val de Loire rose;6
+aoc-2783;Val de Loire rouge;6
+aoc-2784;Alpes-de-Haute-Provence blanc;6
+aoc-2785;Alpes-de-Haute-Provence primeur ou nouveau blanc;6
+aoc-2786;Alpes-de-Haute-Provence primeur ou nouveau rose;6
+aoc-2787;Alpes-de-Haute-Provence primeur ou nouveau rouge;6
+aoc-2788;Alpes-de-Haute-Provence rose;6
+aoc-2789;Alpes-de-Haute-Provence rouge;6
+aoc-2790;Hautes-Alpes blanc;6
+aoc-2791;Hautes-Alpes mousseux de qualite blanc;6
+aoc-2792;Hautes-Alpes mousseux de qualite rose;6
+aoc-2793;Hautes-Alpes mousseux de qualite rouge;6
+aoc-2794;Hautes-Alpes primeur ou nouveau blanc;6
+aoc-2795;Hautes-Alpes primeur ou nouveau rose;6
+aoc-2796;Hautes-Alpes primeur ou nouveau rouge;6
+aoc-2797;Hautes-Alpes rose;6
+aoc-2798;Hautes-Alpes rouge;6
+aoc-2799;Alpes-Maritimes blanc;6
+aoc-2800;Alpes-Maritimes mousseux de qualite blanc;6
+aoc-2801;Alpes-Maritimes mousseux de qualite rose;6
+aoc-2802;Alpes-Maritimes mousseux de qualite rouge;6
+aoc-2803;Alpes-Maritimes primeur ou nouveau blanc;6
+aoc-2804;Alpes-Maritimes primeur ou nouveau rose;6
+aoc-2805;Alpes-Maritimes primeur ou nouveau rouge;6
+aoc-2806;Alpes-Maritimes rose;6
+aoc-2807;Alpes-Maritimes rouge;6
+aoc-2808;Ardeche blanc;6
+aoc-2809;Ardeche mousseux de qualite blanc;6
+aoc-2810;Ardeche mousseux de qualite rose;6
+aoc-2811;Ardeche mousseux de qualite rouge;6
+aoc-2812;Ardeche primeur ou nouveau blanc;6
+aoc-2813;Ardeche primeur ou nouveau rose;6
+aoc-2814;Ardeche primeur ou nouveau rouge;6
+aoc-2815;Ardeche rose;6
+aoc-2816;Ardeche rouge;6
+aoc-2817;Collines Rhodaniennes blanc;6
+aoc-2818;Collines Rhodaniennes Mousseux de qualite rose;6
+aoc-2819;Collines Rhodaniennes Mousseux de qualite rouge;6
+aoc-2820;Collines Rhodaniennes primeur ou nouveau blanc;6
+aoc-2821;Collines Rhodaniennes primeur ou nouveau rose;6
+aoc-2822;Collines Rhodaniennes primeur ou nouveau rouge;6
+aoc-2823;Collines Rhodaniennes rose;6
+aoc-2824;Collines Rhodaniennes rouge;6
+aoc-2825;Ariege blanc;6
+aoc-2826;Ariege primeur ou nouveau blanc;6
+aoc-2827;Ariege primeur ou nouveau rose;6
+aoc-2828;Ariege primeur ou nouveau rouge;6
+aoc-2829;Ariege rose;6
+aoc-2830;Ariege rouge;6
+aoc-2831;Ariege surmûri blanc;6
+aoc-2832;Aude blanc;6
+aoc-2833;Aude primeur ou nouveau blanc;6
+aoc-2834;Aude primeur ou nouveau rose;6
+aoc-2835;Aude primeur ou nouveau rouge;6
+aoc-2836;Aude rose;6
+aoc-2837;Aude rouge;6
+aoc-2838;Cite de Carcassonne blanc;6
+aoc-2839;Cite de Carcassonne primeur ou nouveau blanc;6
+aoc-2840;Cite de Carcassonne primeur ou nouveau rose;6
+aoc-2841;Cite de Carcassonne primeur ou nouveau rouge;6
+aoc-2842;Cite de Carcassonne rose;6
+aoc-2843;Cite de Carcassonne rouge;6
+aoc-2844;Coteaux de Narbonne blanc;6
+aoc-2845;Coteaux de Narbonne primeur ou nouveau blanc;6
+aoc-2846;Coteaux de Narbonne primeur ou nouveau rose;6
+aoc-2847;Coteaux de Narbonne primeur ou nouveau rouge;6
+aoc-2848;Coteaux de Narbonne rose;6
+aoc-2849;Coteaux de Narbonne rouge;6
+aoc-2850;Coteaux de Peyriac blanc;6
+aoc-2851;Coteaux de Peyriac primeur ou nouveau blanc;6
+aoc-2852;Coteaux de Peyriac primeur ou nouveau rose;6
+aoc-2853;Coteaux de Peyriac primeur ou nouveau rouge;6
+aoc-2854;Coteaux de Peyriac rose;6
+aoc-2855;Coteaux de Peyriac rouge;6
+aoc-2856;Aveyron blanc;6
+aoc-2857;Aveyron primeur ou nouveau blanc;6
+aoc-2858;Aveyron primeur ou nouveau rose;6
+aoc-2859;Aveyron primeur ou nouveau rouge;6
+aoc-2860;Aveyron rose;6
+aoc-2861;Aveyron rouge;6
+aoc-2862;Pays des Bouches-du-Rhone;6
+aoc-2863;Pays des Bouches-du-Rhone primeur ou nouveau blanc;6
+aoc-2864;Pays des Bouches-du-Rhone primeur ou nouveau rose;6
+aoc-2865;Pays des Bouches-du-Rhone primeur ou nouveau rouge;6
+aoc-2866;Pays des Bouches-du-Rhone rose;6
+aoc-2867;Pays des Bouches-du-Rhone rouge;6
+aoc-2868;Alpilles blanc;6
+aoc-2869;Alpilles primeur ou nouveau blanc;6
+aoc-2870;Alpilles primeur ou nouveau rose;6
+aoc-2871;Alpilles primeur ou nouveau rouge;6
+aoc-2872;Alpilles rose;6
+aoc-2873;Alpilles rouge;6
+aoc-2874;Calvados blanc;6
+aoc-2875;Calvados blanc primeur ou nouveau blanc;6
+aoc-2876;Calvados rose;6
+aoc-2877;Calvados rose primeur ou nouveau rose;6
+aoc-2878;Calvados rouge;6
+aoc-2879;Calvados rouge primeur ou nouveau rouge;6
+aoc-2880;Charentais blanc;6
+aoc-2881;Charentais blanc primeur ou nouveau;6
+aoc-2882;Charentais rose;6
+aoc-2883;Charentais rose primeur ou nouveau;6
+aoc-2884;Charentais rouge;6
+aoc-2885;Charentais rouge primeur ou nouveau;6
+aoc-2886;Coteaux du Cher et de l'Arnon blanc;6
+aoc-2887;Coteaux du Cher et de l'Arnon rose;6
+aoc-2888;Coteaux du Cher et de l'Arnon rouge;6
+aoc-2889;Ile de Beaute blanc;6
+aoc-2890;Ile de Beaute primeur ou nouveau blanc;6
+aoc-2891;Ile de Beaute primeur ou nouveau rose;6
+aoc-2892;Ile de Beaute primeur ou nouveau rouge;6
+aoc-2893;Ile de Beaute rose;6
+aoc-2894;Ile de Beaute rouge;6
+aoc-2895;Coteaux de l'Auxois blanc;6
+aoc-2896;Coteaux de l'Auxois mousseux de qualite blanc;6
+aoc-2897;Coteaux de l'Auxois mousseux de qualite rose;6
+aoc-2898;Coteaux de l'Auxois mousseux de qualite rouge;6
+aoc-2899;Coteaux de l'Auxois primeur ou nouveau blanc;6
+aoc-2900;Coteaux de l'Auxois primeur ou nouveau rose;6
+aoc-2901;Coteaux de l'Auxois primeur ou nouveau rouge;6
+aoc-2902;Coteaux de l'Auxois rose;6
+aoc-2903;Coteaux de l'Auxois rouge;6
+aoc-2904;Coteaux de l'Auxois surmûri blanc;6
+aoc-2905;Coteaux de l'Auxois surmûri rose;6
+aoc-2906;Coteaux de l'Auxois surmûri rouge;6
+aoc-2907;Perigord  primeur ou nouveau rouge;6
+aoc-2908;Perigord blanc;6
+aoc-2909;Perigord primeur ou nouveau blanc;6
+aoc-2910;Perigord primeur ou nouveau rose;6
+aoc-2911;Perigord rose;6
+aoc-2912;Perigord rouge;6
+aoc-2913;Drome blanc;6
+aoc-2914;Drome mousseux de qualite blanc;6
+aoc-2915;Drome mousseux de qualite rose;6
+aoc-2916;Drome mousseux de qualite rouge;6
+aoc-2917;Drome primeur ou nouveau blanc;6
+aoc-2918;Drome primeur ou nouveau rose;6
+aoc-2919;Drome primeur ou nouveau rouge;6
+aoc-2920;Drome rose;6
+aoc-2921;Drome rouge;6
+aoc-2922;Coteaux des Baronnies blanc;6
+aoc-2923;Coteaux des Baronnies mousseux de qualite blanc;6
+aoc-2924;Coteaux des Baronnies mousseux de qualite rose;6
+aoc-2925;Coteaux des Baronnies mousseux de qualite rouge;6
+aoc-2926;Coteaux des Baronnies primeur ou nouveau blanc;6
+aoc-2927;Coteaux des Baronnies primeur ou nouveau rose;6
+aoc-2928;Coteaux des Baronnies primeur ou nouveau rouge;6
+aoc-2929;Coteaux des Baronnies rose;6
+aoc-2930;Coteaux des Baronnies rouge;6
+aoc-2931;Gard blanc;6
+aoc-2932;Gard primeur ou nouveau blanc;6
+aoc-2933;Gard primeur ou nouveau rose;6
+aoc-2934;Gard primeur ou nouveau rouge;6
+aoc-2935;Gard rose;6
+aoc-2936;Gard rouge;6
+aoc-2937;Coteaux du Pont du Gard blanc;6
+aoc-2938;Coteaux du Pont du Gard mousseux de qualite blanc;6
+aoc-2939;Coteaux du Pont du Gard mousseux de qualite rose;6
+aoc-2940;Coteaux du Pont du Gard mousseux de qualite rouge;6
+aoc-2941;Coteaux du Pont du Gard primeur ou nouveau blanc;6
+aoc-2942;Coteaux du Pont du Gard primeur ou nouveau rose;6
+aoc-2943;Coteaux du Pont du Gard primeur ou nouveau rouge;6
+aoc-2944;Coteaux du Pont du Gard rose;6
+aoc-2945;Coteaux du Pont du Gard rouge;6
+aoc-2946;Coteaux du Pont du Gard surmûri blanc;6
+aoc-2947;Coteaux du Pont du Gard surmûri rose;6
+aoc-2948;Coteaux du Pont du Gard surmûri rouge;6
+aoc-2949;Gers blanc;6
+aoc-2950;Gers mousseux de qualite blanc;6
+aoc-2951;Gers mousseux de qualite rose;6
+aoc-2952;Gers mousseux de qualite rouge;6
+aoc-2953;Gers primeur ou nouveau blanc;6
+aoc-2954;Gers primeur ou nouveau rose;6
+aoc-2955;Gers primeur ou nouveau rouge;6
+aoc-2956;Gers rose;6
+aoc-2957;Gers rouge;6
+aoc-2958;Gers surmûri blanc;6
+aoc-2959;Gers surmûri rose;6
+aoc-2960;Gers surmûri rouge;6
+aoc-2961;Cotes de Gascogne  primeur ou nouveau rouge;6
+aoc-2962;Cotes de Gascogne blanc;6
+aoc-2963;Cotes de Gascogne primeur ou nouveau blanc;6
+aoc-2964;Cotes de Gascogne primeur ou nouveau rose;6
+aoc-2965;Cotes de Gascogne rose;6
+aoc-2966;Cotes de Gascogne rouge;6
+aoc-2967;Cotes de Gascogne surmûri blanc;6
+aoc-2968;Pays d'Herault blanc;6
+aoc-2969;Pays d'Herault primeur ou nouveau blanc;6
+aoc-2970;Pays d'Herault primeur ou nouveau rose;6
+aoc-2971;Pays d'Herault primeur ou nouveau rouge;6
+aoc-2972;Pays d'Herault rose;6
+aoc-2973;Pays d'Herault rouge;6
+aoc-2974;Isere blanc;6
+aoc-2975;Isere rose;6
+aoc-2976;Isere rouge;6
+aoc-2977;Landes blanc;6
+aoc-2978;Landes mousseux de qualite blanc;6
+aoc-2979;Landes mousseux de qualite rose;6
+aoc-2980;Landes mousseux de qualite rouge;6
+aoc-2981;Landes primeur ou nouveau blanc;6
+aoc-2982;Landes primeur ou nouveau rose;6
+aoc-2983;Landes primeur ou nouveau rouge;6
+aoc-2984;Landes rose;6
+aoc-2985;Landes rouge;6
+aoc-2986;Landes surmûri blanc;6
+aoc-2987;Urfe blanc;6
+aoc-2988;Urfe mousseux blanc;6
+aoc-2989;Urfe mousseux rose;6
+aoc-2990;Urfe mousseux rouge;6
+aoc-2991;Urfe rose;6
+aoc-2992;Urfe rouge;6
+aoc-2993;Urfe surmûri blanc;6
+aoc-2994;Urfe surmûri rose;6
+aoc-2995;Urfe surmûri rouge;6
+aoc-2996;Cotes du Lot blanc;6
+aoc-2997;Cotes du Lot mousseux de qualite blanc;6
+aoc-2998;Cotes du Lot mousseux de qualite rose;6
+aoc-2999;Cotes du Lot primeur ou nouveau blanc;6
+aoc-3000;Cotes du Lot primeur ou nouveau rose;6
+aoc-3001;Cotes du Lot primeur ou nouveau rouge;6
+aoc-3002;Cotes du Lot rose;6
+aoc-3003;Cotes du Lot rouge;6
+aoc-3004;Coteaux de Glanes blanc;6
+aoc-3005;Coteaux de Glanes primeur ou nouveau blanc;6
+aoc-3006;Coteaux de Glanes primeur ou nouveau rose;6
+aoc-3007;Coteaux de Glanes primeur ou nouveau rouge;6
+aoc-3008;Coteaux de Glanes rose;6
+aoc-3009;Coteaux de Glanes rouge;6
+aoc-3010;Agenais blanc;6
+aoc-3011;Agenais mousseux de qualite blanc;6
+aoc-3012;Agenais mousseux de qualite rose;6
+aoc-3013;Agenais primeur ou nouveau blanc;6
+aoc-3014;Agenais primeur ou nouveau rose;6
+aoc-3015;Agenais primeur ou nouveau rouge;6
+aoc-3016;Agenais rose;6
+aoc-3017;Agenais rouge;6
+aoc-3018;Agenais surmûri blanc;6
+aoc-3019;Thezac-Perricard blanc;6
+aoc-3020;Thezac-Perricard primeur ou nouveau rouge;6
+aoc-3021;Thezac-Perricard rose;6
+aoc-3022;Thezac-Perricard rouge;6
+aoc-3023;Thezac-Perricard surmûri blanc;6
+aoc-3024;Haute-Marne blanc;6
+aoc-3025;Haute-Marne primeur ou nouveau blanc;6
+aoc-3026;Haute-Marne primeur ou nouveau rose;6
+aoc-3027;Haute-Marne primeur ou nouveau rouge;6
+aoc-3028;Haute-Marne rose;6
+aoc-3029;Haute-Marne rouge;6
+aoc-3030;Coteaux de Coiffy blanc;6
+aoc-3031;Coteaux de Coiffy mousseux de qualite rose;6
+aoc-3032;Coteaux de Coiffy mousseux de qualite rouge;6
+aoc-3033;Coteaux de Coiffy primeur ou nouveau blanc;6
+aoc-3034;Coteaux de Coiffy primeur ou nouveau rose;6
+aoc-3035;Coteaux de Coiffy primeur ou nouveau rouge;6
+aoc-3036;Coteaux de Coiffy rose;6
+aoc-3037;Coteaux de Coiffy rouge;6
+aoc-3038;Cotes de Meuse blanc;6
+aoc-3039;Cotes de Meuse primeur ou nouveau blanc;6
+aoc-3040;Cotes de Meuse primeur ou nouveau rose;6
+aoc-3041;Cotes de Meuse primeur ou nouveau rouge;6
+aoc-3042;Cotes de Meuse rose;6
+aoc-3043;Cotes de Meuse rouge;6
+aoc-3044;Cotes de la Charite  mousseux de qualite rose;6
+aoc-3045;Cotes de la Charite blanc;6
+aoc-3046;Cotes de la Charite mousseux de qualite blanc;6
+aoc-3047;Cotes de la Charite rose;6
+aoc-3048;Cotes de la Charite rouge;6
+aoc-3049;Coteaux de Tannay blanc;6
+aoc-3050;Coteaux de Tannay mousseux de qualite blanc;6
+aoc-3051;Coteaux de Tannay mousseux de qualite rose;6
+aoc-3052;Coteaux de Tannay mousseux de qualite rouge;6
+aoc-3053;Coteaux de Tannay primeur ou nouveau blanc;6
+aoc-3054;Coteaux de Tannay primeur ou nouveau rose;6
+aoc-3055;Coteaux de Tannay primeur ou nouveau rouge;6
+aoc-3056;Coteaux de Tannay rose;6
+aoc-3057;Coteaux de Tannay rouge;6
+aoc-3058;Puy-de-Dome blanc;6
+aoc-3059;Puy-de-Dome primeur ou nouveau blanc;6
+aoc-3060;Puy-de-Dome primeur ou nouveau rose;6
+aoc-3061;Puy-de-Dome primeur ou nouveau rouge;6
+aoc-3062;Puy-de-Dome rose;6
+aoc-3063;Puy-de-Dome rouge;6
+aoc-3064;Cotes Catalanes blanc;6
+aoc-3065;Cotes Catalanes primeur ou nouveau blanc;6
+aoc-3066;Cotes Catalanes primeur ou nouveau rose;6
+aoc-3067;Cotes Catalanes primeur ou nouveau rouge;6
+aoc-3068;Cotes Catalanes rancio blanc;6
+aoc-3069;Cotes Catalanes rancio rose;6
+aoc-3070;Cotes Catalanes rancio rouge;6
+aoc-3071;Cotes Catalanes rose;6
+aoc-3072;Cotes Catalanes rouge;6
+aoc-3073;Cote Vermeille blanc;6
+aoc-3074;Cote Vermeille rancio blanc;6
+aoc-3075;Cote Vermeille rancio rose;6
+aoc-3076;Cote Vermeille rancio rouge;6
+aoc-3077;Cote Vermeille rose;6
+aoc-3078;Cote Vermeille rouge;6
+aoc-3079;Cote Vermeille surmûri blanc;6
+aoc-3080;Cote Vermeille surmûri rose;6
+aoc-3081;Cote Vermeille surmûri rouge;6
+aoc-3082;Cotes du Tarn blanc;6
+aoc-3083;Cotes du Tarn Blanc Surmûri;6
+aoc-3084;Cotes du Tarn primeur ou nouveau blanc;6
+aoc-3085;Cotes du Tarn primeur ou nouveau rose;6
+aoc-3086;Cotes du Tarn primeur ou nouveau rouge;6
+aoc-3087;Cotes du Tarn rose;6
+aoc-3088;Cotes du Tarn rouge;6
+aoc-3089;Var blanc;6
+aoc-3090;Var mousseux de qualite blanc;6
+aoc-3091;Var mousseux de qualite rose;6
+aoc-3092;Var mousseux de qualite rouge;6
+aoc-3093;Var primeur ou nouveau blanc;6
+aoc-3094;Var primeur ou nouveau rose;6
+aoc-3095;Var primeur ou nouveau rouge;6
+aoc-3096;Var rose;6
+aoc-3097;Var rouge;6
+aoc-3098;Mont Caume blanc;6
+aoc-3099;Mont Caume mousseux de qualite blanc;6
+aoc-3100;Mont Caume mousseux de qualite rose;6
+aoc-3101;Mont Caume mousseux de qualite rouge;6
+aoc-3102;Mont Caume primeur ou nouveau blanc;6
+aoc-3103;Mont Caume primeur ou nouveau rose;6
+aoc-3104;Mont Caume primeur ou nouveau rouge;6
+aoc-3105;Mont Caume rose;6
+aoc-3106;Mont Caume rouge;6
+aoc-3107;Maures blanc;6
+aoc-3108;Maures primeur ou nouveau blanc;6
+aoc-3109;Maures primeur ou nouveau rose;6
+aoc-3110;Maures primeur ou nouveau rouge;6
+aoc-3111;Maures rose;6
+aoc-3112;Maures rouge;6
+aoc-3113;Vaucluse blanc;6
+aoc-3114;Vaucluse primeur ou nouveau blanc;6
+aoc-3115;Vaucluse primeur ou nouveau rose;6
+aoc-3116;Vaucluse primeur ou nouveau rouge;6
+aoc-3117;Vaucluse rose;6
+aoc-3118;Vaucluse rouge;6
+aoc-3119;Haute-Vienne blanc;6
+aoc-3120;Haute-Vienne primeur ou nouveau blanc;6
+aoc-3121;Haute-Vienne primeur ou nouveau rose;6
+aoc-3122;Haute-Vienne primeur ou nouveau rouge;6
+aoc-3123;Haute-Vienne rose;6
+aoc-3124;Haute-Vienne rouge;6
+aoc-3125;Haute Vallee de l'Aude blanc;6
+aoc-3126;Haute Vallee de l'Aude primeur ou nouveau blanc;6
+aoc-3127;Haute Vallee de l'Aude primeur ou nouveau rose;6
+aoc-3128;Haute Vallee de l'Aude primeur ou nouveau rouge;6
+aoc-3129;Haute Vallee de l'Aude rose;6
+aoc-3130;Haute Vallee de l'Aude rouge;6
+aoc-3131;Vallee du Paradis blanc;6
+aoc-3132;Vallee du Paradis gris;6
+aoc-3133;Vallee du Paradis gris de gris;6
+aoc-3134;Vallee du Paradis primeur ou nouveau blanc;6
+aoc-3135;Vallee du Paradis primeur ou nouveau rose;6
+aoc-3136;Vallee du Paradis primeur ou nouveau rouge;6
+aoc-3137;Vallee du Paradis rose;6
+aoc-3138;Vallee du Paradis rouge;6
+aoc-3139;Coteaux d'Enserune blanc;6
+aoc-3140;Coteaux d'Enserune primeur ou nouveau blanc;6
+aoc-3141;Coteaux d'Enserune primeur ou nouveau rose;6
+aoc-3142;Coteaux d'Enserune primeur ou nouveau rouge;6
+aoc-3143;Coteaux d'Enserune rose;6
+aoc-3144;Coteaux d'Enserune rouge;6
+aoc-3145;Coteaux de Beziers primeur ou nouveau blanc;6
+aoc-3146;Coteaux de Beziers primeur ou nouveau rose;6
+aoc-3147;Coteaux de Beziers primeur ou nouveau rouge;6
+aoc-3148;Coteaux de Beziers rose;6
+aoc-3149;Coteaux de Beziers rouge;6
+aoc-3150;Cotes de Thau blanc;6
+aoc-3151;Cotes de Thau mousseux de qualite blanc;6
+aoc-3152;Cotes de Thau mousseux de qualite rose;6
+aoc-3153;Cotes de Thau mousseux de qualite rouge;6
+aoc-3154;Cotes de Thau primeur ou nouveau blanc;6
+aoc-3155;Cotes de Thau primeur ou nouveau rose;6
+aoc-3156;Cotes de Thau primeur ou nouveau rouge;6
+aoc-3157;Cotes de Thau rose;6
+aoc-3158;Cotes de Thau rouge;6
+aoc-3159;Cotes de Thongue blanc;6
+aoc-3160;Cotes de Thongue mousseux de qualite blanc;6
+aoc-3161;Cotes de Thongue mousseux de qualite rose;6
+aoc-3162;Cotes de Thongue mousseux de qualite rouge;6
+aoc-3163;Cotes de Thongue primeur ou nouveau blanc;6
+aoc-3164;Cotes de Thongue primeur ou nouveau rose;6
+aoc-3165;Cotes de Thongue primeur ou nouveau rouge;6
+aoc-3166;Cotes de Thongue rose;6
+aoc-3167;Cotes de Thongue rouge;6
+aoc-3168;Cotes de Thongue surmûri blanc;6
+aoc-3169;Cotes de Thongue surmûri rose;6
+aoc-3170;Cotes de Thongue surmûri rouge;6
+aoc-3171;Saint-Guilhem-le-Desert blanc;6
+aoc-3172;Saint-Guilhem-le-Desert primeur ou nouveau blanc;6
+aoc-3173;Saint-Guilhem-le-Desert primeur ou nouveau rose;6
+aoc-3174;Saint-Guilhem-le-Desert primeur ou nouveau rouge;6
+aoc-3175;Saint-Guilhem-le-Desert rose;6
+aoc-3176;Saint-Guilhem-le-Desert rouge;6
+aoc-3177;Saint-Guilhem-le-Desert surmûri blanc;6
+aoc-3178;Saint-Guilhem-le-Desert surmûri rose;6
+aoc-3179;Saint-Guilhem-le-Desert surmûri rouge;6
+aoc-3180;Haute Vallee de l'Orb blanc;6
+aoc-3181;Haute Vallee de l'Orb mousseux de qualite blanc;6
+aoc-3182;Haute Vallee de l'Orb mousseux de qualite rose;6
+aoc-3183;Haute Vallee de l'Orb mousseux de qualite rouge;6
+aoc-3184;Haute Vallee de l'Orb primeur ou nouveau blanc;6
+aoc-3185;Haute Vallee de l'Orb primeur ou nouveau rose;6
+aoc-3186;Haute Vallee de l'Orb primeur ou nouveau rouge;6
+aoc-3187;Haute Vallee de l'Orb rose;6
+aoc-3188;Haute Vallee de l'Orb rouge;6
+aoc-3189;Haute Vallee de l'Orb surmûri blanc;6
+aoc-3190;Haute Vallee de l'Orb surmûri rose;6
+aoc-3191;Haute Vallee de l'Orb surmûri rouge;6
+aoc-3192;Vicomte d'Aumelas blanc;6
+aoc-3193;Vicomte d'Aumelas primeur ou nouveau blanc;6
+aoc-3194;Vicomte d'Aumelas primeur ou nouveau rose;6
+aoc-3195;Vicomte d'Aumelas primeur ou nouveau rouge;6
+aoc-3196;Vicomte d'Aumelas rose;6
+aoc-3197;Vicomte d'Aumelas rouge;6
+aoc-3198;Le Pays Cathare blanc;6
+aoc-3199;Le Pays Cathare primeur ou nouveau blanc;6
+aoc-3200;Le Pays Cathare primeur ou nouveau rose;6
+aoc-3201;Le Pays Cathare primeur ou nouveau rouge;6
+aoc-3202;Le Pays Cathare rose;6
+aoc-3203;Le Pays Cathare rouge;6
+aoc-3204;Perigord Vin de Domme blanc;6
+aoc-3205;Perigord Vin de Domme primeur ou nouveau blanc;6
+aoc-3206;Perigord Vin de Domme primeur ou nouveau rose;6
+aoc-3207;Perigord Vin de Domme primeur ou nouveau rouge;6
+aoc-3208;Perigord Vin de Domme rose;6
+aoc-3209;Perigord Vin de Domme rouge;6
+aoc-3210;Charentais Ile de Re blanc;6
+aoc-3211;Charentais Ile de Re blanc primeur ou nouveau;6
+aoc-3212;Charentais Ile de Re rose;6
+aoc-3213;Charentais Ile de Re rose primeur ou nouveau;6
+aoc-3214;Charentais Ile de Re rouge;6
+aoc-3215;Charentais Ile de Re rouge primeur ou nouveau;6
+aoc-3216;Charentais Saint-Sornin blanc;6
+aoc-3217;Charentais Saint-Sornin blanc primeur ou nouveau;6
+aoc-3218;Charentais Saint-Sornin rose;6
+aoc-3219;Charentais Saint-Sornin rose primeur ou nouveau;6
+aoc-3220;Charentais Saint-Sornin rouge;6
+aoc-3221;Charentais Saint-Sornin rouge primeur ou nouveau;6
+aoc-3222;Charentais Ile d'Oleron blanc;6
+aoc-3223;Charentais Ile d'Oleron blanc primeur ou nouveau;6
+aoc-3224;Charentais Ile d'Oleron rose;6
+aoc-3225;Charentais Ile d'Oleron rose primeur ou nouveau;6
+aoc-3226;Charentais Ile d'Oleron rouge;6
+aoc-3227;Charentais Ile d'Oleron rouge primeur ou nouveau;6
+aoc-3228;Mogette de Vendee;6
+aoc-3229;Grignan-les-Adhemar blanc;11
+aoc-3230;Grignan-les-Adhemar primeur ou nouveau blanc;11
+aoc-3231;Grignan-les-Adhemar primeur ou nouveau rose;11
+aoc-3232;Grignan-les-Adhemar primeur ou nouveau rouge;11
+aoc-3233;Grignan-les-Adhemar rose;11
+aoc-3234;Grignan-les-Adhemar rouge;11
+aoc-3235;Châteaumeillant gris;9
+aoc-3236;Châteaumeillant rouge;9
+aoc-3237;Melon de Guadeloupe;9
+aoc-3238;Cognac Bons Bois;19
+aoc-3239;Farine de petit epeautre de haute Provence;19
+aoc-3240;Pineau des Charentes blanc;19
+aoc-3241;Pineau des Charentes rose ou rouge;19
+aoc-3242;Gruyere;19
+aoc-3243;Oie d'Anjou;19
+aoc-3244;Lonzo de Corse ou Lonzo de Corse - Lonzu;14
+aoc-3245;Entraygues - Le Fel blanc;20
+aoc-3246;Entraygues - Le Fel rose;20
+aoc-3247;Entraygues - Le Fel rouge;20
+aoc-3248;Estaing blanc;16
+aoc-3249;Estaing rose;16
+aoc-3250;Estaing rouge;16
+aoc-3251;Haut-Poitou blanc;18
+aoc-3252;Haut-Poitou rose;18
+aoc-3253;Haut-Poitou rouge;18
+aoc-3254;Tursan blanc;12
+aoc-3255;Tursan rose;12
+aoc-3256;Tursan rouge;12
+aoc-3257;Cahors;15
+aoc-3258;Cotes d'Auvergne blanc;20
+aoc-3259;Cotes d'Auvergne rose;20
+aoc-3260;Cotes d'Auvergne rouge;20
+aoc-3261;Cotes d'Auvergne Boudes rouge;20
+aoc-3262;Cotes d'Auvergne Chanturgue rouge;20
+aoc-3263;Cotes d'Auvergne Châteaugay rouge;20
+aoc-3264;Cotes d'Auvergne Corent rose;20
+aoc-3265;Cotes d'Auvergne Madargues rouge;20
+aoc-3266;Sable de Camargue blanc;20
+aoc-3267;Sable de Camargue gris;20
+aoc-3268;Sable de Camargue gris de gris;20
+aoc-3269;Sable de Camargue mousseux de qualite blanc;20
+aoc-3270;Sable de Camargue mousseux de qualite rose;20
+aoc-3271;Sable de Camargue mousseux de qualite rouge;20
+aoc-3272;Sable de Camargue primeur ou nouveau blanc;20
+aoc-3273;Sable de Camargue primeur ou nouveau gris;20
+aoc-3274;Sable de Camargue primeur ou nouveau gris de gris;20
+aoc-3275;Sable de Camargue primeur ou nouveau rose;20
+aoc-3276;Sable de Camargue primeur ou nouveau rouge;20
+aoc-3277;Sable de Camargue rose;20
+aoc-3278;Sable de Camargue rouge;20
+aoc-3279;Sable de Camargue sur lie blanc;20
+aoc-3280;Sable de Camargue sur lie gris;20
+aoc-3281;Sable de Camargue sur lie gris de gris;20
+aoc-3282;Sable de Camargue sur lie rose ;20
+aoc-3283;Vin des Allobroges blanc;20
+aoc-3284;Vin des Allobroges mousseux de qualite blanc;20
+aoc-3285;Vin des Allobroges mousseux de qualite rose ;20
+aoc-3286;Vin des Allobroges passerille blancs;20
+aoc-3287;Vin des Allobroges rose;20
+aoc-3288;Vin des Allobroges rouge;20
+aoc-3289;Vin des Allobroges surmûris blanc;20
+aoc-3290;Coteaux de l'Ain blanc;20
+aoc-3291;Coteaux de l'Ain mousseux de qualite blanc;20
+aoc-3292;Coteaux de l'Ain mousseux de qualite rose;20
+aoc-3293;Coteaux de l'Ain mousseux de qualite rouge;20
+aoc-3294;Coteaux de l'Ain primeur ou nouveau blanc;20
+aoc-3295;Coteaux de l'Ain primeur ou nouveau rose;20
+aoc-3296;Coteaux de l'Ain primeur ou nouveau rouge;20
+aoc-3297;Coteaux de l'Ain rose;20
+aoc-3298;Coteaux de l'Ain rouge;20
+aoc-3299;Givry premier cru Champ Nalot blanc;10
+aoc-3300;Givry premier cru Champ Nalot rouge;10
+aoc-3301;Givry premier cru En Veau blanc;10
+aoc-3302;Givry premier cru En Veau rouge;10
+aoc-3303;Givry premier cru La Brûlee blanc;10
+aoc-3304;Givry premier cru La Brûlee rouge;10
+aoc-3305;Givry premier cru La Matrosse blanc;10
+aoc-3306;Givry premier cru La Matrosse rouge;10
+aoc-3307;Givry premier cru La Petite Berge blanc;10
+aoc-3308;Givry premier cru La Petite Berge rouge;10
+aoc-3309;Givry premier cru Le Champ Lalot blanc;10
+aoc-3310;Givry premier cru Le Champ Lalot rouge;10
+aoc-3311;Givry premier cru Le Medenchot blanc;10
+aoc-3312;Givry premier cru Le Medenchot rouge;10
+aoc-3313;Givry premier cru Le Pied de Chaume blanc;10
+aoc-3314;Givry premier cru Le Pied de Chaume rouge;10
+aoc-3315;Givry premier cru Le Pied du Clou blanc;10
+aoc-3316;Givry premier cru Le Pied du Clou rouge;10
+aoc-3317;Givry premier cru Le Vernoy blanc;10
+aoc-3318;Givry premier cru Le Vernoy rouge;10
+aoc-3319;Givry premier cru Les Combes blanc;10
+aoc-3320;Givry premier cru Les Combes rouge;10
+aoc-3321;Givry premier cru Les Galaffres blanc;10
+aoc-3322;Givry premier cru Les Galaffres rouge;10
+aoc-3323;Vallee du Torgan blanc;10
+aoc-3324;Vallee du Torgan gris;10
+aoc-3325;Vallee du Torgan gris de gris;10
+aoc-3326;Vallee du Torgan primeur ou nouveau blanc;10
+aoc-3327;Vallee du Torgan primeur ou nouveau gris;10
+aoc-3328;Vallee du Torgan primeur ou nouveau gris de gris;10
+aoc-3329;Vallee du Torgan primeur ou nouveau rose;10
+aoc-3330;Vallee du Torgan primeur ou nouveau rouge;10
+aoc-3331;Vallee du Torgan rose;10
+aoc-3332;Vallee du Torgan rouge;10
+aoc-3333;Vins de la Correze mousseux blanc;10
+aoc-3334;Vins de la Correze mousseux rose;10
+aoc-3335;Vins de la Correze passerille rouge;10
+aoc-3336;Vins de la Correze primeur ou nouveau blanc;10
+aoc-3337;Vins de la Correze primeur ou nouveau rose;10
+aoc-3338;Vins de la Correze primeur ou nouveau rouge;10
+aoc-3339;Vins de la Correze rose;10
+aoc-3340;Vins de la Correze rouge;10
+aoc-3341;Vins de la Correze surmûri blanc;10
+aoc-3342;Vins de la Correze surmûri rouge;10
+aoc-3343;Vins de la Correze vin paille vins de raisins surmûris blanc;10
+aoc-3344;Vins de la Correze vin paille vins de raisins surmûris rouge;10
+aoc-3345;Gros Plant du Pays nantais;8
+aoc-3346;Gros Plant du Pays nantais sur lie;8
+aoc-3347;Coteaux du Layon premier cru Chaume;8
+aoc-3348;Coteaux d'Ancenis blanc;8
+aoc-3349;Coteaux d'Ancenis Malvoisie;8
+aoc-3350;Coteaux d'Ancenis rose;8
+aoc-3351;Coteaux d'Ancenis rouge;8
+aoc-3352;Fiefs Vendeens Brem blanc;8
+aoc-3353;Fiefs Vendeens Brem rose;8
+aoc-3354;Fiefs Vendeens Brem rouge;8
+aoc-3355;Fiefs Vendeens Mareuil blanc;8
+aoc-3356;Fiefs Vendeens Mareuil rose;8
+aoc-3357;Fiefs Vendeens Mareuil rouge;8
+aoc-3358;Fiefs Vendeens Pissotte blanc;8
+aoc-3359;Fiefs Vendeens Pissotte rose;8
+aoc-3360;Fiefs Vendeens Pissotte rouge;8
+aoc-3361;Fiefs Vendeens Vix blanc;8
+aoc-3362;Fiefs Vendeens Vix rose;8
+aoc-3363;Fiefs Vendeens Vix rouge;8
+aoc-3364;Fiefs Vendeens Chantonnay blanc;8
+aoc-3365;Fiefs Vendeens Chantonnay rose;8
+aoc-3366;Fiefs Vendeens Chantonnay rouge;8
+aoc-3367;Bourgogne blanc;11
+aoc-3368;Bourgogne nouveau ou primeur;11
+aoc-3369;Bourgogne aligote;10
+aoc-3370;Bourgogne aligote nouveau ou primeur;10
+aoc-3371;Bourgogne clairet ou rose;11
+aoc-3372;Bourgogne gamay rouge;11
+aoc-3373;Bourgogne rouge;11
+aoc-3374;Charlemagne;10
+aoc-3375;Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire blanc;11
+aoc-3376;Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire blanc nouveau ou primeur;11
+aoc-3377;Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire clairet ou rose;11
+aoc-3378;Coteaux Bourguignons ou Bourgogne grand ordinaire ou Bourgogne ordinaire rouge;11
+aoc-3379;Echezeaux;10
+aoc-3380;Grands-Echezeaux;10
+aoc-3381;Petit Chablis;10
+aoc-3382;Yonne blanc;10
+aoc-3383;Yonne primeur ou nouveau blanc;10
+aoc-3384;Yonne primeur ou nouveau rose;10
+aoc-3385;Yonne primeur ou nouveau rouge;10
+aoc-3386;Yonne rose;10
+aoc-3387;Yonne rouge;10
+aoc-3388;Saone-et-Loire blanc;10
+aoc-3389;Saone-et-Loire primeur ou nouveau blanc;10
+aoc-3390;Saone-et-Loire primeur ou nouveau rose;10
+aoc-3391;Saone-et-Loire primeur ou nouveau rouge;10
+aoc-3392;Saone-et-Loire rose;10
+aoc-3393;Saone-et-Loire rouge;10
+aoc-3394;Sainte-Marie-la-Blanche blanc;10
+aoc-3395;Sainte-Marie-la-Blanche primeur ou nouveau blanc;10
+aoc-3396;Sainte-Marie-la-Blanche primeur ou nouveau rose;10
+aoc-3397;Sainte-Marie-la-Blanche primeur ou nouveau rouge;10
+aoc-3398;Sainte-Marie-la-Blanche rose;10
+aoc-3399;Sainte-Marie-la-Blanche rouge;10
+aoc-3400;Corton Basses Mourottes rouge;10
+aoc-3401;Corton Clos des Meix rouge;10
+aoc-3402;Corton Hautes Mourottes rouge;10
+aoc-3403;Corton La Toppe au Vert rouge;10
+aoc-3404;Corton La Vigne au Saint rouge;10
+aoc-3405;Corton Le Clos du Roi rouge;10
+aoc-3406;Corton Le Meix Lallemand rouge;10
+aoc-3407;Corton Le Rognet et Corton rouge;10
+aoc-3408;Corton Les Bressandes rouge;10
+aoc-3409;Corton Les Carrieres rouge;10
+aoc-3410;Corton Les Chaumes rouge;10
+aoc-3411;Corton Les Combes rouge;10
+aoc-3412;Corton Les Fietres rouge;10
+aoc-3413;Corton Les Grandes Lolieres rouge;10
+aoc-3414;Corton Les Greves rouge;10
+aoc-3415;Corton Les Languettes rouge;10
+aoc-3416;Corton Les Marechaudes rouge;10
+aoc-3417;Corton Les Moutottes rouge;10
+aoc-3418;Corton Les Paulands rouge;10
+aoc-3419;Corton Les Perrieres rouge;10
+aoc-3420;Corton Les Pougets rouge;10
+aoc-3421;Corton Les Renardes rouge;10
+aoc-3422;Corton Les Vergennes rouge;10
+aoc-3423;Mâcon blanc;10
+aoc-3424;Mâcon blanc primeur ou nouveau;10
+aoc-3425;Mâcon rose;10
+aoc-3426;Mâcon rose primeur ou nouveau;10
+aoc-3427;Mâcon rouge;10
+aoc-3428;Cevennes blanc;10
+aoc-3429;Cevennes mousseux de qualite blanc;10
+aoc-3430;Cevennes mousseux de qualite rose;10
+aoc-3431;Cevennes mousseux de qualite rouge;10
+aoc-3432;Cevennes primeur ou nouveau blanc;10
+aoc-3433;Cevennes primeur ou nouveau rose;10
+aoc-3434;Cevennes primeur ou nouveau rouge;10
+aoc-3435;Cevennes rose;10
+aoc-3436;Cevennes rouge;10
+aoc-3437;Cevennes surmûri blanc;10
+aoc-3438;Cevennes surmûri rose;10
+aoc-3439;Cevennes surmûri rouge;10
+aoc-3440;Franche-Comte blanc;10
+aoc-3441;Franche-Comte mousseux de qualite blanc;10
+aoc-3442;Franche-Comte mousseux de qualite rose;10
+aoc-3443;Franche-Comte mousseux de qualite rouge;10
+aoc-3444;Franche-Comte primeur ou nouveau blanc;10
+aoc-3445;Franche-Comte primeur ou nouveau rose;10
+aoc-3446;Franche-Comte primeur ou nouveau rouge;10
+aoc-3447;Franche-Comte rose;10
+aoc-3448;Franche-Comte rouge;10
+aoc-3449;Emmental français Est-Central;10
+aoc-3450;Fixin premier cru Les Meix Bas blanc;10
+aoc-3451;Fixin premier cru Les Meix Bas rouge;10
+aoc-3452;Meursault premier cru Blagny blanc;10
+aoc-3453;Bleu de Gex haut Jura ou Bleu de Septmoncel;22
+aoc-3454;Morbier;10
+aoc-3455;Genievre Flandre-Artois;10
+aoc-3456;Beurre de Bresse;10
+aoc-3457;Coteaux de l'Ain Pays de Gex blanc;10
+aoc-3458;Coteaux de l'Ain Pays de Gex mousseux de qualite blanc;10
+aoc-3459;Coteaux de l'Ain Pays de Gex mousseux de qualite rose;10
+aoc-3460;Coteaux de l'Ain Pays de Gex mousseux de qualite rouge;10
+aoc-3461;Coteaux de l'Ain Pays de Gex primeur ou nouveau blanc;10
+aoc-3462;Coteaux de l'Ain Pays de Gex rose;10
+aoc-3463;Coteaux de l'Ain Pays de Gex rouge;10
+aoc-3464;Coteaux de l'Ain Pays de Gex Rouge Primeur ou Nouveau;10
+aoc-3465;Drome Comte de Grignan blanc;10
+aoc-3466;Drome Comte de Grignan mousseux de qualite blanc;10
+aoc-3467;Drome Comte de Grignan mousseux de qualite rose;10
+aoc-3468;Drome Comte de Grignan mousseux de qualite rouge;10
+aoc-3469;Drome Comte de Grignan primeur ou nouveau blanc;10
+aoc-3470;Drome Comte de Grignan primeur ou nouveau rose;10
+aoc-3471;Drome Comte de Grignan primeur ou nouveau rouge;10
+aoc-3472;Drome Comte de Grignan rose;10
+aoc-3473;Drome Comte de Grignan rouge;10
+aoc-3474;Drome Coteaux de Montelimar blanc;10
+aoc-3475;Drome Coteaux de Montelimar mousseux de qualite blanc;10
+aoc-3476;Drome Coteaux de Montelimar mousseux de qualite rose;10
+aoc-3477;Drome Coteaux de Montelimar mousseux de qualite rouge;10
+aoc-3478;Drome Coteaux de Montelimar primeur ou nouveau blanc;10
+aoc-3479;Drome Coteaux de Montelimar primeur ou nouveau rose;10
+aoc-3480;Drome Coteaux de Montelimar primeur ou nouveau rouge;10
+aoc-3481;Drome Coteaux de Montelimar rose;10
+aoc-3482;Drome Coteaux de Montelimar rouge;10
+aoc-3483;Franche-Comte Buffard blanc;10
+aoc-3484;Franche-Comte Buffard mousseux de qualite blanc;10
+aoc-3485;Franche-Comte Buffard mousseux de qualite rose;10
+aoc-3486;Franche-Comte Buffard mousseux de qualite rouge;10
+aoc-3487;Franche-Comte Buffard primeur ou nouveau blanc;10
+aoc-3488;Franche-Comte Buffard primeur ou nouveau rose;10
+aoc-3489;Franche-Comte Buffard primeur ou nouveau rouge;10
+aoc-3490;Franche-Comte Buffard rose;10
+aoc-3491;Franche-Comte Buffard rouge;10
+aoc-3492;Franche-Comte Coteaux de Champlitte blanc;10
+aoc-3493;Franche-Comte Coteaux de Champlitte mousseux de qualite blanc;10
+aoc-3494;Franche-Comte Coteaux de Champlitte mousseux de qualite rose;10
+aoc-3495;Franche-Comte Coteaux de Champlitte mousseux de qualite rouge;10
+aoc-3496;Franche-Comte Coteaux de Champlitte primeur ou nouveau blanc;10
+aoc-3497;Franche-Comte Coteaux de Champlitte primeur ou nouveau rose;10
+aoc-3498;Franche-Comte Coteaux de Champlitte primeur ou nouveau rouge;10
+aoc-3499;Franche-Comte Coteaux de Champlitte rose;10
+aoc-3500;Franche-Comte Coteaux de Champlitte rouge;10
+aoc-3501;Franche-Comte Doubs blanc;10
+aoc-3502;Franche-Comte Doubs mousseux de qualite blanc;10
+aoc-3503;Franche-Comte Doubs mousseux de qualite rose;10
+aoc-3504;Franche-Comte Doubs mousseux de qualite rouge;10
+aoc-3505;Franche-Comte Doubs primeur ou nouveau blanc;10
+aoc-3506;Franche-Comte Doubs primeur ou nouveau rose;10
+aoc-3507;Franche-Comte Doubs primeur ou nouveau rouge;10
+aoc-3508;Franche-Comte Doubs rose;10
+aoc-3509;Franche-Comte Doubs rouge;10
+aoc-3510;Franche-Comte Gy  mousseux de qualite blanc;10
+aoc-3511;Franche-Comte Gy blanc;10
+aoc-3512;Franche-Comte Gy mousseux de qualite rose;10
+aoc-3513;Franche-Comte Gy mousseux de qualite rouge;10
+aoc-3514;Franche-Comte Gy primeur ou nouveau blanc;10
+aoc-3515;Franche-Comte Gy primeur ou nouveau rose;10
+aoc-3516;Franche-Comte Gy primeur ou nouveau rouge;10
+aoc-3517;Franche-Comte Gy rose;10
+aoc-3518;Franche-Comte Gy rouge;10
+aoc-3519;Franche-Comte Haute-Saone blanc;10
+aoc-3520;Franche-Comte Haute-Saone mousseux de qualite blanc;10
+aoc-3521;Franche-Comte Haute-Saone mousseux de qualite rose;10
+aoc-3522;Franche-Comte Haute-Saone mousseux de qualite rouge;10
+aoc-3523;Franche-Comte Haute-Saone primeur ou nouveau blanc;10
+aoc-3524;Franche-Comte Haute-Saone primeur ou nouveau rose;10
+aoc-3525;Franche-Comte Haute-Saone primeur ou nouveau rouge;10
+aoc-3526;Franche-Comte Haute-Saone rose;10
+aoc-3527;Franche-Comte Haute-Saone rouge;10
+aoc-3528;Franche-Comte Hugier  mousseux de qualite rose;10
+aoc-3529;Franche-Comte Hugier blanc;10
+aoc-3530;Franche-Comte Hugier mousseux de qualite blanc;10
+aoc-3531;Franche-Comte Hugier mousseux de qualite rouge;10
+aoc-3532;Franche-Comte Hugier primeur ou nouveau blanc;10
+aoc-3533;Franche-Comte Hugier primeur ou nouveau rose;10
+aoc-3534;Franche-Comte Hugier primeur ou nouveau rouge;10
+aoc-3535;Franche-Comte Hugier rose;10
+aoc-3536;Franche-Comte Hugier rouge;10
+aoc-3537;Franche-Comte Motey-Besuche blanc;10
+aoc-3538;Franche-Comte Motey-Besuche mousseux de qualite blanc;10
+aoc-3539;Franche-Comte Motey-Besuche mousseux de qualite rose;10
+aoc-3540;Franche-Comte Motey-Besuche mousseux de qualite rouge;10
+aoc-3541;Franche-Comte Motey-Besuche primeur ou nouveau blanc;10
+aoc-3542;Franche-Comte Motey-Besuche primeur ou nouveau rose;10
+aoc-3543;Franche-Comte Motey-Besuche primeur ou nouveau rouge;10
+aoc-3544;Franche-Comte Motey-Besuche rose;10
+aoc-3545;Franche-Comte Motey-Besuche rouge;10
+aoc-3546;Franche-Comte Offlanges blanc;10
+aoc-3547;Franche-Comte Offlanges mousseux de qualite blanc;10
+aoc-3548;Franche-Comte Offlanges mousseux de qualite rose;10
+aoc-3549;Franche-Comte Offlanges mousseux de qualite rouge;10
+aoc-3550;Franche-Comte Offlanges primeur ou nouveau blanc;10
+aoc-3551;Franche-Comte Offlanges primeur ou nouveau rose;10
+aoc-3552;Franche-Comte Offlanges primeur ou nouveau rouge;10
+aoc-3553;Franche-Comte Offlanges rose;10
+aoc-3554;Franche-Comte Offlanges rouge;10
+aoc-3555;Franche-Comte Vuillafans blanc;10
+aoc-3556;Franche-Comte Vuillafans mousseux de qualite blanc;10
+aoc-3557;Franche-Comte Vuillafans mousseux de qualite rose;10
+aoc-3558;Franche-Comte Vuillafans mousseux de qualite rouge;10
+aoc-3559;Franche-Comte Vuillafans primeur ou nouveau blanc;10
+aoc-3560;Franche-Comte Vuillafans primeur ou nouveau rose;10
+aoc-3561;Franche-Comte Vuillafans primeur ou nouveau rouge;10
+aoc-3562;Franche-Comte Vuillafans rose;10
+aoc-3563;Franche-Comte Vuillafans rouge;10
+aoc-3564;Isere Balmes dauphinoises blanc;10
+aoc-3565;Isere Balmes dauphinoises rose;10
+aoc-3566;Isere Balmes dauphinoises rouge;10
+aoc-3567;Isere Coteaux du Gresivaudan blanc;10
+aoc-3568;Isere Isere Coteaux du Gresivaudan rose;10
+aoc-3569;Isere Isere Coteaux du Gresivaudan rouge;10
+aoc-3570;Landes Coteaux de Chalosse blanc;10
+aoc-3571;Landes Coteaux de Chalosse mousseux de qualite blanc;10
+aoc-3572;Landes Coteaux de Chalosse mousseux de qualite rose;10
+aoc-3573;Landes Coteaux de Chalosse mousseux de qualite rouge;10
+aoc-3574;Landes Coteaux de Chalosse primeur ou nouveau blanc;10
+aoc-3575;Landes Coteaux de Chalosse primeur ou nouveau rose;10
+aoc-3576;Landes Coteaux de Chalosse primeur ou nouveau rouge;10
+aoc-3577;Landes Coteaux de Chalosse rose;10
+aoc-3578;Landes Coteaux de Chalosse rouge;10
+aoc-3579;Landes Coteaux de Chalosse surmûri blanc;10
+aoc-3580;Landes Cotes de l'Adour blanc;10
+aoc-3581;Landes Cotes de l'Adour mousseux de qualite blanc;10
+aoc-3582;Landes Cotes de l'Adour mousseux de qualite rose;10
+aoc-3583;Landes Cotes de l'Adour mousseux de qualite rouge;10
+aoc-3584;Landes Cotes de l'Adour primeur ou nouveau blanc;10
+aoc-3585;Landes Cotes de l'Adour primeur ou nouveau rose;10
+aoc-3586;Landes Cotes de l'Adour primeur ou nouveau rouge;10
+aoc-3587;Landes Cotes de l'Adour rose;10
+aoc-3588;Landes Cotes de l'Adour rouge;10
+aoc-3589;Landes Cotes de l'Adour surmûri blanc;10
+aoc-3590;Landes Sables de l'Ocean blanc;10
+aoc-3591;Landes Sables de l'Ocean mousseux de qualite blanc;10
+aoc-3592;Landes Sables de l'Ocean mousseux de qualite rose;10
+aoc-3593;Landes Sables de l'Ocean primeur ou nouveau blanc;10
+aoc-3594;Landes Sables de l'Ocean primeur ou nouveau rose;10
+aoc-3595;Landes Sables de l'Ocean primeur ou nouveau rouge;10
+aoc-3596;Landes Sables de l'Ocean rose;10
+aoc-3597;Landes Sables de l'Ocean rouge;10
+aoc-3598;Landes Sables de l'Ocean surmûri blanc;10
+aoc-3599;Landes Sables fauves blanc;10
+aoc-3600;Landes Sables fauves mousseux de qualite blanc;10
+aoc-3601;Landes Sables fauves mousseux de qualite rose;10
+aoc-3602;Landes Sables fauves mousseux de qualite rouge;10
+aoc-3603;Landes Sables fauves primeur ou nouveau blanc;10
+aoc-3604;Landes Sables fauves primeur ou nouveau rose;10
+aoc-3605;Landes Sables fauves primeur ou nouveau rouge;10
+aoc-3606;Landes Sables fauves rose;10
+aoc-3607;Landes Sables fauves rouge;10
+aoc-3608;Landes Sables fauves surmûri blanc;10
+aoc-3609;Cotes du Lot Rocamadour blanc;10
+aoc-3610;Cotes du Lot Rocamadour mousseux de qualite blanc;10
+aoc-3611;Cotes du Lot Rocamadour mousseux de qualite rose;10
+aoc-3612;Cotes du Lot Rocamadour primeur ou nouveau blanc;10
+aoc-3613;Cotes du Lot Rocamadour primeur ou nouveau rose;10
+aoc-3614;Cotes du Lot Rocamadour primeur ou nouveau rouge;10
+aoc-3615;Cotes du Lot Rocamadour rose;10
+aoc-3616;Cotes du Lot Rocamadour rouge;10
+aoc-3617;Mediterranee Comte de Grignan blanc;10
+aoc-3618;Mediterranee Comte de Grignan mousseux de qualite blanc;10
+aoc-3619;Mediterranee Comte de Grignan mousseux de qualite rose;10
+aoc-3620;Mediterranee Comte de Grignan mousseux de qualite rouge;10
+aoc-3621;Mediterranee Comte de Grignan primeur ou nouveau blanc;10
+aoc-3622;Mediterranee Comte de Grignan primeur ou nouveau rose;10
+aoc-3623;Mediterranee Comte de Grignan primeur ou nouveau rouge;10
+aoc-3624;Mediterranee Comte de Grignan rose;10
+aoc-3625;Mediterranee Comte de Grignan rouge;10
+aoc-3626;Mediterranee Coteaux de Montelimar  mousseux de qualite rose;10
+aoc-3627;Mediterranee Coteaux de Montelimar blanc;10
+aoc-3628;Mediterranee Coteaux de Montelimar mousseux de qualite blanc;10
+aoc-3629;Mediterranee Coteaux de Montelimar mousseux de qualite rouge;10
+aoc-3630;Mediterranee Coteaux de Montelimar primeur ou nouveau blanc;10
+aoc-3631;Mediterranee Coteaux de Montelimar primeur ou nouveau rose;10
+aoc-3632;Mediterranee Coteaux de Montelimar primeur ou nouveau rouge;10
+aoc-3633;Mediterranee Coteaux de Montelimar rose;10
+aoc-3634;Mediterranee Coteaux de Montelimar rouge;10
+aoc-3635;Pays d'Herault Benovie blanc;10
+aoc-3636;Pays d'Herault Benovie primeur ou nouveau blanc;10
+aoc-3637;Pays d'Herault Benovie primeur ou nouveau rose;10
+aoc-3638;Pays d'Herault Benovie primeur ou nouveau rouge;10
+aoc-3639;Pays d'Herault Benovie rose;10
+aoc-3640;Pays d'Herault Benovie rouge;10
+aoc-3641;Pays d'Herault Berange blanc;10
+aoc-3642;Pays d'Herault Berange primeur ou nouveau blanc;10
+aoc-3643;Pays d'Herault Berange primeur ou nouveau rose;10
+aoc-3644;Pays d'Herault Berange primeur ou nouveau rouge;10
+aoc-3645;Pays d'Herault Berange rose;10
+aoc-3646;Pays d'Herault Berange rouge;10
+aoc-3647;Pays d'Herault Cassan blanc;10
+aoc-3648;Pays d'Herault Cassan primeur ou nouveau blanc;10
+aoc-3649;Pays d'Herault Cassan primeur ou nouveau rose;10
+aoc-3650;Pays d'Herault Cassan primeur ou nouveau rouge;10
+aoc-3651;Pays d'Herault Cassan rose;10
+aoc-3652;Pays d'Herault Cassan rouge;10
+aoc-3653;Pays d'Herault Cessenon blanc;10
+aoc-3654;Pays d'Herault Cessenon primeur ou nouveau blanc;10
+aoc-3655;Pays d'Herault Cessenon primeur ou nouveau rose;10
+aoc-3656;Pays d'Herault Cessenon primeur ou nouveau rouge;10
+aoc-3657;Pays d'Herault Cessenon rose;10
+aoc-3658;Pays d'Herault Cessenon rouge;10
+aoc-3659;Pays d'Herault Collines de la Moure blanc;10
+aoc-3660;Pays d'Herault Collines de la Moure primeur ou nouveau blanc;10
+aoc-3661;Pays d'Herault Collines de la Moure primeur ou nouveau rose;10
+aoc-3662;Pays d'Herault Collines de la Moure primeur ou nouveau rouge;10
+aoc-3663;Pays d'Herault Collines de la Moure rose;10
+aoc-3664;Pays d'Herault Collines de la Moure rouge;10
+aoc-3665;Pays d'Herault Coteaux de Bessilles blanc;10
+aoc-3666;Pays d'Herault Coteaux de Bessilles primeur ou nouveau blanc;10
+aoc-3667;Pays d'Herault Coteaux de Bessilles primeur ou nouveau rose;10
+aoc-3668;Pays d'Herault Coteaux de Bessilles primeur ou nouveau rouge;10
+aoc-3669;Pays d'Herault Coteaux de Bessilles rose;10
+aoc-3670;Pays d'Herault Coteaux de Bessilles rouge;10
+aoc-3671;Pays d'Herault Coteaux de Fontcaude blanc;10
+aoc-3672;Pays d'Herault Coteaux de Fontcaude primeur ou nouveau blanc;10
+aoc-3673;Pays d'Herault Coteaux de Fontcaude primeur ou nouveau rose;10
+aoc-3674;Pays d'Herault Coteaux de Fontcaude primeur ou nouveau rouge;10
+aoc-3675;Pays d'Herault Coteaux de Fontcaude rose;10
+aoc-3676;Pays d'Herault Coteaux de Fontcaude rouge;10
+aoc-3677;Pays d'Herault Coteaux de Laurens blanc;10
+aoc-3678;Pays d'Herault Coteaux de Laurens primeur ou nouveau blanc;10
+aoc-3679;Pays d'Herault Coteaux de Laurens primeur ou nouveau rose;10
+aoc-3680;Pays d'Herault Coteaux de Laurens primeur ou nouveau rouge;10
+aoc-3681;Pays d'Herault Coteaux de Laurens rose;10
+aoc-3682;Pays d'Herault Coteaux de Laurens rouge;10
+aoc-3683;Pays d'Herault Coteaux de Murviel blanc;10
+aoc-3684;Pays d'Herault Coteaux de Murviel primeur ou nouveau blanc;10
+aoc-3685;Pays d'Herault Coteaux de Murviel primeur ou nouveau rose;10
+aoc-3686;Pays d'Herault Coteaux de Murviel primeur ou nouveau rouge;10
+aoc-3687;Pays d'Herault Coteaux de Murviel rose;10
+aoc-3688;Pays d'Herault Coteaux de Murviel rouge;10
+aoc-3689;Pays d'Herault Coteaux du Salagou blanc;10
+aoc-3690;Pays d'Herault Coteaux du Salagou primeur ou nouveau blanc;10
+aoc-3691;Pays d'Herault Coteaux du Salagou primeur ou nouveau rose;10
+aoc-3692;Pays d'Herault Coteaux du Salagou primeur ou nouveau rouge;10
+aoc-3693;Pays d'Herault Coteaux du Salagou rose;10
+aoc-3694;Pays d'Herault Coteaux du Salagou rouge;10
+aoc-3695;Pays d'Herault Cotes du Brian blanc;10
+aoc-3696;Pays d'Herault Cotes du Brian primeur ou nouveau blanc;10
+aoc-3697;Pays d'Herault Cotes du Brian primeur ou nouveau rose;10
+aoc-3698;Pays d'Herault Cotes du Brian primeur ou nouveau rouge;10
+aoc-3699;Pays d'Herault Cotes du Brian rose;10
+aoc-3700;Pays d'Herault Cotes du Brian rouge;10
+aoc-3701;Pays d'Herault Cotes du Ceressou blanc;10
+aoc-3702;Pays d'Herault Cotes du Ceressou primeur ou nouveau blanc;10
+aoc-3703;Pays d'Herault Cotes du Ceressou primeur ou nouveau rose;10
+aoc-3704;Pays d'Herault Cotes du Ceressou primeur ou nouveau rouge;10
+aoc-3705;Pays d'Herault Cotes du Ceressou rose;10
+aoc-3706;Pays d'Herault Cotes du Ceressou rouge;10
+aoc-3707;Pays d'Herault Mont Baudile blanc;10
+aoc-3708;Pays d'Herault Mont Baudile primeur ou nouveau blanc;10
+aoc-3709;Pays d'Herault Mont Baudile primeur ou nouveau rose;10
+aoc-3710;Pays d'Herault Mont Baudile primeur ou nouveau rouge;10
+aoc-3711;Pays d'Herault Mont Baudile rose;10
+aoc-3712;Pays d'Herault Mont Baudile rouge;10
+aoc-3713;Pays d'Herault Monts de la Grage blanc;10
+aoc-3714;Pays d'Herault Monts de la Grage primeur ou nouveau blanc;10
+aoc-3715;Pays d'Herault Monts de la Grage primeur ou nouveau rose;10
+aoc-3716;Pays d'Herault Monts de la Grage primeur ou nouveau rouge;10
+aoc-3717;Pays d'Herault Monts de la Grage rose;10
+aoc-3718;Pays d'Herault Monts de la Grage rouge;10
+aoc-3719;Pays d'Herault Pays de Bessan blanc;10
+aoc-3720;Pays d'Herault Pays de Bessan blanc  Primeur ou Nouveau;10
+aoc-3721;Pays d'Herault Pays de Bessan primeur ou nouveau rose;10
+aoc-3722;Pays d'Herault Pays de Bessan primeur ou nouveau rouge;10
+aoc-3723;Pays d'Herault Pays de Bessan rose;10
+aoc-3724;Pays d'Herault Pays de Bessan rouge;10
+aoc-3725;Pays d'Herault Pays de Caux blanc;10
+aoc-3726;Pays d'Herault Pays de Caux primeur ou nouveau blanc;10
+aoc-3727;Pays d'Herault Pays de Caux primeur ou nouveau rose;10
+aoc-3728;Pays d'Herault Pays de Caux primeur ou nouveau rouge;10
+aoc-3729;Pays d'Herault Pays de Caux rose ;10
+aoc-3730;Pays d'Herault Pays de Caux rouge;10
+aoc-3731;Perigord Dordogne blanc;10
+aoc-3732;Perigord Dordogne primeur ou nouveau blanc;10
+aoc-3733;Perigord Dordogne primeur ou nouveau rose;10
+aoc-3734;Perigord Dordogne primeur ou nouveau rouge;10
+aoc-3735;Perigord Dordogne rose;10
+aoc-3736;Perigord Dordogne rouge;10
+aoc-3737;Saint-Guilhem-le-Desert Cite d'Aniane blanc;10
+aoc-3738;Saint-Guilhem-le-Desert Cite d'Aniane primeur ou nouveau blanc;10
+aoc-3739;Saint-Guilhem-le-Desert Cite d'Aniane primeur ou nouveau rose;10
+aoc-3740;Saint-Guilhem-le-Desert Cite d'Aniane primeur ou nouveau rouge;10
+aoc-3741;Saint-Guilhem-le-Desert Cite d'Aniane rose;10
+aoc-3742;Saint-Guilhem-le-Desert Cite d'Aniane rouge;10
+aoc-3743;Saint-Guilhem-le-Desert Cite d'Aniane surmûri blanc;10
+aoc-3744;Saint-Guilhem-le-Desert Cite d'Aniane surmûri rose;10
+aoc-3745;Saint-Guilhem-le-Desert Cite d'Aniane surmûri rouge;10
+aoc-3746;Saint-Guilhem-le-Desert Val de Montferrand blanc;10
+aoc-3747;Saint-Guilhem-le-Desert Val de Montferrand primeur ou nouveau blanc;10
+aoc-3748;Saint-Guilhem-le-Desert Val de Montferrand primeur ou nouveau rose;10
+aoc-3749;Saint-Guilhem-le-Desert Val de Montferrand primeur ou nouveau rouge;10
+aoc-3750;Saint-Guilhem-le-Desert Val de Montferrand rose;10
+aoc-3751;Saint-Guilhem-le-Desert Val de Montferrand rouge;10
+aoc-3752;Saint-Guilhem-le-Desert Val de Montferrand surmûri blanc;10
+aoc-3753;Saint-Guilhem-le-Desert Val de Montferrand surmûri rose;10
+aoc-3754;Saint-Guilhem-le-Desert Val de Montferrand surmûri rouge;10
+aoc-3755;Urfe Ambierle rose;10
+aoc-3756;Urfe Trelins rose;10
+aoc-3757;Val de Loire Allier blanc;10
+aoc-3758;Val de Loire Allier gris;10
+aoc-3759;Val de Loire Allier primeur ou nouveau blanc;10
+aoc-3760;Val de Loire Allier primeur ou nouveau gris;10
+aoc-3761;Val de Loire Allier primeur ou nouveau rose;10
+aoc-3762;Val de Loire Allier primeur ou nouveau rouge;10
+aoc-3763;Val de Loire Allier rose;10
+aoc-3764;Val de Loire Allier rouge;10
+aoc-3765;Val de Loire Cher blanc;10
+aoc-3766;Val de Loire Cher gris;10
+aoc-3767;Val de Loire Cher primeur ou nouveau blanc;10
+aoc-3768;Val de Loire Cher primeur ou nouveau gris;10
+aoc-3769;Val de Loire Cher primeur ou nouveau rose;10
+aoc-3770;Val de Loire Cher primeur ou nouveau rouge;10
+aoc-3771;Val de Loire Cher rose;10
+aoc-3772;Val de Loire Cher rouge;10
+aoc-3773;Val de Loire Indre blanc ;10
+aoc-3774;Val de Loire Indre gris;10
+aoc-3775;Val de Loire Indre primeur ou nouveau blanc;10
+aoc-3776;Val de Loire Indre primeur ou nouveau gris;10
+aoc-3777;Val de Loire Indre primeur ou nouveau rose;10
+aoc-3778;Val de Loire Indre primeur ou nouveau rouge;10
+aoc-3779;Val de Loire Indre rose;10
+aoc-3780;Val de Loire Indre rouge;10
+aoc-3781;Val de Loire Indre-et-Loire blanc;10
+aoc-3782;Val de Loire Indre-et-Loire gris;10
+aoc-3783;Val de Loire Indre-et-Loire primeur ou nouveau blanc;10
+aoc-3784;Val de Loire Indre-et-Loire primeur ou nouveau gris;10
+aoc-3785;Val de Loire Indre-et-Loire primeur ou nouveau rose;10
+aoc-3786;Val de Loire Indre-et-Loire primeur ou nouveau rouge;10
+aoc-3787;Val de Loire Indre-et-Loire rose;10
+aoc-3788;Val de Loire Indre-et-Loire rouge;10
+aoc-3789;Val de Loire Loire-Atlantique blanc;10
+aoc-3790;Val de Loire Loire-Atlantique gris;10
+aoc-3791;Val de Loire Loire-Atlantique primeur ou nouveau blanc;10
+aoc-3792;Val de Loire Loire-Atlantique primeur ou nouveau gris;10
+aoc-3793;Val de Loire Loire-Atlantique primeur ou nouveau rose;10
+aoc-3794;Val de Loire Loire-Atlantique primeur ou nouveau rouge;10
+aoc-3795;Val de Loire Loire-Atlantique rose;10
+aoc-3796;Val de Loire Loire-Atlantique rouge;10
+aoc-3797;Val de Loire Loiret blanc;10
+aoc-3798;Val de Loire Loiret gris;10
+aoc-3799;Val de Loire Loiret primeur ou nouveau blanc;10
+aoc-3800;Val de Loire Loiret primeur ou nouveau gris;10
+aoc-3801;Val de Loire Loiret primeur ou nouveau rose;10
+aoc-3802;Val de Loire Loiret primeur ou nouveau rouge;10
+aoc-3803;Val de Loire Loiret rose;10
+aoc-3804;Val de Loire Loiret rouge;10
+aoc-3805;Val de Loire Loir-et-Cher blanc;10
+aoc-3806;Val de Loire Loir-et-Cher gris;10
+aoc-3807;Val de Loire Loir-et-Cher primeur ou nouveau blanc;10
+aoc-3808;Val de Loire Loir-et-Cher primeur ou nouveau gris;10
+aoc-3809;Val de Loire Loir-et-Cher primeur ou nouveau rose;10
+aoc-3810;Val de Loire Loir-et-Cher primeur ou nouveau rouge;10
+aoc-3811;Val de Loire Loir-et-Cher rose;10
+aoc-3812;Val de Loire Loir-et-Cher rouge;10
+aoc-3813;Val de Loire Maine-et-Loire blanc;10
+aoc-3814;Val de Loire Maine-et-Loire gris;10
+aoc-3815;Val de Loire Maine-et-Loire primeur ou nouveau blanc;10
+aoc-3816;Val de Loire Maine-et-Loire primeur ou nouveau gris;10
+aoc-3817;Val de Loire Maine-et-Loire primeur ou nouveau rose;10
+aoc-3818;Val de Loire Maine-et-Loire primeur ou nouveau rouge;10
+aoc-3819;Val de Loire Maine-et-Loire rose;10
+aoc-3820;Val de Loire Maine-et-Loire rouge;10
+aoc-3821;Val de Loire Marches de Bretagne blanc;10
+aoc-3822;Val de Loire Marches de Bretagne gris;10
+aoc-3823;Val de Loire Marches de Bretagne primeur ou nouveau blanc;10
+aoc-3824;Val de Loire Marches de Bretagne primeur ou nouveau gris;10
+aoc-3825;Val de Loire Marches de Bretagne primeur ou nouveau rose;10
+aoc-3826;Val de Loire Marches de Bretagne primeur ou nouveau rouge;10
+aoc-3827;Val de Loire Marches de Bretagne rose;10
+aoc-3828;Val de Loire Marches de Bretagne rouge;10
+aoc-3829;Val de Loire Nievre blanc;10
+aoc-3830;Val de Loire Nievre gris;10
+aoc-3831;Val de Loire Nievre primeur ou nouveau blanc;10
+aoc-3832;Val de Loire Nievre primeur ou nouveau gris;10
+aoc-3833;Val de Loire Nievre primeur ou nouveau rose;10
+aoc-3834;Val de Loire Nievre primeur ou nouveau rouge;10
+aoc-3835;Val de Loire Nievre rose;10
+aoc-3836;Val de Loire Nievre rouge;10
+aoc-3837;Val de Loire Pays de Retz blanc;10
+aoc-3838;Val de Loire Pays de Retz gris;10
+aoc-3839;Val de Loire Pays de Retz primeur ou nouveau blanc;10
+aoc-3840;Val de Loire Pays de Retz primeur ou nouveau gris;10
+aoc-3841;Val de Loire Pays de Retz primeur ou nouveau rose;10
+aoc-3842;Val de Loire Pays de Retz primeur ou nouveau rouge;10
+aoc-3843;Val de Loire Pays de Retz rose;10
+aoc-3844;Val de Loire Pays de Retz rouge;10
+aoc-3845;Val de Loire Sarthe blanc;10
+aoc-3846;Val de Loire Sarthe gris;10
+aoc-3847;Val de Loire Sarthe primeur ou nouveau blanc;10
+aoc-3848;Val de Loire Sarthe primeur ou nouveau gris;10
+aoc-3849;Val de Loire Sarthe primeur ou nouveau rose;10
+aoc-3850;Val de Loire Sarthe primeur ou nouveau rouge;10
+aoc-3851;Val de Loire Sarthe rose;10
+aoc-3852;Val de Loire Sarthe rouge;10
+aoc-3853;Val de Loire Vendee  primeur ou nouveau gris;10
+aoc-3854;Val de Loire Vendee blanc;10
+aoc-3855;Val de Loire Vendee gris;10
+aoc-3856;Val de Loire Vendee primeur ou nouveau blanc;10
+aoc-3857;Val de Loire Vendee primeur ou nouveau rose;10
+aoc-3858;Val de Loire Vendee primeur ou nouveau rouge;10
+aoc-3859;Val de Loire Vendee rose;10
+aoc-3860;Val de Loire Vendee rouge;10
+aoc-3861;Val de Loire Vienne blanc;10
+aoc-3862;Val de Loire Vienne gris;10
+aoc-3863;Val de Loire Vienne primeur ou nouveau blanc;10
+aoc-3864;Val de Loire Vienne primeur ou nouveau gris;10
+aoc-3865;Val de Loire Vienne primeur ou nouveau rose;10
+aoc-3866;Val de Loire Vienne primeur ou nouveau rouge;10
+aoc-3867;Val de Loire Vienne rose;10
+aoc-3868;Val de Loire Vienne rouge;10
+aoc-3869;Var Argens blanc;10
+aoc-3870;Var Argens mousseux de qualite blanc;10
+aoc-3871;Var Argens mousseux de qualite rose;10
+aoc-3872;Var Argens mousseux de qualite rouge;10
+aoc-3873;Var Argens primeur ou nouveau blanc;10
+aoc-3874;Var Argens primeur ou nouveau rose;10
+aoc-3875;Var Argens primeur ou nouveau rouge;10
+aoc-3876;Var Argens rose;10
+aoc-3877;Var Argens rouge;10
+aoc-3878;Var Coteaux du Verdon blanc;10
+aoc-3879;Var Coteaux du Verdon mousseux de qualite blanc;10
+aoc-3880;Var Coteaux du Verdon mousseux de qualite rose;10
+aoc-3881;Var Coteaux du Verdon mousseux de qualite rouge;10
+aoc-3882;Var Coteaux du Verdon primeur ou nouveau blanc;10
+aoc-3883;Var Coteaux du Verdon primeur ou nouveau rose;10
+aoc-3884;Var Coteaux du Verdon primeur ou nouveau rouge;10
+aoc-3885;Var Coteaux du Verdon rose;10
+aoc-3886;Var Coteaux du Verdon rouge;10
+aoc-3887;Var Sainte Baume blanc;10
+aoc-3888;Var Sainte Baume mousseux de qualite blanc;10
+aoc-3889;Var Sainte Baume mousseux de qualite rose;10
+aoc-3890;Var Sainte Baume mousseux de qualite rouge;10
+aoc-3891;Var Sainte Baume primeur ou nouveau blanc;10
+aoc-3892;Var Sainte Baume primeur ou nouveau rose;10
+aoc-3893;Var Sainte Baume primeur ou nouveau rouge;10
+aoc-3894;Var Sainte Baume rose;10
+aoc-3895;Var Sainte Baume rouge;10
+aoc-3896;Vaucluse Aigues blanc;10
+aoc-3897;Vaucluse Aigues primeur ou nouveau blanc;10
+aoc-3898;Vaucluse Aigues primeur ou nouveau rose;10
+aoc-3899;Vaucluse Aigues primeur ou nouveau rouge;10
+aoc-3900;Vaucluse Aigues rose;10
+aoc-3901;Vaucluse Aigues rouge;10
+aoc-3902;Vaucluse Principaute d'Orange blanc;10
+aoc-3903;Vaucluse Principaute d'Orange primeur ou nouveau blanc;10
+aoc-3904;Vaucluse Principaute d'Orange primeur ou nouveau rose;10
+aoc-3905;Vaucluse Principaute d'Orange primeur ou nouveau rouge;10
+aoc-3906;Vaucluse Principaute d'Orange rose;10
+aoc-3907;Vaucluse Principaute d'Orange rouge;10
+aoc-3908;Vicomte d'Aumelas Vallee Doree blanc;10
+aoc-3909;Vicomte d'Aumelas Vallee Doree primeur ou nouveau blanc;10
+aoc-3910;Vicomte d'Aumelas Vallee Doree primeur ou nouveau rose;10
+aoc-3911;Vicomte d'Aumelas Vallee Doree primeur ou nouveau rouge;10
+aoc-3912;Vicomte d'Aumelas Vallee Doree rose;10
+aoc-3913;Vicomte d'Aumelas Vallee Doree rouge;10
+aoc-3914;Coteaux de l'Ain Revermont blanc;10
+aoc-3915;Coteaux de l'Ain Revermont mousseux de qualite blanc;10
+aoc-3916;Coteaux de l'Ain Revermont mousseux de qualite rose;10
+aoc-3917;Coteaux de l'Ain Revermont mousseux de qualite rouge;10
+aoc-3918;Coteaux de l'Ain Revermont primeur ou nouveau blanc;10
+aoc-3919;Coteaux de l'Ain Revermont primeur ou nouveau rose;10
+aoc-3920;Coteaux de l'Ain Revermont primeur ou nouveau rouge;10
+aoc-3921;Coteaux de l'Ain Revermont rose;10
+aoc-3922;Coteaux de l'Ain Revermont rouge;10
+aoc-3923;Coteaux de l'Ain Val de Saone blanc;10
+aoc-3924;Coteaux de l'Ain Val de Saone mousseux de qualite blanc;10
+aoc-3925;Coteaux de l'Ain Val de Saone mousseux de qualite rose;10
+aoc-3926;Coteaux de l'Ain Val de Saone mousseux de qualite rouge;10
+aoc-3927;Coteaux de l'Ain Val de Saone primeur ou nouveau blanc;10
+aoc-3928;Coteaux de l'Ain Val de Saone primeur ou nouveau rose;10
+aoc-3929;Coteaux de l'Ain Val de Saone primeur ou nouveau rouge;10
+aoc-3930;Coteaux de l'Ain Val de Saone rose;10
+aoc-3931;Coteaux de l'Ain Val de Saone rouge;10
+aoc-3932;Coteaux de l'Ain Valromey blanc;10
+aoc-3933;Coteaux de l'Ain Valromey mousseux de qualite blanc;10
+aoc-3934;Coteaux de l'Ain Valromey mousseux de qualite rose;10
+aoc-3935;Coteaux de l'Ain Valromey mousseux de qualite rouge;10
+aoc-3936;Coteaux de l'Ain Valromey primeur ou nouveau blanc;10
+aoc-3937;Coteaux de l'Ain Valromey primeur ou nouveau rose;10
+aoc-3938;Coteaux de l'Ain Valromey primeur ou nouveau rose;10
+aoc-3939;Coteaux de l'Ain Valromey primeur ou nouveau rouge;10
+aoc-3940;Coteaux de l'Ain Valromey rose;10
+aoc-3941;Coteaux de l'Ain Valromey rouge;10
+aoc-3942;Ardeche Coteaux de l'Ardeche blanc;10
+aoc-3943;Ardeche Coteaux de l'Ardeche mousseux de qualite blanc;10
+aoc-3944;Ardeche Coteaux de l'Ardeche mousseux de qualite rose;10
+aoc-3945;Ardeche Coteaux de l'Ardeche mousseux de qualite rouge;10
+aoc-3946;Ardeche Coteaux de l'Ardeche primeur ou nouveau blanc;10
+aoc-3947;Ardeche Coteaux de l'Ardeche primeur ou nouveau rose;10
+aoc-3948;Ardeche Coteaux de l'Ardeche primeur ou nouveau rouge;10
+aoc-3949;Ardeche Coteaux de l'Ardeche rose;10
+aoc-3950;Ardeche Coteaux de l'Ardeche rouge;10
+aoc-3951;Ariege Coteaux de la Leze blanc;10
+aoc-3952;Ariege Coteaux de la Leze primeur ou nouveau blanc;10
+aoc-3953;Ariege Coteaux de la Leze primeur ou nouveau rose;10
+aoc-3954;Ariege Coteaux de la Leze primeur ou nouveau rouge;10
+aoc-3955;Ariege Coteaux de la Leze rose;10
+aoc-3956;Ariege Coteaux de la Leze rouge;10
+aoc-3957;Ariege Coteaux de la Leze surmûri blanc;10
+aoc-3958;Ariege Coteaux du Plantaurel blanc;10
+aoc-3959;Ariege Coteaux du Plantaurel primeur ou nouveau blanc;10
+aoc-3960;Ariege Coteaux du Plantaurel primeur ou nouveau rose;10
+aoc-3961;Ariege Coteaux du Plantaurel primeur ou nouveau rouge;10
+aoc-3962;Ariege Coteaux du Plantaurel rose;10
+aoc-3963;Ariege Coteaux du Plantaurel rouge;10
+aoc-3964;Ariege Coteaux du Plantaurel surmûri blanc;10
+aoc-3965;Aude Coteaux de la Cabrerisse blanc;10
+aoc-3966;Aude Coteaux de la Cabrerisse primeur ou nouveau blanc;10
+aoc-3967;Aude Coteaux de la Cabrerisse primeur ou nouveau rose;10
+aoc-3968;Aude Coteaux de la Cabrerisse primeur ou nouveau rouge;10
+aoc-3969;Aude Coteaux de la Cabrerisse rose;10
+aoc-3970;Aude Coteaux de la Cabrerisse rouge;10
+aoc-3971;Aude Coteaux de Miramont blanc;10
+aoc-3972;Aude Coteaux de Miramont primeur ou nouveau blanc;10
+aoc-3973;Aude Coteaux de Miramont primeur ou nouveau rose;10
+aoc-3974;Aude Coteaux de Miramont primeur ou nouveau rouge;10
+aoc-3975;Aude Coteaux de Miramont rose;10
+aoc-3976;Aude Coteaux de Miramont rouge;10
+aoc-3977;Aude Cotes de Lastours blanc;10
+aoc-3978;Aude Cotes de Lastours primeur ou nouveau blanc;10
+aoc-3979;Aude Cotes de Lastours primeur ou nouveau rose;10
+aoc-3980;Aude Cotes de Lastours primeur ou nouveau rouge;10
+aoc-3981;Aude Cotes de Lastours rose;10
+aoc-3982;Aude Cotes de Lastours rouge;10
+aoc-3983;Aude Cotes de Prouilhe blanc;10
+aoc-3984;Aude Cotes de Prouilhe primeur ou nouveau blanc;10
+aoc-3985;Aude Cotes de Prouilhe primeur ou nouveau rose;10
+aoc-3986;Aude Cotes de Prouilhe primeur ou nouveau rouge;10
+aoc-3987;Aude Cotes de Prouilhe rose;10
+aoc-3988;Aude Cotes de Prouilhe rouge;10
+aoc-3989;Aude Hauterive blanc;10
+aoc-3990;Aude Hauterive primeur ou nouveau blanc;10
+aoc-3991;Aude Hauterive primeur ou nouveau rose;10
+aoc-3992;Aude Hauterive primeur ou nouveau rouge;10
+aoc-3993;Aude Hauterive rose;10
+aoc-3994;Aude Hauterive rouge;10
+aoc-3995;Aude La cote revee blanc;10
+aoc-3996;Aude La cote revee primeur ou nouveau blanc;10
+aoc-3997;Aude La cote revee primeur ou nouveau rose;10
+aoc-3998;Aude La cote revee primeur ou nouveau rouge;10
+aoc-3999;Aude La cote revee rose;10
+aoc-4000;Aude La cote revee rouge;10
+aoc-4001;Aude Pays de Cucugnan blanc;10
+aoc-4002;Aude Pays de Cucugnan primeur ou nouveau blanc;10
+aoc-4003;Aude Pays de Cucugnan primeur ou nouveau rose;10
+aoc-4004;Aude Pays de Cucugnan primeur ou nouveau rouge;10
+aoc-4005;Aude Pays de Cucugnan rose;10
+aoc-4006;Aude Pays de Cucugnan rouge;10
+aoc-4007;Muscadet Sevre et Maine Clisson;8
+aoc-4008;Muscadet Sevre et Maine Gorges;8
+aoc-4009;Muscadet Sevre et Maine Le Pallet;8
+aoc-4010;Coteaux du Quercy rose;15
+aoc-4011;Coteaux du Quercy rouge;15
+aoc-4012;Saint-Sardos rose;15
+aoc-4013;Saint-Sardos rouge;15
+aoc-4014;Corton Le Corton rouge;10
+aoc-4015;Creme de Bresse;10
+aoc-4016;Cotes du Rhone Villages Gadagne rouge;13
+aoc-4017;Muscadet;8
+aoc-4018;Muscadet primeur;8
+aoc-4019;Muscadet sur lie;8
+aoc-4020;Muscadet Coteaux de la Loire;8
+aoc-4021;Muscadet Coteaux de la Loire sur lie;8
+aoc-4022;Poulet blanc fermier 94 jours et decoupe, frais ou surgele;8
+aoc-4023;Cotes de Provence Pierrefeu rose;13
+aoc-4024;Cotes de Provence Pierrefeu rouge;13
+aoc-4025;Cassis de Dijon;13
+aoc-4026;Brulhois rose;19
+aoc-4027;Brulhois rouge;19
+aoc-4028;Languedoc primeur ou nouveau rose;15
+aoc-4029;Languedoc primeur ou nouveau rouge;15
+aoc-4030;Languedoc rose;15
+aoc-4031;Languedoc rouge;15
+aoc-4032;Tartiflette au Reblochon ou Reblochon de Savoie;15
+aoc-4033;Terrasses du Larzac;16
+aoc-4034;Clementine;16
+aoc-4035;Endives de pleine terre;16
+aoc-4036; Farine de meule;16
+aoc-4037;Moules de filieres elevees en pleine mer;16
+aoc-4038;Coteaux de Beziers blanc;16
+aoc-4039;Mirabelle d'Alsace;16
+aoc-4040;Framboise d’Alsace;16
+aoc-4041;Quetsch d’Alsace;16
+aoc-4042;Kirsch d’Alsace;16
+aoc-4043;Rhum des Antilles françaises;16
+aoc-4044;Rhum de sucrerie de la Baie du Galion ou Rhum de la Baie du Galion ou Rhum Baie du Galion;16
+aoc-4045;Pommeau de Bretagne;8
+aoc-4046;Marc du Languedoc ou Eau-de-vie de marc du Languedoc;8
+aoc-4047;Rhum des departements français d'outre-mer ou Rhum de l'outre-mer français;8
+aoc-4048;Rhum de La Reunion ou Rhum de Reunion ou Rhum Reunion ou Rhum de l'Ile de La Reunion;8
+aoc-4049;Rhum de la Guyane ou Rhum de Guyane ou Rhum Guyane;8
+aoc-4050;Rhum de la Guadeloupe;8
+aoc-4051;Calvados Pays d'Auge;3
+aoc-4052;Calvados;2
+aoc-4053;Cassis de Saintonge;2
+aoc-4054;Marc des cotes-du-rhone ou Eau-de-vie de marc des cotes-du-rhone;2
+aoc-4055;Pommeau de Normandie;2
+aoc-4056;Whisky breton ou Whisky de Bretagne;2
+aoc-4057;Ratafia de Champagne ou Ratafia champenois;2
+aoc-4058;Marc d'Auvergne;2
+aoc-4059;Marc de Savoie;2
+aoc-4060;Marc du Bugey;2
+aoc-4061;Eau-de-vie de vin originaire du Languedoc ou Fine du Languedoc ou Eau-de-vie de vin du Languedoc;2
+aoc-4062;Whisky d'Alsace ou Whisky alsacien;2
+aoc-4063;Marc de Provence ou Eau-de-vie de marc de Provence;2
+aoc-4064;Fine Faugeres ou Eau-de-vie de Faugeres;2
+aoc-4065;Eau-de-vie de cidre de Normandie ;2
+aoc-4066;Eau-de-vie de vin des cotes-du-rhone ou Fine des cotes-du-rhone;2
+aoc-4067;Genepi des Alpes;2
+aoc-4068;Genievre ou Jenever ou Genever;2
+aoc-4069;Eau-de-vie de vin originaire du Bugey ou Fine du Bugey;2
+aoc-4070;Cremant du Jura blanc;22
+aoc-4071;Cremant du Jura rose;22
+aoc-4072;Cremant de Bourgogne blanc;11
+aoc-4073;Cremant de Bourgogne rose;11
+aoc-4074;Poulet des Cevennes ou Chapon des Cevennes ;11
+aoc-4075;Rosee des Pyrenees catalanes;11
+aoc-4076;Jambon d'Auvergne;11
+aoc-4077;Coulee de Serrant;8
+aoc-4078;Coulee de Serrant moelleux ou doux;8
+aoc-4079;Mediterranee mousseux de qualite blanc;8
+aoc-4080;Vins de la Correze blanc;8
+aoc-4081;Vins de la Correze passerille blanc;8
+aoc-4082;Collines Rhodaniennes Mousseux de qualite blanc;8
+aoc-4083;Haute-Marne Mousseux de qualite blanc;8
+aoc-4084;Haute-Marne Mousseux de qualite rose;8
+aoc-4085;Haute-Marne Mousseux de qualite rouge;8
+aoc-4086;Pays d'Oc mousseux de qualite blanc;8
+aoc-4087;Porc noir de Bigorre;12
+aoc-4088;Ail violet de Cadours;15

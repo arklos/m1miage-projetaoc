@@ -1,0 +1,79 @@
+
+<html ng-app="App">
+	<head>
+		<!-- ANGULARJS -->
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.20/angular-route.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    	
+    	<!-- ANGULAR NG MATERIAL -->
+    	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    	<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+    	
+    	<!-- GOOGLE MAP API /!!!!\ METTRE L'ID CORRESPONDANT A VOTRE PROFIL -->
+    	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXk4qdGau5ws-rgNP9hg8hld9KF8tmnJs"></script>
+    	<meta name="google-signin-client_id" content="66334526315-a1vn1jk2autojrm9ibn2de3oaiaj5ti5.apps.googleusercontent.com">
+
+    	<!-- BASE GOOGLE -->
+    	<script type="text/javascript" src="/js/base.js"></script>
+    	<!-- BOOTSTRAP -->
+    	<link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    	<link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css">
+    	<!-- CSS -->
+    	<link type="text/css" rel="stylesheet" href="/css/style.css">
+    	<link type="text/css" rel="stylesheet" href="/css/jqvmap.css">
+    	<!-- JQUERY -->
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    	
+    	 <!-- GESTION DE LA MAP -->
+    	<script src="/js/resources/jquery.vmap.js" type="text/javascript"></script>
+    	<script src="/js/resources/jquery.vmap.france.js" type="text/javascript"></script>
+		<script src="/js/resources/jquery.vmap.colorsFrance.js" type="text/javascript"></script>
+		<meta charset="UTF-8" />
+		
+    </head>
+    <body ng-controller="mainController"> 
+
+    	<div id="main">
+    	<!-- LES VUES SONT INJECTEES ICI PAR ANGULAR -->
+    		<div ng-view></div>
+    	</div>
+    </body>
+    
+    
+    <!-- CHARGEMENT DES SCRIPTS -->
+    <script type="text/javascript" src="/js/angular-google-gapi.min.js"></script>
+    <!-- ROUTE -->
+    <script type="text/javascript" src="/js/route/route.js"></script>
+    <!-- GAPI-->
+    <script type="text/javascript" src="/js/chargerGapi.js"></script>
+    <!-- DIRECTIVES -->
+    <script type="text/javascript" src="/js/directive/equalsTo.js"></script>
+    <!-- UTILS -->
+    <script type="text/javascript" src="/js/utils/stringUtils.js"></script>
+    
+    <!-- CONTROLLERS -->
+    <script type="text/javascript" src="/js/controller/mainController.js"></script>
+    <script type="text/javascript" src="/js/controller/registerController.js"></script>
+    <script type="text/javascript" src="/js/controller/loginController.js"></script>
+    <script type="text/javascript" src="/js/controller/welcomeController.js"></script>
+    <script type="text/javascript" src="/js/controller/playController.js"></script>
+    <script type="text/javascript" src="/js/controller/importController.js"></script>
+     <script type="text/javascript" src="/js/controller/scoreController.js"></script>
+
+    
+    <!-- CONSTANTES -->
+    <script type="text/javascript" src="/js/constantes/config.js"></script>
+    
+ 	 <!-- LOADING MASK PLUGIN -->
+ 	 <script type="text/javascript" src="/js/resources/bload.js"></script>
+ 	 <!-- GOOGLE CONNEXION-->
+ 	 <script src="https://apis.google.com/js/platform.js" async defer></script>
+ 	 
+ 	 <script>
+ 		
+ 	
+ 	 </script>
+</html>

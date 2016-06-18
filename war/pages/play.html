@@ -1,0 +1,35 @@
+<head>
+<meta charset="UTF-8">
+</head>
+
+<div id=loading-div class="center-block" ng-show="!gameLoaded">
+    <img src="img/gears.gif" class="center-block"/>
+</div>
+
+<div ng-show="gameLoaded" id="gameArea" class="main-app-home text-center" style="background-image: '/img/images/back.png';">
+    	
+        <h1 class="game-message">{{ message }}</h1>
+        <button class="aoc-label" >{{ currentQuestion }}</button>
+        <div class="button-div">
+         <button type="button" name="" value="" class="game-button" ng-click="onDrink()" ng-show="!isCorrecting && !isSelectingArea">{{ drink }}</button>
+         <button type="button" name="" value="" class="game-button" ng-click="onEat()" ng-show="!isCorrecting && !isSelectingArea">{{ eat }}</button>
+         <button type="button" name="" value="" class="game-button" ng-click="onContinue()" ng-show="isSelectingArea && isPlaying">Valider</button>
+        </div>
+        
+        <div id="aoc-map" class="center-block" ng-show="isPlaying && isSelectingArea"></div>
+<!--         <div class="center-block"> -->
+<!--         	<md-progress-linear class="md-warn" md-mode="buffer" value="30" ></md-progress-linear> -->
+<!--         </div> -->
+
+		<div class="progress questions-progress-container" ng-show="isPlaying">
+  			<div id="gameProgressBar" class="progress-bar progress-bar-success questions-progress active" role="progressbar" aria-valuenow={{avancement}}
+  				aria-valuemin="0" aria-valuemax="100" style="width:{{avancement}}%">
+   				<span class="sr-only">{{ currentQuestionNumber }}/{{ nbQuestions }}</span>   
+  			</div>
+		</div>
+		
+		<div class="button-div">
+			<button type="button" name="" value="" class="game-button" ng-click="onDetails()" ng-show="isGameFinished">Détails</button>
+			<button type="button" name="" value="" class="game-button" ng-click="onSave()" ng-show="isGameFinished">Enregistrer score</button>
+		</div>
+</div>

@@ -1,0 +1,44 @@
+<!-- home.html -->
+
+    <div align="center">
+    	<table>
+    	<tr>
+			<td>
+			    <div align="center"><img ng-src="{{profilImage}}" class="img-circle"  width="40" height="40"/><p class="app-profil" >{{profilName}}</p></div>
+			</td>
+	   </tr>
+    	<tr>
+    		<td>
+        <div align="center"><h1 class="app-title" id="titre" >{{ appName }}</h1></div>
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        <div align="center"><p class="app-title">{{ subtitle }}</p></div>
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        <div  align="center" class="button-div">
+         <button id="playButton" type="button" name="" value="" class="main-page-button" ng-click="go('#/play')">Jouer</button>
+        </div>
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+        <div align="center" class="button-div">
+        	<button type="button" name="" value="" class="main-page-button" ng-click="go('#/score')">Score</button>
+        </div>
+        	</td>
+        </tr>
+         <tr>
+        	<td>
+        <div align="center" class="button-div">
+        	<button type="button" name="" value="" class="main-page-button" ng-click="signOut()">Se deconnecter</button>
+        </div>
+       		</td>
+        </tr>
+        </table>
+   </div>
+    
+   
