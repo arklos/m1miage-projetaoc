@@ -25,18 +25,19 @@ App.controller('scoreController',['$scope','GApi','$rootScope', function($scope,
 			   }
 	 				 //On r�cupere la liste des utilisateurs
 	 			   $scope.listeUtilisateur=response.result.items;
+	 			   $scope.listeUtilisateur.sort(function compare(a,b) {
+	 				  if (a.score > b.score)
+	 					    return -1;
+	 					  if (a.score < b.score)
+	 					    return 1;
+	 					  return 0;
+	 					});
 		     
+	 			   $scope.listeUtilisateur= $scope.listeUtilisateur.sort();
 		 }, function() {
 		     console.log("erreur lors de la recuperation de la liste des Utilisateurs");
 		 });
 
-		
-		
-		
-		
-		
-		
-		
 	}
 	
 	//l'utilisateur n'est pas authentifi�
@@ -45,9 +46,11 @@ App.controller('scoreController',['$scope','GApi','$rootScope', function($scope,
 		$scope.go('#/connexion');
 	}	
 	
-	
-	
-	
+	//Redirection vers l'accueil
+	$scope.onAccueil = function () {
+		$scope.go('#/home');
+	  };
+
 		
 	
 	

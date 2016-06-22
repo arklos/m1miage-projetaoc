@@ -30,6 +30,8 @@
 		
 		<div class="button-div">
 			<button type="button" name="" value="" class="game-button" ng-click="onDetails()" ng-show="isGameFinished">Détails</button>
-			<button type="button" name="" value="" class="game-button" ng-click="onSave()" ng-show="isGameFinished">Enregistrer score</button>
+			<button type="button" name="" value="" class="game-button" ng-click="onSave()" ng-show="gameSave">Enregistrer score</button>
+        	<button type="button" name="" value="" class="game-button" ng-click="go('#/historique')" ng-show="consultationScore">Consulter mes scores</button>
+			<button type="button" name="" value="" class="game-button" ng-click="onAccueil()" ng-show="isGameFinished">Accueil</button>
 		</div>
 </div>

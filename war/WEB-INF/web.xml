@@ -23,7 +23,7 @@
   <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
   <init-param>
    <param-name>services</param-name>
-   <param-value>com.m1miage.projetaoc.AocEntityEndpoint,com.m1miage.projetaoc.UtilisateurEntityEndpoint</param-value>
+   <param-value>com.m1miage.projetaoc.AocEntityEndpoint,com.m1miage.projetaoc.HistoriqueEntityEndpoint,com.m1miage.projetaoc.UtilisateurEntityEndpoint</param-value>
   </init-param>
  </servlet>
  <servlet-mapping>

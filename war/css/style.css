@@ -1,7 +1,9 @@
 body {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #4b4340;
+    background: url(../img/images/back.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+  	background-size: cover;
 }
 
 blockquote {
@@ -70,6 +72,38 @@ button.main-page-button {
 		0px 1px 0px rgba(255,255,255,1);
 }
 
+button.button-deco {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 10em;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 5px 10px;
+	marge-rigth: 5px;
+	background: -moz-linear-gradient(
+		top,
+		#a65805 0%,
+		#a65805);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#a65805),
+		to(#a65805));
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-moz-box-shadow:
+		0px 0px 0px rgba(115,38,115,0),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	-webkit-box-shadow:
+		0px 0px 0px rgba(115,38,115,0),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	box-shadow:
+		0px 0px 0px rgba(115,38,115,0),
+		inset 0px 0px 2px rgba(255,255,255,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
 button.game-button {
 	margin : 25px;
 	width: 13em;
@@ -105,6 +139,43 @@ button.game-button {
 		0px 1px 0px rgba(255,255,255,1);
 }
 
+.zone_titre{
+	display: block;
+}
+
+.zone_milieu{
+	width: 60%;
+	display: block;
+	justify-content: space-around;
+}
+.zone_gauche{
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+	padding: 20px;
+	marge: 100px;
+	border-radius: 15px;
+	background-color: #e7e2e2;
+}
+
+.zone_centre{
+	float:center;
+	display: block;
+	width: 40%;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #e7e2e2;
+	justify-content: space-around;
+}
+
+.zone_bas{
+	display: block;
+	color: white;
+}
+
+.zone_bas a{
+	color: white;
+}
 
 div.button-div {
 	padding:10px 10px;
@@ -130,7 +201,8 @@ p.app-title {
 }
 
 .app-profil {
-	color: #FF0000;
+	padding-right: 15px;
+	color: #ffffff;
 	font-style: italic;
 }
 
@@ -160,7 +232,6 @@ button.aoc-label {
 #aoc-map {
 	height: 50%;
     width: 60%;
- /*   background-color: #4b4340; */
 }
 
 .center-block {
@@ -182,23 +253,85 @@ button.aoc-label {
 }
 
 #my-signin2{	
-margin-top: 150px;
+margin-top: 10px; /*150px;*/
 }
 
 #titrePrincipal{	
 margin-top: 50px;	
 .input-file {
 	color: white;
-}
-#tableauScore{
-   background-color: #FFFFFF;
-   color: white;
-   font-size: 30px;
-   font-family: "Comic Sans MS", cursive, sans-serif;
+}}
+
+table.tableau-scores{
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.tableau-scores {
-color: white;
-   font-size: 30px;
-   font-family: "Comic Sans MS", cursive, sans-serif;
+table.tableau-scores th{
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+table.tableau-scores th:first-child{
+  border-top-left-radius:3px;
+}
+ 
+table.tableau-scores th:last-child{
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+table.tableau-scores tr{
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+table.tableau-scores tr:first-child {
+  border-top:none;
+}
+
+table.tableau-scores tr:last-child {
+  border-bottom:none;
+}
+ 
+table.tableau-scores tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+table.tableau-scores tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+table.tableau-scores tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+table.tableau-scores td{
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
 }

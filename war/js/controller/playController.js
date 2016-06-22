@@ -6,11 +6,13 @@ App.controller('playController', [ '$scope', 'GApi','$rootScope', '$mdDialog',fu
 		  };
 		  
 		  $scope.gameLoaded = false;
-
- //On v�rifie que l'utilisateur est connect�
+ //On verifie que l'utilisateur est connect?
+		  $scope.gameSave = false;
+		  $scope.consultationScore = false;
+ //On verifie que l'utilisateur est connecte
    if($rootScope.connecte==true){
 		  
-	 
+	
 	var data = [];
 
 	// create a message to display in our view
@@ -93,17 +95,21 @@ App.controller('playController', [ '$scope', 'GApi','$rootScope', '$mdDialog',fu
 						break;
 					}
 				}
-				if(typeCorrect && regionCorrect) {
+				if(typeCorrect){
 					$scope.score = $scope.score+1;
+				}
+				if(regionCorrect){
+					$scope.score = $scope.score+2;
 				}
 			}
 			$scope.question = '';
 			$scope.message = "FIN";
 			$scope.isCorrecting = true;
 			$scope.isPlaying = false;
-			$scope.currentQuestion = "Ton score est : " + $scope.score + " / " + data.length;
-			$rootScope.resultatFinal = $scope.score + " / " + data.length;
+			$scope.currentQuestion = "Ton score est : " + $scope.score + " / " + (data.length * 3);
+			$rootScope.resultatFinal = $scope.score + " / " + (data.length * 3);
 			$scope.isGameFinished = true;
+			$scope.gameSave=true;
 		}
 	}
 
@@ -225,18 +231,74 @@ App.controller('playController', [ '$scope', 'GApi','$rootScope', '$mdDialog',fu
 	  
 	  $scope.onSave = function() {
 		  $scope.gameLoaded = false;
-		  var newUtilisateur={};
-          newUtilisateur.id=$rootScope.Utilisateur.profilId;
-          newUtilisateur.name =$rootScope.Utilisateur.profilName;
-          newUtilisateur.image =$rootScope.Utilisateur.profilImage;
-          newUtilisateur.score = $scope.score;
-          console.debug(newUtilisateur);
-          GApi.execute('utilisateurentityendpoint', 'updateUtilisateurEntity', newUtilisateur).then( function(response) {
-				console.debug("Sauvegarde de "+newUtilisateur.id+" effectuée !");
-				$scope.gameLoaded = true;
-		}, function() {
-				console.log("erreur lors de la sauvegarde du score");
-		});
+
+          $scope.meilleurScore =0;
+    
+          //Enregistrement de l'historique
+          GApi.execute('historiqueentityendpoint', 'listHistoriqueEntity').then( function(response) {
+            console.log("Debut Mise a jour de l'historique");
+  	 	 	$scope.indice=0;
+  
+  	     	//On verifie que la liste n'est pas vide
+  		 		if(typeof response.result.items=="undefined"){
+  		 			$scope.indice=1;
+  		 			$scope.meilleurScore=$scope.score;
+  		 		}
+  		 		else 
+  		 		{
+  		 		    $scope.indice=response.result.items.length+1;
+  		 			//Meilleur score de l'utilisateur 	
+  		  		 	for (var i=0;i<response.result.items.length;i++){
+  		  		 		
+  		  		 		if(response.result.items[i].identifiant==$rootScope.Utilisateur.profilId && response.result.items[i].score > $scope.meilleurScore){
+  		  		 			
+  		  		 		       $scope.meilleurScore=response.result.items[i].score;	
+  		  		 		}
+  		  		 		
+  		  		 	}
+  		 		}
+  		 		
+  		 	 //Mise a jour du Meilleur score
+  		 	 var newUtilisateur={};
+  	          newUtilisateur.id=$rootScope.Utilisateur.profilId;
+  	          newUtilisateur.name =$rootScope.Utilisateur.profilName;
+  	          newUtilisateur.image =$rootScope.Utilisateur.profilImage;
+  	          newUtilisateur.score =$scope.meilleurScore;
+  	          console.debug('enregistrement best score' + newUtilisateur);
+  	          GApi.execute('utilisateurentityendpoint', 'updateUtilisateurEntity', newUtilisateur).then( function(response) {
+  				console.debug("Sauvegarde de "+newUtilisateur.id+" effectu�e !");
+  				$scope.currentQuestion = "Score sauvegard\u00e9 !";	
+  				$scope.gameSave = false;
+  	          }, function() {
+  				console.log("erreur lors de la sauvegarde du score");
+  	          });
+  		 		
+  		 		
+  		 	 //Ajout du score courant dans l'historique
+	  		 var newHistorique={};
+	  		 newHistorique["idHisto"]=$scope.indice;
+	  		 newHistorique["identifiant"]=$rootScope.Utilisateur.profilId;
+	  		 var current_date=Date();
+	  		 var index=current_date.indexOf("GMT"); 		  
+	  		 newHistorique["date"] =current_date.substring(0,index);
+	   		 newHistorique["score"] =$scope.score;
+	  		  GApi.execute('historiqueentityendpoint', 'insertHistoriqueEntity',newHistorique).then( function(response) {
+	  			     console.log("Enregistrement du score dans l'historique");
+	  			   $scope.gameLoaded = true;
+	  			 $scope.consultationScore=true;
+	  	          }, function() {
+	  	        	  console.log("erreur lors de l'enregistrement du score dans l'historique");
+	  	          });
+	  		 		
+	
+	          }, function() {
+	        	  console.log("erreur lors de la recuperation de l'historique");
+	          });
+	
+		  };
+		  
+	  $scope.onAccueil = function() {
+		  $scope.go('#/home'); 
 	  };
 	  
 	  $scope.showAlertMap = function(ev) {
@@ -257,6 +319,7 @@ App.controller('playController', [ '$scope', 'GApi','$rootScope', '$mdDialog',fu
 				console.debug("Liste chargée!");
 				console.debug(response);
 				data = response.items;
+				$scope.nbQuestions = data.length;
 				$scope.gameLoaded = true;
 				$scope.changeQuestion(0);
 		}, function() {

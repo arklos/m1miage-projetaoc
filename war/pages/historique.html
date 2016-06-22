@@ -1,0 +1,29 @@
+<div id=loading-div class="center-block" ng-show="!scoreLoaded">
+    <img src="img/gears.gif" class="center-block"/>
+</div>
+<div align="center" ng-show="scoreLoaded" >
+<table class="tableau-scores"> <!-- id="tableauScore" -->
+	<thead>
+		<tr>
+			<th>Jeu</th>
+			
+			<th>Score</th>
+			
+			<th>Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-if="listeScore.length !=0 " ng-repeat="item in listeScore">
+			<td align="center">{{$index+1}}</td>
+			<td align="center">{{ item.score }}</td>
+			<td align="center">{{ item.date }}</td>
+		</tr>
+	</tbody>
+</table>
+<button type="button" name="" value="" class="game-button" ng-click="onAccueil()" >Accueil</button>
+</div>
+
+<!-- 
+<div align="center" ng-show="scoreLoaded">
+
+</div>  -->

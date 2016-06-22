@@ -10,6 +10,13 @@
                      console.log('an error occured during loading api: ' + resp.api + ', resp.version: ' + version);
                  });
                  
+                 GApi.load('historiqueentityendpoint','v1',BASE).then(function(resp) {
+                     console.log('api: ' + resp.api + ', version: ' + resp.version + ' loaded');
+                     
+                 } , function(resp) {
+                     console.log('an error occured during loading api: ' + resp.api + ', resp.version: ' + version);
+                 });
+                
                  GApi.load('aocentityendpoint','v1',BASE).then(function(resp) {
                      console.log('api: ' + resp.api + ', version: ' + resp.version + ' loaded');
                      

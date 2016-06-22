@@ -1,44 +1,95 @@
 <!-- home.html -->
 
+	<div class="zone_titre">
+		<div align="right" class="app-profil"><img ng-src="{{profilImage}}" class="img-circle"  width="40" height="40" VSPACE="20"/> {{profilName}}</div>
+		<div align="center"><h1 class="app-title" id="titre" >{{ appName }}</h1></div>
+		<div align="center"><p class="app-title">{{ subtitle }}</p></div>
+	</div>
+
+	<div align="center">
+	    <div class="zone_centre">
+	    	<h2> Avez-vous une bonne connaissance <br/> de la gastronomie fran&ccedil;aise ?</h2>
+	    	<div align="left">
+	    	<h3>R&egrave;gles :</h3>
+	    	   	<p>Vous avez 10 questions pour montrer que vous &ecirc;tes incollables sur les AOC/AOP</p>
+		    	<p>Vous devrez dire si le produit se boit ou se mange !
+		    	<br>Une r&eacute;ponse correcte = 1 point !</p>
+		    	<p>Vous devrez par la suite situer le produit sur la carte de France
+		    	<br>Une r&eacute;ponse correcte = 3 points !</p>
+	    	</div>
+	    	<div  align="center" class="button-div">
+				<p><button id="playButton" type="button" name="" value="" class="main-page-button" ng-click="go('#/play')">Jouer</button></p>
+				<p><button type="button" name="" value="" class="main-page-button" ng-click="go('#/historique')">Mes scores</button></p>
+				<p><button type="button" name="" value="" class="main-page-button" ng-click="go('#/score')">Classement</button></p>
+				<p><button type="button" name="" value="" class="main-page-button" ng-click="signOut()">Se d&eacute;connecter</button></p>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="zone_bas" align="center">
+			<p>D&eacute;velopp&eacute; par : Guillaume AMOUZOU - Sa&iuml;d EL MAKNATI - Antoine LEBOEUF</p>
+		    <p><a href="https://github.com/arklos/m1miage-projetaoc" class="main-page-button">Lien vers GitHub</a></p>
+		</div>
+	</footer>
+
+
+	
+    <!--
     <div align="center">
-    	<table>
+    <table>
     	<tr>
 			<td>
-			    <div align="center"><img ng-src="{{profilImage}}" class="img-circle"  width="40" height="40"/><p class="app-profil" >{{profilName}}</p></div>
+			   <div align="center"><img ng-src="{{profilImage}}" class="img-circle"  width="40" height="40"/><p class="app-profil" >{{profilName}}</p></div>
 			</td>
 	   </tr>
     	<tr>
     		<td>
-        <div align="center"><h1 class="app-title" id="titre" >{{ appName }}</h1></div>
+        		<div align="center"><h1 class="app-title" id="titre" >{{ appName }}</h1></div>
         	</td>
         </tr>
         <tr>
         	<td>
-        <div align="center"><p class="app-title">{{ subtitle }}</p></div>
+        		<div align="center"><p class="app-title">{{ subtitle }}</p></div>
         	</td>
         </tr>
         <tr>
         	<td>
-        <div  align="center" class="button-div">
-         <button id="playButton" type="button" name="" value="" class="main-page-button" ng-click="go('#/play')">Jouer</button>
-        </div>
+		        <div  align="center" class="button-div">
+		         <button id="playButton" type="button" name="" value="" class="main-page-button" ng-click="go('#/play')">Jouer</button>
+		        </div>
         	</td>
         </tr>
         <tr>
         	<td>
-        <div align="center" class="button-div">
-        	<button type="button" name="" value="" class="main-page-button" ng-click="go('#/score')">Score</button>
-        </div>
+		        <div align="center" class="button-div">
+		        	<button type="button" name="" value="" class="main-page-button" ng-click="go('#/score')">Classement</button>
+		        </div>
+        	</td>
+        </tr>
+        <tr>
+        	<td>
+		        <div align="center" class="button-div">
+		        	<button type="button" name="" value="" class="main-page-button" ng-click="go('#/historique')">Mes scores</button>
+		        </div>
         	</td>
         </tr>
          <tr>
         	<td>
-        <div align="center" class="button-div">
-        	<button type="button" name="" value="" class="main-page-button" ng-click="signOut()">Se deconnecter</button>
-        </div>
+        		<div align="center" class="button-div">
+        			<button type="button" name="" value="" class="main-page-button" ng-click="signOut()">Se deconnecter</button>
+        		</div>
        		</td>
         </tr>
+        <tr>
+        	<td>
+        		<div align="center" class="button-div">
+        			<p>Guillaume AMOUZOU - Saïd EL MAKNATI - Antoine LEBOEUF</p>
+        			<p><a href="https://github.com/arklos/m1miage-projetaoc" class="main-page-button" color="white">Lien vers GitHub</a></p>
+        		</div>
+        	</td>
+        </tr>
         </table>
-   </div>
+   </div>-->
     
    

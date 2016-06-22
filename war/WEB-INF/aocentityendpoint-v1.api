@@ -28,43 +28,6 @@
   "ownerName" : "m1miage.com",
   "packagePath" : "projetaoc",
   "methods" : {
-    "aocentityendpoint.getAocEntity" : {
-      "path" : "aocentity/{id}",
-      "httpMethod" : "GET",
-      "authLevel" : "NONE",
-      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
-      "audiences" : [ ],
-      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "com.m1miage.projetaoc.AocEntityEndpoint.getAocEntity",
-      "request" : {
-        "parameters" : {
-          "id" : {
-            "type" : "string",
-            "required" : true
-          }
-        },
-        "body" : "empty"
-      },
-      "response" : {
-        "body" : "autoTemplate(backendResponse)"
-      }
-    },
-    "aocentityendpoint.updateAocEntity" : {
-      "path" : "aocentity",
-      "httpMethod" : "PUT",
-      "authLevel" : "NONE",
-      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
-      "audiences" : [ ],
-      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "com.m1miage.projetaoc.AocEntityEndpoint.updateAocEntity",
-      "request" : {
-        "body" : "autoTemplate(backendRequest)",
-        "bodyName" : "resource"
-      },
-      "response" : {
-        "body" : "autoTemplate(backendResponse)"
-      }
-    },
     "aocentityendpoint.getRandomListAoc" : {
       "path" : "collectionresponse_aocentity",
       "httpMethod" : "GET",
@@ -96,6 +59,22 @@
         "body" : "autoTemplate(backendResponse)"
       }
     },
+    "aocentityendpoint.updateAocEntity" : {
+      "path" : "aocentity",
+      "httpMethod" : "PUT",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.AocEntityEndpoint.updateAocEntity",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
     "aocentityendpoint.removeAocEntity" : {
       "path" : "aocentity/{id}",
       "httpMethod" : "DELETE",
@@ -115,6 +94,27 @@
       },
       "response" : {
         "body" : "empty"
+      }
+    },
+    "aocentityendpoint.getAocEntity" : {
+      "path" : "aocentity/{id}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.AocEntityEndpoint.getAocEntity",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
       }
     },
     "aocentityendpoint.listAocEntity" : {
@@ -145,6 +145,21 @@
   },
   "descriptor" : {
     "schemas" : {
+      "CollectionResponse_AocEntity" : {
+        "id" : "CollectionResponse_AocEntity",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "AocEntity"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      },
       "AocEntity" : {
         "id" : "AocEntity",
         "type" : "object",
@@ -165,37 +180,9 @@
             "type" : "integer"
           }
         }
-      },
-      "CollectionResponse_AocEntity" : {
-        "id" : "CollectionResponse_AocEntity",
-        "type" : "object",
-        "properties" : {
-          "items" : {
-            "type" : "array",
-            "items" : {
-              "$ref" : "AocEntity"
-            }
-          },
-          "nextPageToken" : {
-            "type" : "string"
-          }
-        }
       }
     },
     "methods" : {
-      "com.m1miage.projetaoc.AocEntityEndpoint.getAocEntity" : {
-        "response" : {
-          "$ref" : "AocEntity"
-        }
-      },
-      "com.m1miage.projetaoc.AocEntityEndpoint.updateAocEntity" : {
-        "request" : {
-          "$ref" : "AocEntity"
-        },
-        "response" : {
-          "$ref" : "AocEntity"
-        }
-      },
       "com.m1miage.projetaoc.AocEntityEndpoint.getRandomListAoc" : {
         "response" : {
           "$ref" : "CollectionResponse_AocEntity"
@@ -209,7 +196,20 @@
           "$ref" : "AocEntity"
         }
       },
+      "com.m1miage.projetaoc.AocEntityEndpoint.updateAocEntity" : {
+        "request" : {
+          "$ref" : "AocEntity"
+        },
+        "response" : {
+          "$ref" : "AocEntity"
+        }
+      },
       "com.m1miage.projetaoc.AocEntityEndpoint.removeAocEntity" : {
+      },
+      "com.m1miage.projetaoc.AocEntityEndpoint.getAocEntity" : {
+        "response" : {
+          "$ref" : "AocEntity"
+        }
       },
       "com.m1miage.projetaoc.AocEntityEndpoint.listAocEntity" : {
         "response" : {

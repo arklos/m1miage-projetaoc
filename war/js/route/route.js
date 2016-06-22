@@ -44,6 +44,13 @@ App.config(function($routeProvider) {
 		templateUrl : '/pages/import.html',
 		controller : 'importController'
 	})
+	
+	// route for the historique page
+	.when('/historique', {
+		templateUrl : '/pages/historique.html',
+		controller : 'historiqueController'
+	})
+
 	.otherwise({
 		redirectTo : '/connexion'
 	});

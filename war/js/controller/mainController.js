@@ -1,11 +1,11 @@
 // mainController
-App.controller('mainController',['$scope','GApi','$rootScope', function($scope,GApi,$rootScope) {
+App.controller('mainController',['$scope','GApi','$rootScope', '$location', function($scope,GApi,$rootScope, $location) {
 	
 	//Redirection
 	$scope.go = function ( path ) {
 	    	window.location.href=path;
 	    };
-	 
+
 	//Deconnexion    
 	$scope.signOut=function() {
 	    	$rootScope.deconnexion=true;

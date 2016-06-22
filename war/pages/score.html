@@ -2,24 +2,23 @@
     <img src="img/gears.gif" class="center-block"/>
 </div>
 <div align="center" ng-show="scoreLoaded" >
-
-<table  style="border-collapse: collapse; color: white; font-size: 30px; font-family: 'Comic Sans MS', cursive, sans-serif;" id="tableauScore" class="tableau-scores">
-
-<tr style="border: 1px solid black;">
-	<th>Profil</th>
-	
-	<th>Nom</th>
-	
-	<th>Score</th>
-</tr>
-
-
-<tr style="border: 1px solid black;" ng-if="listeUtilisateur.length !=0 " ng-repeat="item in listeUtilisateur">
-<td style="border: 1px solid black;"  ><div align="center"><img ng-src="{{ item.image }}" class="img-circle"  width="40" height="40"/></td>
-<td style="border: 1px solid black;" ><div align="center">{{ item.name }}</div></td>
-<td style="border: 1px solid black;" ><div align="center">{{ item.score }}</div></td>
-</tr>
-
-
-</table>
+	<table class="tableau-scores">
+		<thead>
+			<tr>
+				<th>Profil</th>
+				
+				<th>Nom</th>
+				
+				<th>Score</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-if="listeUtilisateur.length !=0 " ng-repeat="item in listeUtilisateur">
+				<td><img ng-src="{{ item.image }}" class="img-circle"  width="40" height="40"/></td>
+				<td>{{ item.name }}</td>
+				<td>{{ item.score }}</td>
+			</tr>
+		</tbody>
+	</table>
+	<button type="button" name="" value="" class="game-button" ng-click="onAccueil()" >Accueil</button>
 </div>

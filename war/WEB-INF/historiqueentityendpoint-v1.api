@@ -2,7 +2,7 @@
   "extends" : "thirdParty.api",
   "abstract" : false,
   "root" : "https://projetaoc-1315.appspot.com/_ah/api",
-  "name" : "utilisateurentityendpoint",
+  "name" : "historiqueentityendpoint",
   "version" : "v1",
   "defaultVersion" : false,
   "discovery" : [ "PUBLIC" ],
@@ -28,14 +28,14 @@
   "ownerName" : "m1miage.com",
   "packagePath" : "projetaoc",
   "methods" : {
-    "utilisateurentityendpoint.listUtilisateurEntity" : {
-      "path" : "utilisateurentity",
+    "historiqueentityendpoint.listHistoriqueEntity" : {
+      "path" : "historiqueentity",
       "httpMethod" : "GET",
       "authLevel" : "NONE",
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.listUtilisateurEntity",
+      "rosyMethod" : "com.m1miage.projetaoc.HistoriqueEntityEndpoint.listHistoriqueEntity",
       "request" : {
         "parameters" : {
           "cursor" : {
@@ -53,14 +53,35 @@
         "body" : "autoTemplate(backendResponse)"
       }
     },
-    "utilisateurentityendpoint.getUtilisateurEntity" : {
-      "path" : "utilisateurentity/{id}",
+    "historiqueentityendpoint.listeUtilisateurScoreEntity" : {
+      "path" : "ListeUtilisateurScoreEntity/{identifiant}",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
+      "rosyMethod" : "com.m1miage.projetaoc.HistoriqueEntityEndpoint.ListeUtilisateurScoreEntity",
+      "request" : {
+        "parameters" : {
+          "identifiant" : {
+            "type" : "string",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "historiqueentityendpoint.getHistoriqueEntity" : {
+      "path" : "historiqueentity/{id}",
       "httpMethod" : "GET",
       "authLevel" : "NONE",
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.getUtilisateurEntity",
+      "rosyMethod" : "com.m1miage.projetaoc.HistoriqueEntityEndpoint.getHistoriqueEntity",
       "request" : {
         "parameters" : {
           "id" : {
@@ -74,14 +95,14 @@
         "body" : "autoTemplate(backendResponse)"
       }
     },
-    "utilisateurentityendpoint.insertUtilisateurEntity" : {
-      "path" : "utilisateurentity",
+    "historiqueentityendpoint.insertHistoriqueEntity" : {
+      "path" : "historiqueentity",
       "httpMethod" : "POST",
       "authLevel" : "NONE",
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.insertUtilisateurEntity",
+      "rosyMethod" : "com.m1miage.projetaoc.HistoriqueEntityEndpoint.insertHistoriqueEntity",
       "request" : {
         "body" : "autoTemplate(backendRequest)",
         "bodyName" : "resource"
@@ -90,14 +111,14 @@
         "body" : "autoTemplate(backendResponse)"
       }
     },
-    "utilisateurentityendpoint.updateUtilisateurEntity" : {
-      "path" : "utilisateurentity",
+    "historiqueentityendpoint.updateHistoriqueEntity" : {
+      "path" : "historiqueentity",
       "httpMethod" : "PUT",
       "authLevel" : "NONE",
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.updateUtilisateurEntity",
+      "rosyMethod" : "com.m1miage.projetaoc.HistoriqueEntityEndpoint.updateHistoriqueEntity",
       "request" : {
         "body" : "autoTemplate(backendRequest)",
         "bodyName" : "resource"
@@ -106,14 +127,14 @@
         "body" : "autoTemplate(backendResponse)"
       }
     },
-    "utilisateurentityendpoint.removeUtilisateurEntity" : {
-      "path" : "utilisateurentity/{id}",
+    "historiqueentityendpoint.removeHistoriqueEntity" : {
+      "path" : "historiqueentity/{id}",
       "httpMethod" : "DELETE",
       "authLevel" : "NONE",
       "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
       "audiences" : [ ],
       "clientIds" : [ "292824132082.apps.googleusercontent.com" ],
-      "rosyMethod" : "com.m1miage.projetaoc.UtilisateurEntityEndpoint.removeUtilisateurEntity",
+      "rosyMethod" : "com.m1miage.projetaoc.HistoriqueEntityEndpoint.removeHistoriqueEntity",
       "request" : {
         "parameters" : {
           "id" : {
@@ -130,14 +151,14 @@
   },
   "descriptor" : {
     "schemas" : {
-      "CollectionResponse_UtilisateurEntity" : {
-        "id" : "CollectionResponse_UtilisateurEntity",
+      "CollectionResponse_HistoriqueEntity" : {
+        "id" : "CollectionResponse_HistoriqueEntity",
         "type" : "object",
         "properties" : {
           "items" : {
             "type" : "array",
             "items" : {
-              "$ref" : "UtilisateurEntity"
+              "$ref" : "HistoriqueEntity"
             }
           },
           "nextPageToken" : {
@@ -145,53 +166,70 @@
           }
         }
       },
-      "UtilisateurEntity" : {
-        "id" : "UtilisateurEntity",
+      "HistoriqueEntity" : {
+        "id" : "HistoriqueEntity",
         "type" : "object",
         "properties" : {
-          "id" : {
+          "idHisto" : {
             "type" : "string"
           },
-          "name" : {
+          "identifiant" : {
             "type" : "string"
           },
-          "image" : {
+          "date" : {
             "type" : "string"
           },
           "score" : {
             "type" : "integer"
           }
         }
+      },
+      "HistoriqueEntityCollection" : {
+        "id" : "HistoriqueEntityCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "HistoriqueEntity"
+            }
+          }
+        }
       }
     },
     "methods" : {
-      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.listUtilisateurEntity" : {
+      "com.m1miage.projetaoc.HistoriqueEntityEndpoint.listHistoriqueEntity" : {
         "response" : {
-          "$ref" : "CollectionResponse_UtilisateurEntity"
+          "$ref" : "CollectionResponse_HistoriqueEntity"
         }
       },
-      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.getUtilisateurEntity" : {
+      "com.m1miage.projetaoc.HistoriqueEntityEndpoint.ListeUtilisateurScoreEntity" : {
         "response" : {
-          "$ref" : "UtilisateurEntity"
+          "$ref" : "HistoriqueEntityCollection"
         }
       },
-      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.insertUtilisateurEntity" : {
+      "com.m1miage.projetaoc.HistoriqueEntityEndpoint.getHistoriqueEntity" : {
+        "response" : {
+          "$ref" : "HistoriqueEntity"
+        }
+      },
+      "com.m1miage.projetaoc.HistoriqueEntityEndpoint.insertHistoriqueEntity" : {
         "request" : {
-          "$ref" : "UtilisateurEntity"
+          "$ref" : "HistoriqueEntity"
         },
         "response" : {
-          "$ref" : "UtilisateurEntity"
+          "$ref" : "HistoriqueEntity"
         }
       },
-      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.updateUtilisateurEntity" : {
+      "com.m1miage.projetaoc.HistoriqueEntityEndpoint.updateHistoriqueEntity" : {
         "request" : {
-          "$ref" : "UtilisateurEntity"
+          "$ref" : "HistoriqueEntity"
         },
         "response" : {
-          "$ref" : "UtilisateurEntity"
+          "$ref" : "HistoriqueEntity"
         }
       },
-      "com.m1miage.projetaoc.UtilisateurEntityEndpoint.removeUtilisateurEntity" : {
+      "com.m1miage.projetaoc.HistoriqueEntityEndpoint.removeHistoriqueEntity" : {
       }
     }
   }
